@@ -1,0 +1,14 @@
+////////// Instructiones Generales //////////
+
+1. Un repositorio con el codigo del proyecto por grupo.
+2. Todo debe pasar por Code review en GitHub.
+3. Backlog de tareas en Trello. (enlace: https://trello.com/b/ZOFkFsZc/hotel-web)
+    - Asignar tareas a miembros del equipo
+    - Estimar el tiempo de las tareas
+4. El proyecto debe publicarse en Github Pages.
+5. El grupo califica el trabajo de los integrantes.
+6. Seguir guia de CSS https://github.com/cetav-ddw/standards/tree/master/CSS
+7. Los datos de la aplicación se consumen desde un API
+
+
+

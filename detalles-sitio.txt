@@ -1,0 +1,61 @@
+////////// Detalles del sitio web //////////
+
+1. Un sitio web donde se muestre información de Hoteles y Destinos
+
+/// Landing Page ///
+
+Una página que enumere todos los destinos disponibles (en una cuadrícula).
+Una vez que el usuario hace clic en un destino, debería ver una página con 2 pestañas:
+
+1. Detalles: información básica para ese destino.
+2. Hoteles: la lista de hoteles.
+
+Al visitar la página de un hotel, el usuario debería ver 2 pestañas:
+
+1. Información: información básica del hotel y habitaciones
+2. Consulta: un formulario donde el usuario puede enviar consultas sobre el hotel.
+
+
+/// Destinos ///
+
+Cada Destino tiene:
+
+1. Nombre
+2. Imagen destacada (hero banner)
+3. Galería de imágenes
+4. Lista de hoteles y una descripción.
+
+
+/// Hoteles ///
+
+Cada Hotel tiene:
+
+1. Nombre
+2. Descripción
+3. Lista de habitaciones con:
+  - Nombre de la habitación
+  - Precio base
+  - Características
+  - Descuento
+  - Una imagen
+
+
+/// Formulario ///
+
+El formulario del hotel debe tener los siguientes campos:
+1. Nombre (requerido)
+2. Correo electrónico (requerido)
+3. Teléfono (opcional)
+4. Consulta (requerido)
+
+
+/// Habitaciones ///
+
+Cada habitación cuenta con diferentes características:
+
+- Vista escénica
+- Desayuno incluido
+- Jacuzzi, etc.
+- Cada una de estas características cuenta con un costo.
+
+

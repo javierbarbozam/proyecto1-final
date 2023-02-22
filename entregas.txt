@@ -1,0 +1,8 @@
+///////// Entregas /////////
+
+1. Primer entrega usando la fuente de datos es  https://mockapi.io/ 
+2. Segunda entrega la fuente de datos es WordPress REST API
+* No se pueden utilizar librerías o frameworks, por ejemplo, (Bootstrap, Material UI, etc)
+
+
+

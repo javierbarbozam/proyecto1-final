@@ -1,0 +1,38 @@
+////////// Requerimientos No Funcionales //////////
+
+1. La aplicación debe tener, como minimo, las siguientes secciones:
+  - Inicio
+  - Sección de listado de destinos
+  - Sección listado de hoteles
+  - Detalle del destino
+  - Detalle hotel
+  - Página de contacto general.
+
+2. Idealmente, la aplicación debe ser responsive y seguir una metodología de desarrollo y diseño mobile first.
+3. Se debe utilizar BEM como metodología para nombrar clases de CSS.
+4. Se debe utilizar Sass como procesador de CSS.
+5. Como parte de los entregables del proyecto, se debe contar con:
+  - Librería de componentes
+    - Deben estar desarrollados en HTML, CSS y JavaScript, cuando sea necesario. 
+  - Listado de componentes:
+    - Botones
+    - Tipografías (titulos, parrafo, lista)
+    - Elementos de formulario (dropdown, checkbox, inputs)
+    - Alertas
+    - Carrusel
+    - Tabs
+    - Acordeon
+    - Dialog (Modal)
+    - Drawer
+    - Filtro (dropdown)
+    - Ejemplo http://patternprimer.adactio.com/
+6. La aplicación debe seguir, al menos, lineamientos generales de Accesibilidad Web, aplicando
+lineamientos AA de la WCAG, por ejemplo:
+  - Contraste de colores
+  - Tamaño de letra
+  - Texto alternativo en imágenes
+  - Buenas practicas para texto de enlaces.
+  - Buenas practicas para texto de botones, links y llamados a la acción.
+  - Uso correcto de la jerarquía de elementos de HTML.
+  - Al menos uno de los componentes interactivos de la aplicación debe seguir las recomendaciones
+    de WAI-ARIA Authoring Practices 1.1

@@ -1,0 +1,42 @@
+////////// Requerimientos Funcionales //////////
+
+1. Para el manejo de los datos de la aplicación se debe utilizar un API.
+2. Para la primera version se debe usar https://mockapi.io/ para la segunda version usar WordPress REST API.
+
+
+3. La fuente de los datos de hoteles y destinos debe ser el API.
+    - Esto aplica para la pagina de listado de hoteles y detalle de un hotel o destino.
+    - El API retorna una lista de destinos, cada destino cuenta con:
+      - nombre
+      - descripción
+      - hero image
+      - lista de imágenes
+      - lista de hoteles
+
+4. El precio de cada habitación debe ser calculado, utilizando el precio base y
+sumándole los extras de acuerdo a las características de cada habitación.
+
+5. Si la habitación cuenta con descuento, se muestran ambos precios de la siguiente forma:
+- El precio sin descuento se muestra tachado, y el precio con descuento se muestra al lado en negrita.
+- revisar: https://docs.google.com/document/d/1rFgKNsA5LmYICsPpcx8bVhuYWujgtzgtkD7pPbil0pA/edit#
+
+6. Al hacer submit del formulario de contacto, este debe funcionar y enviar el mensaje a un email.
+
+7. La información que esta bajo el tab inactivo (Hoteles) se muestra bajo demanda, cuando el usuario
+da click en el tab.
+
+8. Los tabs que se muestran en la pagina del Destino, deben seguir el patron tab, no se hace reload de
+la pagina al momento de que se le haga click
+
+9. La aplicación debe tener un formulario de ingreso (sign in).
+  - Se va a desplegar en un modal
+  - Puede ser accesible desde cualquier seccion de la aplicación.
+
+10. El formulario debe tener los campos de usuario y contraseña.
+  - El formulario debe validar que los campos de usuario y contraseña no esten vacio si se hace
+    submit del formulario.
+  -No es necesario que el formulario envie datos.
+
+11. La aplicación debe tener un carrusel (slider) de recomendaciones de destinos
+  - El carrusel muestra 4 destinos por slide, y debe mostrar al menos 8 destinos.
+  - Darle click a un destino redirige a la página de detalle del destino.
