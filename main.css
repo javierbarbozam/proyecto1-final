@@ -1,0 +1,56 @@
+/* the div that contains the cards */
+.carousel {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1.2rem;
+  overflow-x: hidden;
+  margin-left: 40px;
+  width: 739px;
+}
+
+/* each card of the carousel */
+.card {
+  border-radius: 5px;
+  width: 168px;
+  height: 167px;
+  background-color: #13565E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+/* car content */
+.card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
+}
+
+/* Carousel buttons */
+#prev-btn,
+#next-btn {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-width: 2px 2px 0 0;
+  cursor: pointer;
+}
+
+#prev-btn {
+  position: relative;
+  top: -103px;
+  left: 13px;
+  transform: rotate(227deg);
+}
+
+#next-btn {
+  right: 650px;
+  position: relative;
+  top: -129px;
+  left: 770px;
+  transform: rotate(45deg);
+}
