@@ -2,7 +2,7 @@
 const prevBtn = document.querySelector("#prev-btn");
 const nextBtn = document.querySelector("#next-btn");
 const carousel = document.querySelector(".carousel");
-const cardWidth = carousel.querySelector(".card").offsetWidth;
+const cardWidth = carousel.querySelector(".carousel-item__title").offsetWidth;
 
 // Calculate the horizontal displacement
 const cardsToShow = 6;
