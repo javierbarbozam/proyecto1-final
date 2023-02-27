@@ -1,18 +1,75 @@
 form {
-  gap: 5px;
+  gap: 17px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-top: 234px;
+  align-items: center;
 }
 
 label {
   display: flex;
   flex-direction: column-reverse;
+  gap: 9px;
+  font-size: 40px 25px 21px 12px;
 }
 
 input {
-  width: 518px;
-  height: 83px;
+  width: 561px;
+  height: 73px;
+  border-radius: 2px;
+  padding-left: 19px;
+  background-color: #ECF1F2;
+  border: none;
+}
+
+@media screen and (max-width: 320px) {
+  form {
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 234px;
+    align-items: center;
+  }
+  label {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 9px;
+    font-size: 40px 25px 21px 12px;
+  }
+  input {
+    width: 213px;
+    height: 39px;
+    border-radius: 2px;
+    padding-left: 19px;
+    background-color: #ECF1F2;
+    border: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  form {
+    gap: 17px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 234px;
+    align-items: center;
+  }
+  label {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 9px;
+    font-size: 40px 25px 21px 12px;
+  }
+  input {
+    width: 213px;
+    height: 39px;
+    border-radius: 2px;
+    padding-left: 19px;
+    background-color: #ECF1F2;
+    border: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
