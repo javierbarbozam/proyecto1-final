@@ -46,7 +46,7 @@ button {
   background-color: #0A2A35;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) {
   .tabs__button {
     width: 145px;
     height: 60px;
@@ -58,7 +58,7 @@ button {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 1024px) {
+@media (min-width: 1024px) {
   .tabs__button {
     width: 155px;
     height: 65px;

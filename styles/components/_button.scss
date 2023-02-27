@@ -1,5 +1,3 @@
-@import'../components/breakpoints/medias';
-
 button {
   font-family: 'Poppins', sans-serif;
 }
@@ -44,7 +42,7 @@ button {
   background-color: #0A2A35;
 }
 
-@include tablet {
+@media (min-width: 768px) {
   .tabs__button {
     width: 145px;
     height: 60px;
@@ -58,7 +56,7 @@ button {
   }
 }
 
-@include desktop {
+@media (min-width: 1024px) {
   .tabs__button {
     width: 155px;
     height: 65px;
