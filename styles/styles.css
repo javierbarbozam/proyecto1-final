@@ -385,6 +385,7 @@ button {
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: 2;
   padding: 1rem;
   color: white;
   font-size: 1rem;
@@ -398,6 +399,12 @@ button {
   left: 0;
   right: 0;
   cursor: pointer;
+}
+
+.carousel-item__link:hover::after {
+  background-color: black;
+  border-radius: 5px;
+  opacity: 0.3;
 }
 
 .carousel-item__img {
@@ -418,7 +425,7 @@ button {
 .carousel__btn--prev {
   position: relative;
   top: -103px;
-  left: 13px;
+  left: 10px;
   transform: rotate(227deg);
 }
 
