@@ -1,0 +1,18 @@
+form {
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+label {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+input {
+  width: 518px;
+  height: 83px;
+}
+
+/*# sourceMappingURL=styles.css.map */
