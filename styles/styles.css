@@ -1,21 +1,16 @@
 body {
-  font-family: 'Poppins', sans-serif;
-}
-
-.container__btn--brown {
-  display: flex;
-  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .container__btn {
-  display: flex;
+  margin-bottom: 20px;
 }
 
 .subtitle__paragraph {
   color: #8b8f90;
 }
 
-.normal__btn--brown {
+.tabs__button {
   width: 170px;
   height: 65px;
   font-size: 25px;
@@ -26,22 +21,12 @@ body {
   border-radius: 5px;
 }
 
-.container__btn--margin {
-  margin-left: 25px;
-}
-
-.pressed__btn--brown {
-  width: 170px;
-  height: 65px;
-  font-size: 25px;
-  font-weight: 600;
+.tabs__button:hover {
   color: #e0d1bc;
   background-color: #50422e;
-  border: none;
-  border-radius: 5px;
 }
 
-.normal__btn--green {
+.submit__button {
   width: 170px;
   height: 65px;
   font-size: 25px;
@@ -52,13 +37,11 @@ body {
   border-radius: 5px;
 }
 
-.pressed__btn--green {
-  width: 170px;
-  height: 65px;
-  font-size: 25px;
-  font-weight: 600;
+.submit__button:hover {
   color: #b0dcE7;
   background-color: #0A2A35;
-  border: none;
-  border-radius: 5px;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}/*# sourceMappingURL=styles.css.map */
