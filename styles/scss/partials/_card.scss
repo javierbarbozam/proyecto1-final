@@ -1,16 +1,6 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+@use './colors';
 
-body {
-  font-family: "Poppins", sans-serif;
-}
-
-ul {
-  list-style: none;
-}
+// 324px width styles
 
 .minicart {
   max-width: 298px;
@@ -20,7 +10,7 @@ ul {
 
 .minicart-item {
   padding: 10px;
-  background-color: #ecf1f2;
+  background-color: colors.$lightblue;
   max-width: 144px;
   border-radius: 5px;
 }
@@ -38,5 +28,3 @@ ul {
 .minicart-item__info {
   font-size: 10px;
 }
-
-/*# sourceMappingURL=styles.css.map */
