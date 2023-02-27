@@ -1,0 +1,71 @@
+button {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  color: #8b8f90;
+}
+
+.tabs__button {
+  width: 112px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #50422e;
+  background-color: #e0d1bc;
+  border: none;
+  border-radius: 5px;
+}
+
+.tabs__button:hover {
+  color: #e0d1bc;
+  background-color: #50422e;
+}
+
+.submit__button {
+  width: 112px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0A2A35;
+  background-color: #b0dcE7;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit__button:hover {
+  color: #b0dcE7;
+  background-color: #0A2A35;
+}
+
+@media (min-width: 768px) {
+  .tabs__button {
+    width: 145px;
+    height: 60px;
+    font-size: 20px;
+  }
+
+  .submit__button {
+    width: 145px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tabs__button {
+    width: 155px;
+    height: 65px;
+    font-size: 22px;
+  }
+
+  .submit__button {
+    width: 155px;
+    height: 65px;
+    font-size: 22px;
+  }
+}
