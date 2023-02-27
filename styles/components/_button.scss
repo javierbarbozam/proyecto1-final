@@ -1,9 +1,7 @@
-body {
-  font-family: "Poppins", sans-serif;
-}
+@import'../components/breakpoints/medias';
 
 button {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -46,27 +44,30 @@ button {
   background-color: #0A2A35;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@include tablet {
   .tabs__button {
     width: 145px;
     height: 60px;
     font-size: 20px;
   }
+
   .submit__button {
     width: 145px;
     height: 60px;
     font-size: 20px;
   }
 }
-@media screen and (min-width: 1024px) {
+
+@include desktop {
   .tabs__button {
     width: 155px;
     height: 65px;
     font-size: 22px;
   }
+
   .submit__button {
     width: 155px;
     height: 65px;
     font-size: 22px;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
