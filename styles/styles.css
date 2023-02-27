@@ -19,7 +19,16 @@ input {
   height: 73px;
   border-radius: 2px;
   padding-left: 19px;
-  background-color: #ECF1F2;
+  background-color: #ecf1f2;
+  border: none;
+}
+
+textarea {
+  width: 561px;
+  height: 119px;
+  border-radius: 2px;
+  padding-left: 19px;
+  background-color: #ecf1f2;
   border: none;
 }
 
@@ -43,7 +52,15 @@ input {
     height: 39px;
     border-radius: 2px;
     padding-left: 19px;
-    background-color: #ECF1F2;
+    background-color: #ecf1f2;
+    border: none;
+  }
+  textarea {
+    width: 213px;
+    height: 98px;
+    border-radius: 2px;
+    padding-left: 19px;
+    background-color: #ecf1f2;
     border: none;
   }
 }
@@ -63,11 +80,19 @@ input {
     font-size: 40px 25px 21px 12px;
   }
   input {
-    width: 213px;
-    height: 39px;
+    width: 389px;
+    height: 59px;
     border-radius: 2px;
     padding-left: 19px;
-    background-color: #ECF1F2;
+    background-color: #ecf1f2;
+    border: none;
+  }
+  textarea {
+    width: 389px;
+    height: 109px;
+    border-radius: 2px;
+    padding-left: 19px;
+    background-color: #ecf1f2;
     border: none;
   }
 }
