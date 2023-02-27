@@ -368,7 +368,7 @@ button {
 }
 
 /* each card of the carousel */
-.card {
+.carousel-item {
   border-radius: 5px;
   width: 168px;
   height: 167px;
@@ -380,7 +380,8 @@ button {
 }
 
 /* car content */
-.card-content {
+.carousel-item__title {
+  font-weight: 700;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -389,9 +390,24 @@ button {
   font-size: 1rem;
 }
 
+.carousel-item__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.carousel-item__img {
+  width: 168px;
+  height: 167px;
+  border-radius: 5px;
+}
+
 /* Carousel buttons */
-#prev-btn,
-#next-btn {
+.carousel__btn {
   height: 30px;
   width: 30px;
   border: 1px solid black;
@@ -399,7 +415,7 @@ button {
   cursor: pointer;
 }
 
-#prev-btn {
+.carousel__btn--prev {
   position: relative;
   top: -103px;
   left: 13px;
