@@ -7,7 +7,7 @@ header{
 .header_tittle{
     color: #fff ;
     position: absolute;
-    left: 81px;
+    left: 70px;
     top: 16px;
     font-size: 35px
 }
@@ -27,11 +27,43 @@ header{
     text-decoration: none;
 }
 
-@media screen and (min-width:320) {
+
+@media screen and (max-width:768px) {
+    header{
+        background-color: #13565E;
+        width: 100%;
+        height: 67px;
+        position: relative;
+}
+.header_tittle{
+    color: #fff;
+    position: absolute;
+    left: 37px;
+    top: 25px;
+    font-size: 26px;
+}
+.header_button{
+    background-color: #B0DCE7;
+    position: absolute;
+    left: 80%;
+    top: 24px;
+    height: 38px;
+    width: 104px;
+    border-radius: 5px;
+    border: none;
+    font-size: 22px;
+    color: #13565E;
+}
+.header_anchor{
+    text-decoration: none;
+}
+}
+
+@media screen and (max-width:320px) {
     header{
     background-color: #13565E;
-    width: 125%;
-    height: 86px;
+    width: 100%;
+    height: 70px;
     position: relative;
 }
 .header_tittle{
@@ -39,21 +71,22 @@ header{
     position: absolute;
     left: 14px;
     top: 29px;
-    font-size: 23px;
+    font-size: 20px;
 }
 .header_button{
     background-color: #B0DCE7;
     position: absolute;
-    left: 89%;
-    top: 19px;
-    height: 39px;
-    width: 109px;
+    left: 68%;
+    top: 28px;
+    height: 28px;
+    width: 76px;
     border-radius: 5px;
     border: none;
-    font-size: 26px;
+    font-size: 18px;
     color: #13565E;
 }
 .header_anchor{
     text-decoration: none;
 }
 }
+
