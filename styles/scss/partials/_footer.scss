@@ -1,0 +1,26 @@
+footer{
+    background-color: #13565E;
+    width: 100%;
+    position: absolute;
+}
+
+.footer__list{
+    position: relative;
+    list-style: none;
+    left: 167px;
+}
+
+div{
+    display: flex;
+}
+.footer--img{
+    width: 19px;
+    margin-left: 14px;        
+}
+
+.footer--anchor {
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+}

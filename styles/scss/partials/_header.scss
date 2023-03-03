@@ -28,6 +28,38 @@ header{
 }
 
 
+
+@media screen and (max-width:1024px){
+    header{
+        background-color: #13565E;
+        width: 100%;
+        height: 67px;
+        position: relative;
+}
+.header_tittle{
+    color: #fff;
+    position: absolute;
+    left: 43px;
+    top: 21px;
+    font-size: 29px;
+}
+.header_button{
+    background-color: #B0DCE7;
+    position: absolute;
+    left: 83%;
+    top: 22px;
+    height: 39px;
+    width: 109px;
+    border-radius: 5px;
+    border: none;
+    font-size: 26px;
+    color: #13565E;
+}
+.header_anchor{
+    text-decoration: none;
+}
+}
+
 @media screen and (max-width:768px) {
     header{
         background-color: #13565E;
