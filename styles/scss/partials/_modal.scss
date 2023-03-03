@@ -1,0 +1,190 @@
+.popupcontent {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+  background-color: #326d31cc;
+  margin: 0 auto;
+  margin-top: 16px;
+  border: none;
+  display: grid;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.popupheading {
+  text-align: center;
+  margin-top: 0;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.popupheading img {
+  width: 100px;
+}
+
+.popupclose {
+  color: white;
+  font-weight: bold;
+  float: right;
+  background: none;
+  border: none;
+  font-size: 40px;
+  margin-top: -15px;
+  margin-right: -15px;
+  text-align: end;
+}
+
+.popupclose:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+  transition: all 0.5s ease;
+}
+
+.popupclose:focus{
+  color: white;
+}
+
+.loginlabel {
+  color: white;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.loginbutton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.login__input {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+.logininput:active {
+  border: none;
+  transition: all 0.5s ease;
+}
+
+
+.loginerror--visible {
+  display: block;
+}
+
+.loginsubmit-button {
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  padding: 9px;
+  border-radius: 5px;
+  color: white;
+  background-color: #000;
+}
+
+.loginsubmit-button:hover {
+  transition: all 0.2s ease;
+  background-color: #2b2b2b;
+  box-shadow: 0px 0px 10px rgba(63, 63, 63, 0.63);
+}
+
+.loginsubmit-button:active {
+  transform: scale(0.95);
+  transition: all 0.2s ease;
+  color: #000;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);
+}
+
+@media (max-width: 480px) { 
+  // /Mobile/
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.753);
+  }
+
+  .popupcontent {
+    padding: 15px;
+    max-width: 250px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+  }
+
+  .popupclose {
+    color: white;
+    font-size: 45px;
+  }
+
+  .popupclose:focus{
+    color: white;
+  }
+
+  .login__submit-button {
+    padding: 15px;
+    transition: all 0.5s ease;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) { 
+  // /Tablet/
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.753);
+  }
+
+  .popupcontent {
+    padding: 60px;
+    max-width: 250px;
+    transition: all 0.5s ease;
+  }
+  .popupclose:focus{
+    color: white;
+  }
+
+  .loginsubmit-button {
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #000;
+    transition: all 0.5s ease;
+  }
+}
+
+@media (min-width: 769px) { 
+  // /Desktop/
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.753);
+  }
+
+  .popupcontent {
+    padding: 80px;
+    max-width: 250px;
+    transition: all 0.5s ease;
+  }
+}

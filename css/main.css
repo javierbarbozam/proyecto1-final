@@ -1,3 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.minicart {
+  padding: 0 20px;
+  display: flex;
+  gap: 10px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.minicart-item {
+  padding: 10px;
+  background-color: #ecf1f2;
+  max-width: 144px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.minicart-item:hover {
+  background-color: #dde6e8;
+}
+
+.minicart-item__img {
+  display: block;
+  margin: 0 auto;
+  height: 67px;
+  width: 100%;
+  border-radius: 5px;
+  transition-duration: 0.2s;
+  transition-property: transform;
+  margin-bottom: 5px;
+}
+
+.minicart-item:hover .minicart-item__img {
+  transform: scale(1.03);
+}
+
+.minicart-item__title {
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+}
+
+.minicart-item__info {
+  font-size: 10px;
+}
+
+.minicart-item__link::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.minicart-item__services span {
+  font-weight: 700;
+  font-size: 8px;
+}
+
+.minicart-item__services li {
+  font-size: 8px;
+  position: relative;
+  padding-left: 10px;
+}
+
+.minicart-item__services li::before {
+  content: "";
+  background: url(../../../icon/facilities-icon.svg) no-repeat;
+  background-size: 100%;
+  height: 9px;
+  width: 9px;
+  position: absolute;
+  top: 2px;
+  left: -0.5px;
+}
+
+.minicart-item__price {
+  display: block;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: end;
+}
+
+@media (min-width: 480px) {
+  .minicart {
+    padding: 0 20px;
+    justify-content: space-evenly;
+  }
+  .minicart-item {
+    padding: 10px;
+    max-width: 190px;
+  }
+  .minicart-item__img {
+    height: 100px;
+  }
+  .minicart-item__title {
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .minicart-item__info {
+    font-size: 12px;
+  }
+  .minicart-item__services span {
+    font-size: 10px;
+  }
+  .minicart-item__services li {
+    font-size: 10px;
+  }
+  .minicart-item__services li::before {
+    top: 3px;
+    left: -0.6px;
+  }
+  .minicart-item__price {
+    font-size: 14px;
+  }
+}
+@media (min-width: 768px) {
+  .minicart-item {
+    padding: 15px;
+    max-width: 230px;
+  }
+  .minicart-item__img {
+    height: 110px;
+    margin-bottom: 10px;
+  }
+  .minicart-item__title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .minicart-item__services span {
+    font-size: 12px;
+  }
+  .minicart-item__services li {
+    font-size: 12px;
+  }
+  .minicart-item__services li::before {
+    background-size: 100%;
+    top: 4px;
+    left: -0.6px;
+  }
+  .minicart-item__price {
+    font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+  .minicart-item {
+    padding: 20px;
+    max-width: 320px;
+  }
+  .minicart-item__img {
+    height: 200px;
+  }
+  .minicart-item__title {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .minicart-item__services span {
+    font-size: 12px;
+  }
+  .minicart-item__services li {
+    font-size: 12px;
+  }
+  .minicart-item__services li::before {
+    background-size: 100%;
+    top: 4px;
+    left: -0.6px;
+  }
+  .minicart-item__price {
+    font-size: 18px;
+  }
+}
+.enquiry {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.enquiry__label {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.enquiry__input {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: #ecf1f2;
+  border: none;
+}
+
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  height: 119px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ecf1f2;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .enquiry {
+    padding: 40px;
+  }
+  .enquiry__label {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .enquiry__input {
+    font-size: 14px;
+    height: 60px;
+  }
+  textarea {
+    font-size: 14px;
+  }
+}
+button {
+  font-family: "Poppins", sans-serif;
+}
+
+.button {
+  width: 112px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+
+.button--tabs {
+  color: #50422e;
+  background-color: #e0d1bc;
+  border: none;
+  border-radius: 5px;
+}
+
+.button--tabs:hover {
+  color: #e0d1bc;
+  background-color: #50422e;
+}
+
+.button--submit {
+  width: 112px;
+  height: 44px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #0a2a35;
+  background-color: #b0dce7;
+  border: none;
+  border-radius: 5px;
+}
+
+.button--submit:hover {
+  color: #b0dce7;
+  background-color: #0a2a35;
+}
+
+@media (min-width: 768px) {
+  .button--tabs {
+    width: 145px;
+    height: 60px;
+    font-size: 20px;
+  }
+  .button--submit {
+    width: 145px;
+    height: 60px;
+    font-size: 20px;
+  }
+}
+@media (min-width: 1024px) {
+  .button--tabs {
+    width: 155px;
+    height: 65px;
+    font-size: 22px;
+  }
+  .button--submit {
+    width: 155px;
+    height: 65px;
+    font-size: 22px;
+  }
+}
 /* the div that contains the cards */
 .carousel {
   display: grid;
@@ -9,7 +320,7 @@
 }
 
 /* each card of the carousel */
-.card {
+.carousel-item {
   border-radius: 5px;
   width: 168px;
   height: 167px;
@@ -21,18 +332,41 @@
 }
 
 /* car content */
-.card-content {
+.carousel-item__title {
+  font-weight: 700;
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: 2;
   padding: 1rem;
   color: white;
   font-size: 1rem;
 }
 
+.carousel-item__link::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.carousel-item__link:hover::after {
+  background-color: black;
+  border-radius: 5px;
+  opacity: 0.3;
+}
+
+.carousel-item__img {
+  width: 168px;
+  height: 167px;
+  border-radius: 5px;
+}
+
 /* Carousel buttons */
-#prev-btn,
-#next-btn {
+.carousel__btn {
   height: 30px;
   width: 30px;
   border: 1px solid black;
@@ -40,10 +374,10 @@
   cursor: pointer;
 }
 
-#prev-btn {
+.carousel__btn--prev {
   position: relative;
   top: -103px;
-  left: 13px;
+  left: 10px;
   transform: rotate(227deg);
 }
 
@@ -53,6 +387,186 @@
   top: -129px;
   left: 770px;
   transform: rotate(45deg);
+}
+
+.popupcontent {
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+  background-color: rgba(50, 109, 49, 0.8);
+  margin: 0 auto;
+  margin-top: 16px;
+  border: none;
+  display: grid;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.popupheading {
+  text-align: center;
+  margin-top: 0;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.popupheading img {
+  width: 100px;
+}
+
+.popupclose {
+  color: white;
+  font-weight: bold;
+  float: right;
+  background: none;
+  border: none;
+  font-size: 40px;
+  margin-top: -15px;
+  margin-right: -15px;
+  text-align: end;
+}
+
+.popupclose:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.479);
+  transition: all 0.5s ease;
+}
+
+.popupclose:focus {
+  color: white;
+}
+
+.loginlabel {
+  color: white;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.loginbutton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.login__input {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s ease;
+}
+
+.logininput:active {
+  border: none;
+  transition: all 0.5s ease;
+}
+
+.loginerror--visible {
+  display: block;
+}
+
+.loginsubmit-button {
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  padding: 9px;
+  border-radius: 5px;
+  color: white;
+  background-color: #000;
+}
+
+.loginsubmit-button:hover {
+  transition: all 0.2s ease;
+  background-color: #2b2b2b;
+  box-shadow: 0px 0px 10px rgba(63, 63, 63, 0.63);
+}
+
+.loginsubmit-button:active {
+  transform: scale(0.95);
+  transition: all 0.2s ease;
+  color: #000;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);
+}
+
+@media (max-width: 480px) {
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.753);
+  }
+  .popupcontent {
+    padding: 15px;
+    max-width: 250px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+  }
+  .popupclose {
+    color: white;
+    font-size: 45px;
+  }
+  .popupclose:focus {
+    color: white;
+  }
+  .login__submit-button {
+    padding: 15px;
+    transition: all 0.5s ease;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.753);
+  }
+  .popupcontent {
+    padding: 60px;
+    max-width: 250px;
+    transition: all 0.5s ease;
+  }
+  .popupclose:focus {
+    color: white;
+  }
+  .loginsubmit-button {
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #000;
+    transition: all 0.5s ease;
+  }
+}
+@media (min-width: 769px) {
+  .popup {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.753);
+  }
+  .popupcontent {
+    padding: 80px;
+    max-width: 250px;
+    transition: all 0.5s ease;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
