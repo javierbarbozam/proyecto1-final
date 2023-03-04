@@ -1,0 +1,30 @@
+img {
+  width: 230px;
+  height: 230px;
+  margin-right: 11px;
+  margin-bottom: 19px;
+  border-radius: 5px;
+}
+
+.galleryContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+@media (max-width: 480px) {
+  .galleryContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) { 
+  img{
+    width: 195px;
+    height: 195px;
+  }
+ }  
