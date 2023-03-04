@@ -5,9 +5,9 @@ button {
 }
 
 .button {
-  width: 112px;
-  height: 44px;
-  font-size: 16px;
+  width: 90px;
+  height: 40px;
+  font-size: 13px;
   font-weight: 500;
   border: none;
   border-radius: 5px;
@@ -16,8 +16,6 @@ button {
 .button--tabs {
   color: colors.$brown;
   background-color: colors.$beige;
-  border: none;
-  border-radius: 5px;
 }
 
 .button--tabs:hover {
@@ -26,14 +24,8 @@ button {
 }
 
 .button--submit {
-  width: 112px;
-  height: 44px;
-  font-size: 16px;
-  font-weight: 500;
   color: colors.$blue;
   background-color: colors.$lightblue--btn;
-  border: none;
-  border-radius: 5px;
 }
 
 .button--submit:hover {
@@ -42,29 +34,17 @@ button {
 }
 
 @media (min-width: 768px) {
-  .button--tabs {
-    width: 145px;
-    height: 60px;
-    font-size: 20px;
-  }
-
-  .button--submit {
-    width: 145px;
-    height: 60px;
-    font-size: 20px;
+  .button {
+    width: 110px;
+    height: 50px;
+    font-size: 15px;
   }
 }
 
 @media (min-width: 1024px) {
-  .button--tabs {
-    width: 155px;
-    height: 65px;
-    font-size: 22px;
-  }
-
-  .button--submit {
-    width: 155px;
-    height: 65px;
-    font-size: 22px;
+  .button {
+    width: 120px;
+    height: 50px;
+    font-size: 17px;
   }
 }

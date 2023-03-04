@@ -1,0 +1,40 @@
+.hotel__title {
+  margin: 40px 0px 15px 20px;
+  font-size: 26px;
+}
+
+.container__button {
+  margin-left: 20px;
+}
+
+.query__button--tabs {
+  margin-left: 10px;
+}
+
+.form__button--submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hotel__title {
+    margin-left: 40px;
+    font-size: 30px;
+  }
+  
+  .container__button {
+    margin-left: 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hotel__title {
+    margin-left: 40px;
+    font-size: 35px;
+  }
+  
+  .container__button {
+    margin-left: 40px;
+  }
+}

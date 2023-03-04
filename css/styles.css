@@ -14,7 +14,8 @@ ul {
 
 .visually-hidden {
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -249,9 +250,9 @@ button {
 }
 
 .button {
-  width: 112px;
-  height: 44px;
-  font-size: 16px;
+  width: 90px;
+  height: 40px;
+  font-size: 13px;
   font-weight: 500;
   border: none;
   border-radius: 5px;
@@ -260,8 +261,6 @@ button {
 .button--tabs {
   color: #50422e;
   background-color: #e0d1bc;
-  border: none;
-  border-radius: 5px;
 }
 
 .button--tabs:hover {
@@ -270,14 +269,8 @@ button {
 }
 
 .button--submit {
-  width: 112px;
-  height: 44px;
-  font-size: 16px;
-  font-weight: 500;
   color: #0a2a35;
   background-color: #b0dce7;
-  border: none;
-  border-radius: 5px;
 }
 
 .button--submit:hover {
@@ -286,27 +279,17 @@ button {
 }
 
 @media (min-width: 768px) {
-  .button--tabs {
-    width: 145px;
-    height: 60px;
-    font-size: 20px;
-  }
-  .button--submit {
-    width: 145px;
-    height: 60px;
-    font-size: 20px;
+  .button {
+    width: 110px;
+    height: 50px;
+    font-size: 15px;
   }
 }
 @media (min-width: 1024px) {
-  .button--tabs {
-    width: 155px;
-    height: 65px;
-    font-size: 22px;
-  }
-  .button--submit {
-    width: 155px;
-    height: 65px;
-    font-size: 22px;
+  .button {
+    width: 120px;
+    height: 50px;
+    font-size: 17px;
   }
 }
 /* the div that contains the cards */
@@ -665,4 +648,40 @@ footer {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=styles.css.map */
+.hotel__title {
+  margin: 40px 0px 15px 20px;
+  font-size: 26px;
+}
+
+.container__button {
+  margin-left: 20px;
+}
+
+.query__button--tabs {
+  margin-left: 10px;
+}
+
+.form__button--submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .hotel__title {
+    margin-left: 40px;
+    font-size: 30px;
+  }
+  .container__button {
+    margin-left: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .hotel__title {
+    margin-left: 40px;
+    font-size: 35px;
+  }
+  .container__button {
+    margin-left: 40px;
+  }
+}/*# sourceMappingURL=styles.css.map */
