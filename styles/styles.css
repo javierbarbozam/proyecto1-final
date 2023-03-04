@@ -249,8 +249,12 @@ button {
 }
 
 .button {
-  width: 112px;
-  height: 44px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  /* width: 112px;
+   height: 44px;*/
   font-size: 16px;
   font-weight: 500;
   border: none;
@@ -270,10 +274,6 @@ button {
 }
 
 .button--submit {
-  width: 112px;
-  height: 44px;
-  font-size: 16px;
-  font-weight: 500;
   color: #0a2a35;
   background-color: #b0dce7;
   border: none;
@@ -292,8 +292,9 @@ button {
     font-size: 20px;
   }
   .button--submit {
-    width: 145px;
-    height: 60px;
+    padding: 20px;
+    /*width: 145px;
+    height: 60px;*/
     font-size: 20px;
   }
 }
@@ -304,8 +305,9 @@ button {
     font-size: 22px;
   }
   .button--submit {
-    width: 155px;
-    height: 65px;
+    padding: 20px;
+    /*width: 155px;
+    height: 65px;*/
     font-size: 22px;
   }
 }
@@ -387,6 +389,51 @@ button {
   top: -129px;
   left: 770px;
   transform: rotate(45deg);
+}
+
+header {
+  background-color: #0a2a35;
+  height: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header_title {
+  color: #fff;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .header__title {
+    color: #fff;
+    font-size: 35px;
+  }
+}
+.footer {
+  background-color: #0a2a35;
+  display: flex;
+}
+
+.footer__list {
+  list-style: none;
+  left: 255px;
+}
+
+.footer__container {
+  display: flex;
+  padding: 3px;
+}
+
+.footer__img {
+  width: 19px;
+  margin-left: 14px;
+}
+
+.footer__anchor a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=styles.css.map */
