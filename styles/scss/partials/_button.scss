@@ -5,9 +5,11 @@ button {
 }
 
 .button {
-  width: 90px;
-  height: 40px;
-  font-size: 13px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  font-size: 16px;
   font-weight: 500;
   border: none;
   border-radius: 5px;
@@ -34,17 +36,22 @@ button {
 }
 
 @media (min-width: 768px) {
-  .button {
-    width: 110px;
-    height: 50px;
-    font-size: 15px;
+  .button--tabs {
+    font-size: 20px;
+  }
+
+  .button--submit {
+    padding: 20px;
+    font-size: 20px;
   }
 }
 
 @media (min-width: 1024px) {
-  .button {
-    width: 120px;
-    height: 50px;
-    font-size: 17px;
+  .button--tabs {
+    font-size: 22px;
+  }
+
+  .button--submit {
+    font-size: 22px;
   }
 }
