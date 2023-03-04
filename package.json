@@ -4,7 +4,7 @@
   "description": "1. Javier Barboza\r 2. Ignacio Marín\r 3. Valeria Murillo\r 4. Darrell Solano\r # design-system\r https://javierbarbozam.github.io/proyecto1-final/design-system/design-system.html",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch styles/scss:css"
+    "sass": "sass --watch styles/scss/styles.scss styles.css"
   },
   "repository": {
     "type": "git",

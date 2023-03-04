@@ -5,8 +5,12 @@ button {
 }
 
 .button {
-  width: 112px;
-  height: 44px;
+  padding: 20px;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+ /* width: 112px;
+  height: 44px;*/
   font-size: 16px;
   font-weight: 500;
   border: none;
@@ -26,10 +30,6 @@ button {
 }
 
 .button--submit {
-  width: 112px;
-  height: 44px;
-  font-size: 16px;
-  font-weight: 500;
   color: colors.$blue;
   background-color: colors.$lightblue--btn;
   border: none;
@@ -49,8 +49,9 @@ button {
   }
 
   .button--submit {
-    width: 145px;
-    height: 60px;
+    padding: 20px;
+    /*width: 145px;
+    height: 60px;*/
     font-size: 20px;
   }
 }
@@ -63,8 +64,9 @@ button {
   }
 
   .button--submit {
-    width: 155px;
-    height: 65px;
+    padding: 20px;
+    /*width: 155px;
+    height: 65px;*/
     font-size: 22px;
   }
 }
