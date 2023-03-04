@@ -514,22 +514,150 @@ header {
 footer {
   background-color: #13565E;
   width: 100%;
+  height: 58px;
   position: absolute;
+  display: flex;
 }
 
 .footer__list {
   position: relative;
   list-style: none;
-  left: 167px;
+  left: 255px;
+  display: flex;
+  gap: 308px;
 }
 
-div {
+.footer__tittle {
+  color: #fff;
+  font-size: 45px;
+  position: relative;
+  right: 71px;
+}
+
+.footer__container {
   display: flex;
+  position: relative;
+  top: 5px;
+  padding: 3px;
 }
 
 .footer--img {
   width: 19px;
   margin-left: 14px;
+}
+
+.footer--anchor a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    background-color: #13565E;
+    width: 100%;
+    height: 58px;
+    position: absolute;
+    display: flex;
+  }
+  .footer__list {
+    position: relative;
+    list-style: none;
+    left: 160px;
+    display: flex;
+    gap: 208px;
+  }
+  .footer__tittle {
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    position: relative;
+    right: 26px;
+  }
+  .footer__container {
+    display: flex;
+    position: relative;
+    top: 5px;
+    padding: 3px;
+  }
+  .footer--img {
+    width: 19px;
+    margin-left: 14px;
+  }
+  .footer--anchor a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    background-color: #13565E;
+    width: 100%;
+    height: 58px;
+    position: absolute;
+    display: flex;
+  }
+  .footer__list {
+    position: relative;
+    list-style: none;
+    left: 138px;
+    display: flex;
+    gap: 115px;
+  }
+  .footer__tittle {
+    color: #fff;
+    font-size: 45px;
+    position: relative;
+    right: 48px;
+  }
+  .footer__container {
+    display: flex;
+    position: relative;
+    top: 5px;
+    padding: 3px;
+  }
+  .footer--img {
+    width: 19px;
+    margin-left: 14px;
+  }
+  .footer--anchor a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  footer {
+    background-color: #13565E;
+    width: 1240px;
+    height: 67px;
+    position: absolute;
+    display: flex;
+  }
+  .footer__list {
+    position: relative;
+    list-style: none;
+    left: 46px;
+    display: flex;
+    gap: 15px;
+  }
+  .footer__tittle {
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 15px;
+    right: 39px;
+  }
+}
+.footer__container {
+  display: flex;
+  position: relative;
+  top: 5px;
+  padding: 3px;
+  font-size: small;
+  right: 38px;
+}
+
+.footer--img {
+  width: 19px;
+  margin-left: 6px;
 }
 
 .footer--anchor a {
