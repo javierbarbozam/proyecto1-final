@@ -5,12 +5,10 @@ button {
 }
 
 .button {
-  padding: 20px;
-  text-decoration: none;
+  padding: 10px 15px;
   text-align: center;
   display: block;
-  font-size: 16px;
-  font-weight: 500;
+  font-size: 14px;
   border: none;
   border-radius: 5px;
 }
@@ -25,9 +23,15 @@ button {
   background-color: colors.$brown;
 }
 
-.button--submit {
+.button--submit,
+.button--sign-in {
   color: colors.$blue;
   background-color: colors.$lightblue--btn;
+}
+
+.button--sign-in:hover {
+  color: colors.$white;
+  background-color: darken(colors.$lightblue--btn, $amount: 35%)
 }
 
 .button--submit:hover {
@@ -35,23 +39,9 @@ button {
   background-color: colors.$blue;
 }
 
-@media (min-width: 768px) {
-  .button--tabs {
-    font-size: 20px;
-  }
-
-  .button--submit {
-    padding: 20px;
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .button--tabs {
-    font-size: 22px;
-  }
-
-  .button--submit {
-    font-size: 22px;
+@media (min-width: 480px) {
+  .button {
+    padding: 10px 15px;
+    font-size: 16px;
   }
 }
