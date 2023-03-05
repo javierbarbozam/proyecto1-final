@@ -33,6 +33,32 @@ h2 {
   width: 1px;
 }
 
+.js-hidden {
+  display: none;
+  animation: fadeOut 0.5s;
+}
+
+.js-visible {
+  display: block;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @media (min-width: 480px) {
   h2 {
     font-size: 16px;
@@ -119,7 +145,7 @@ h2 {
 
 .minicart-item__services li::before {
   content: "";
-  background: url(../icon/facilities-icon.svg) no-repeat;
+  background: url(../../../icon/facilities-icon.svg) no-repeat;
   background-size: 100%;
   height: 9px;
   width: 9px;
@@ -605,41 +631,63 @@ button {
     height: 40px;
   }
 }
-.hotel__title {
-  margin: 40px 0px 15px 20px;
+.description__hero {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.description__hero__img {
+  width: 100%;
+}
+
+.description__info {
+  padding: 0 20px;
+}
+
+.description__info__title {
   font-size: 26px;
 }
 
-.container__button {
-  margin-left: 20px;
-}
-
-.query__button--tabs {
-  margin-left: 10px;
-}
-
-.form__button--submit {
+.description__info__btn {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 5px;
+  margin: 10px 0;
 }
 
+.description__info__text {
+  text-align: justify;
+  font-size: 12px;
+}
+
+@media (min-width: 480px) {
+  .description__hero {
+    height: 200px;
+  }
+  .description__info__text {
+    text-align: justify;
+    font-size: 14px;
+  }
+}
 @media (min-width: 768px) {
-  .hotel__title {
-    margin-left: 40px;
+  .description__hero {
+    height: 300px;
+  }
+  .description__info__title {
     font-size: 30px;
   }
-  .container__button {
-    margin-left: 40px;
+  .description__info__text {
+    text-align: justify;
+    font-size: 16px;
   }
-}
-@media (min-width: 1024px) {
-  .hotel__title {
-    margin-left: 40px;
-    font-size: 35px;
+  .description__info {
+    padding: 0 40px;
   }
-  .container__button {
-    margin-left: 40px;
+  .description__info__btn {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
   }
 }
 * {
@@ -677,6 +725,32 @@ h2 {
   width: 1px;
 }
 
+.js-hidden {
+  display: none;
+  animation: fadeOut 0.5s;
+}
+
+.js-visible {
+  display: block;
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 @media (min-width: 480px) {
   h2 {
     font-size: 16px;
