@@ -50,7 +50,32 @@
 #next-btn {
   right: 650px;
   position: relative;
-  top: -129px;
+  top: -138px;
   left: 770px;
   transform: rotate(45deg);
+}
+
+@media (max-width: 480px) {
+  .carousel {
+    position: relative;
+    top: 106px;
+    left: 62px;
+    width: 276px;
+    overflow-x: scroll;
+  }
+
+  .card {
+    width: 262px;
+    height: 225px;
+  }
+
+  #prev-btn {
+    top: -30px;
+    left: 71px;
+  }
+
+  #next-btn {
+    top: -63px;
+    left: 362px;
+  }
 }

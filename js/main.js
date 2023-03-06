@@ -5,8 +5,18 @@ const carousel = document.querySelector(".carousel");
 const cardWidth = carousel.querySelector(".card").offsetWidth;
 
 // Calculate the horizontal displacement
-const cardsToShow = 6;
+const cardsToShow = 3;
 const scrollDistance = cardWidth * cardsToShow;
+
+// Update cardsToShow variable on resize
+window.addEventListener("resize", function () {
+  if (window.innerWidth <= 480) {
+    cardsToShow = 1;
+  } else {
+    cardsToShow = 3;
+  }
+  scrollDistance = cardWidth * cardsToShow;
+});
 
 // Add event listeners to the navigation buttons
 prevBtn.addEventListener("click", function () {
