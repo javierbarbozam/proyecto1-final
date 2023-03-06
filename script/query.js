@@ -1,20 +1,20 @@
 
-const details_btn = document.querySelector('#js-btn-details');
-const enquiry_btn = document.querySelector('#js-btn-query');
-const description = document.querySelector('#js-btn-info');
-const form = document.querySelector('#js-btn-form');
+const info_btn = document.querySelector('#js-btn-info');
+const card_btn = document.querySelector('#js-btn-card');
+const description = document.querySelector('#js-info-container');
+const cards = document.querySelector('#js-card-container');
 
 
-enquiry_btn.addEventListener('click', () => {
+card_btn.addEventListener('click', () => {
   description.classList.add('js-hidden');
   description.classList.remove('js-visible');
-  form.classList.remove('js-hidden');
-  form.classList.add('js-visible');
+  cards.classList.remove('js-hidden');
+  cards.classList.add('js-visible');
 });
 
-details_btn.addEventListener('click', () => {
+info_btn.addEventListener('click', () => {
   description.classList.remove('js-hidden');
   description.classList.add('js-visible');
-  form.classList.remove('js-visible');
-  form.classList.add('js-hidden');
+  cards.classList.remove('js-visible');
+  cards.classList.add('js-hidden');
 });
