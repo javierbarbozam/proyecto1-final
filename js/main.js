@@ -5,7 +5,7 @@ const carousel = document.querySelector(".carousel");
 const cardWidth = carousel.querySelector(".card").offsetWidth;
 
 // Calculate the horizontal displacement
-const cardsToShow = 3;
+const cardsToShow = 1.1;
 const scrollDistance = cardWidth * cardsToShow;
 
 // Update cardsToShow variable on resize
