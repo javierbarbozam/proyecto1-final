@@ -5,10 +5,10 @@ button {
 }
 
 .button {
-  width: 112px;
-  height: 44px;
-  font-size: 16px;
-  font-weight: 500;
+  padding: 10px 15px;
+  text-align: center;
+  display: block;
+  font-size: 14px;
   border: none;
   border-radius: 5px;
 }
@@ -16,8 +16,6 @@ button {
 .button--tabs {
   color: colors.$brown;
   background-color: colors.$beige;
-  border: none;
-  border-radius: 5px;
 }
 
 .button--tabs:hover {
@@ -25,15 +23,15 @@ button {
   background-color: colors.$brown;
 }
 
-.button--submit {
-  width: 112px;
-  height: 44px;
-  font-size: 16px;
-  font-weight: 500;
+.button--submit,
+.button--sign-in {
   color: colors.$blue;
   background-color: colors.$lightblue--btn;
-  border: none;
-  border-radius: 5px;
+}
+
+.button--sign-in:hover {
+  color: colors.$white;
+  background-color: darken(colors.$lightblue--btn, $amount: 35%)
 }
 
 .button--submit:hover {
@@ -41,30 +39,9 @@ button {
   background-color: colors.$blue;
 }
 
-@media (min-width: 768px) {
-  .button--tabs {
-    width: 145px;
-    height: 60px;
-    font-size: 20px;
-  }
-
-  .button--submit {
-    width: 145px;
-    height: 60px;
-    font-size: 20px;
-  }
-}
-
-@media (min-width: 1024px) {
-  .button--tabs {
-    width: 155px;
-    height: 65px;
-    font-size: 22px;
-  }
-
-  .button--submit {
-    width: 155px;
-    height: 65px;
-    font-size: 22px;
+@media (min-width: 480px) {
+  .button {
+    padding: 10px 15px;
+    font-size: 16px;
   }
 }

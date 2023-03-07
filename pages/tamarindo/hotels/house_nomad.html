@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../../styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>La Fortuna | Hotel House of Nomad</title>
+</head>
+<body>
+  <header class="header">
+    <a class="header__title" href="../../../index.html">Traveling.</a>
+    <a class="button button--sign-in" href="">Sing In</a>
+  </header>
+  <main>
+    <!-- Hero image -->
+    <div class="description">
+      <div class="description__hero">
+        <img class="description__hero__img" src="../../../imgs/tamarindo/house_nomad.jpg" alt="">
+      </div>
+      <div class="description__info">
+        <h1 class="description__info__title">House of Nomad</h1>
+        <div class="description__info__btn">
+          <button id="js-btn-info" class="button button--tabs">Information</button>
+          <button id="js-btn-card" class="button button--tabs">Query</button>
+        </div>
+        <div id="js-info-container">
+          <p class="description__info__text">House of Nomad - Adults only in Tamarindo has 4-star accommodation with a garden and a terrace. With an outdoor swimming pool, the 4-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The property is allergy-free and is situated 500 m from Tamarindo Beach.
+
+            At the hotel rooms have bed linen and towels.
+            
+            Grande Beach is 1.5 km from House of Nomad - Adults only, while Langosta Beach is 1.9 km from the property. The nearest airport is Tamarindo, 4 km from the accommodation, and the property offers a paid airport shuttle service.
+            
+            This is our guests' favourite part of Tamarindo, according to independent reviews.
+            
+            House of Nomad - Adults only has been welcoming Booking.com guests since 10 Nov 2022.</p>
+          <ul class="minicart">
+            <li class="minicart-item">
+              <img class="minicart-item__img" src="../../../imgs/tamarindo/tamarindo.img/houseNomasd-1.jpg" alt="">
+              <span class="minicart-item__title">single two beths</span>
+              <p class="minicart-item__info">Standard room with two beds.</p>
+              <ul class="minicart-item__services">
+                <span>Servicios incluídos:</span>
+                <li>WiFi</li>
+                <li>mini bar</li>
+              </ul>
+              <span class="minicart-item__price">$200</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>
+            <li class="minicart-item">
+              <img class="minicart-item__img" src="../../../imgs/tamarindo/tamarindo.img/houseNomad-2.jpg" alt="">
+              <span class="minicart-item__title">king room</span>
+              <p class="minicart-item__info">King bed room</p>
+              <ul class="minicart-item__services">
+                <span>Servicios incluídos:</span>
+                <li>mini bar</li>
+                <li>tv and netflix</li>
+              </ul>
+              <span class="minicart-item__price">$300</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>
+            <li class="minicart-item">
+              <img class="minicart-item__img" src="../../../imgs/tamarindo/tamarindo.img/houseNomad-3.jpg" alt="">
+              <span class="minicart-item__title">little big room</span>
+              <p class="minicart-item__info">Small room with queen bed</p>
+              <ul class="minicart-item__services">
+                <span>Servicios incluídos:</span>
+                <li>WiFi</li>
+              </ul>
+              <span class="minicart-item__price">$80</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>
+            <li class="minicart-item">
+              <img class="minicart-item__img" src="../../../imgs/tamarindo/tamarindo.img/houseNomad-4.jpg" alt="">
+              <span class="minicart-item__title">table room</span>
+              <p class="minicart-item__info">Room with king bed and wallking closet</p>
+              <ul class="minicart-item__services">
+                <span>Servicios incluídos:</span>
+                <li>save box</li>
+                <li>wifi</li>
+                <li>mini bar</li>
+              </ul>
+              <span class="minicart-item__price">$100</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="js-card-container" class="js-hidden">
+      <form id="js-btn-form" class="enquiry" action="">
+        <label class="enquiry__label" for="name"><input class="enquiry__input" type="text" name="" id="" placeholder="Enter your name" required>Name</label>
+        <label class="enquiry__label" for="email"><input class="enquiry__input" type="email" name="" id="" placeholder="Enter your email" required>Email</label>
+        <label class="enquiry__label" for=""><input class="enquiry__input" type="number" name="" id="" placeholder="Enter your phone number" required>Number</label>
+        <label class="enquiry__label" for="text"><textarea class="enquiry__textarea" name="query" id="query" cols="30" rows="10" placeholder="Enter here your query"></textarea>Query</label>
+        <div class="form__button--submit">
+          <button class="button button--submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-item">
+      <ul class="footer-item__list">
+        <span class="footer-item__list__title">Company</span>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">About Us</a></li>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">FAQ</a></li>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">Contact Us</a></li>
+      </ul>
+      <ul class="footer-item__list">
+        <span class="footer-item__list__title">Support</span>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">Resources</a></li>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">Discover</a></li>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">Booking</a></li>
+      </ul>
+      <ul class="footer-item__list">
+        <span class="footer-item__list__title">Places</span>
+        <li class="footer-item__list__link"><a href="#">Destinations</a></li>
+        <li class="footer-item__list__link"><a href="#">Car Hire</a></li>
+        <li class="footer-item__list__link"><a href="#">Join Us</a></li>
+      </ul>
+    </div> 
+    <!-- SOCIAL MEDIA -->
+    <div class="footer-item footer-item--media">
+      <span class="footer-item__title">Traveling.</span>
+      <ul class="footer-item__list footer-item__list--flex">
+        <li class="footer-item__list__media">
+          <a class="footer-item__list__media__tw" href="#"><span class="visually-hidden">Twitter</span></a>
+        </li>
+        <li class="footer-item__list__media">
+          <a class="footer-item__list__media__fb" href="#"><span class="visually-hidden">Facebook</span></a>
+        </li>
+        <li class="footer-item__list__media">
+          <a class="footer-item__list__media__inst" href="#"><span class="visually-hidden">Instagram</span></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+<script src="../../../../../script/query.js"></script>
+</html>
