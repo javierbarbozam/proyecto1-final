@@ -1,19 +1,16 @@
-// Select the necessary items
-const prevBtn = document.querySelector("#prev-btn");
-const nextBtn = document.querySelector("#next-btn");
-const carousel = document.querySelector(".carousel");
-const cardWidth = carousel.querySelector(".carousel-item__title").offsetWidth;
+const carousel = document.querySelector('.carousel-item'),
+cards = carousel.querySelectorAll('.carousel-item__card')[0],
+carouselBtn = document.querySelectorAll('.carousel-btn');
+let cardsWidth = cards.clientWidth + 20; // necesita ser responsive
 
-// Calculate the horizontal displacement
-const cardsToShow = 6;
-const scrollDistance = cardWidth * cardsToShow;
 
-// Add event listeners to the navigation buttons
-prevBtn.addEventListener("click", function () {
-  carousel.scrollBy(-scrollDistance, 0);
-});
 
-nextBtn.addEventListener("click", function () {
-  carousel.scrollBy(scrollDistance, 0);
-});
 
+// Function for buttons
+
+carouselBtn.forEach(button => {
+  button.addEventListener ('click', () => {
+    // This means that left btn will reduce width value from carrusel, and right btn will increase it.
+    carousel.scrollLeft += button.classList[1] == 'carousel-btn--left' ? -cardsWidth : cardsWidth;
+  })
+})
