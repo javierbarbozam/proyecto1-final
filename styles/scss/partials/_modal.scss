@@ -1,0 +1,136 @@
+// is the container for the login button and popup.
+.popup-container {
+  display: inline-block;
+}
+
+// is the button de login.
+.popup-button {
+  background: #B0DCE7;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.popup-button:hover {
+  background: #0A2A35;
+}
+
+// is the container for the popup content.
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(#000, .7);
+  z-index: 10;
+  opacity: 0;
+  visibility: hidden;
+  transition: 800ms all;
+}
+
+// is the container for specific content (title, content, close)
+.popup-inner {
+  width: 400px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: 250ms all;
+}
+
+// container for title and close buton
+.popup-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+// is for the h6 that is a title
+.popup-title h6 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+// close buton for close the popup
+.popup-close-btn {
+  cursor: pointer;
+  background: #B0DCE7;
+  display: block;
+  line-height: 30px;
+  padding: 0 15px;
+  font-size: 14px;
+  color: #222;
+  border-radius: 3px;
+}
+
+// this ones are styles for the elements login form
+.popup-content ul {
+  margin-top: 20px;
+}
+
+.popup-content li {
+  margin-bottom: 10px;
+}
+
+.popup-content li:last-child {
+  margin-bottom: 0;
+}
+
+// styles for the inputs of login
+.popup-content input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  line-height: 34px;
+  padding: 0 15px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+// styles for de submit button
+.popup-content button {
+  width: 100%;
+  line-height: 34px;
+  background: #B0DCE7;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+  border: none;
+  font-size: 14px;
+}
+
+.popup-content button:hover {
+  background: #444;
+}
+
+//  is an empty label element that covers the popup when
+//  it is open to allow the user to click anywhere in the background to close it.
+.transparent-label {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+// hides the input element that controls whether the popup is displayed or not.
+.popup-container>input {
+  display: none;
+}
+
+// shows the contents of the popup when the control entry is checked.
+.popup-container>input:checked+.popup {
+  opacity: 1;
+  visibility: visible;
+}
+
+// moves the contents of the popup
+// to the center of the screen when the control entry is checked.
+.popup-container>input:checked+.popup .popup-inner {
+  top: 50%;
+}
