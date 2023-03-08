@@ -8,8 +8,8 @@
 .carousel-item {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: 24%;
-  gap: 20px;
+  grid-auto-columns: 49%;
+  gap: 5px;
   padding: 0 20px;
   position: relative;
   overflow-x: scroll;
@@ -25,18 +25,21 @@
 }
 
 .carousel-item__card__title {
+  font-size: 14px;
+  font-weight: 700;
+  color: colors.$white;
   position: absolute;
   left: 5%;
   bottom: 5%;
 }
 
 .carousel-btn {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   color: colors.$white;
   background-color: colors.$blue;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 20px;
   border-radius: 50%;
   border: 3px solid white;
   position: absolute;
@@ -53,6 +56,51 @@ left: 5px;
   right: 5px;
 }
 
-/* .carousel-item__img {
-  height: 50%;
-} */
+@media (min-width:480px) {
+  .carousel-item {
+    grid-auto-columns: 32%;
+    gap: 10px;
+  }
+  
+  .carousel-item__card__title {
+    font-size: 16px;
+  }
+  
+  .carousel-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width:768px) {
+  .carousel-item {
+    grid-auto-columns: 24%;
+    gap: 10px;
+  }
+  
+  .carousel-item__card__title {
+    font-size: 16px;
+  }
+  
+  .carousel-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+}
+
+@media (min-width:1024px) {
+  .carousel-item {
+    gap: 20px;
+  }
+  
+  .carousel-item__card__title {
+    font-size: 18px;
+  }
+  
+  .carousel-btn {
+    width: 60px;
+    height: 60px;
+  }
+}
