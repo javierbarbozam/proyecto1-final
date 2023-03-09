@@ -14,6 +14,9 @@
   position: relative;
   overflow-x: scroll;
   scroll-behavior: smooth;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: 20px;
 }
 
 .carousel-item__card {
@@ -22,6 +25,7 @@
   display: flex;
   position: relative;
   border-radius: 5px; 
+  scroll-snap-align: start;
 }
 
 .carousel-item__card__title {
@@ -33,6 +37,27 @@
   bottom: 5%;
 }
 
+.carousel-item__card__img {
+  transition-duration: 0.2s;
+  transition-property: transform;
+}
+
+.carousel-item__card:hover .carousel-item__card__img{
+  transform: scale(1.03);
+}
+
+.carousel-item__card__link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.carousel-item__card__link:hover {
+  cursor: pointer;
+}
+
 .carousel-btn {
   width: 40px;
   height: 40px;
@@ -41,7 +66,7 @@
   font-weight: 700;
   font-size: 20px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid colors.$white;
   position: absolute;
   z-index: 4;
   top: 50%;
@@ -70,6 +95,7 @@ left: 5px;
     width: 50px;
     height: 50px;
     font-size: 25px;
+    border: 4px solid colors.$white;
   }
 }
 
@@ -87,6 +113,7 @@ left: 5px;
     width: 50px;
     height: 50px;
     font-size: 25px;
+    border: 4px solid colors.$white;
   }
 }
 
@@ -100,7 +127,8 @@ left: 5px;
   }
   
   .carousel-btn {
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
+    border: 5px solid colors.$white;
   }
 }
