@@ -1,134 +1,79 @@
-@use './colors';
-
+/* the div that contains the cards */
 .carousel {
-  display: flex;
-  position: relative;
-}
-
-.carousel-item {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: 49%;
-  gap: 5px;
-  padding: 0 20px;
-  position: relative;
-  overflow-x: scroll;
-  scroll-behavior: smooth;
-  overscroll-behavior-inline: contain;
-  scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 20px;
+  gap: 1.2rem;
+  overflow-x: hidden;
+  margin-left: 40px;
+  width: 739px;
 }
 
-.carousel-item__card {
-  overflow: hidden;
-  aspect-ratio: 1/1;
+/* each card of the carousel */
+.carousel-item {
+  border-radius: 5px;
+  width: 168px;
+  height: 167px;
+  background-color: #13565E;
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: relative;
-  border-radius: 5px; 
-  scroll-snap-align: start;
 }
 
-.carousel-item__card__title {
-  font-size: 14px;
+/* car content */
+.carousel-item__title {
   font-weight: 700;
-  color: colors.$white;
   position: absolute;
-  left: 5%;
-  bottom: 5%;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  padding: 1rem;
+  color: white;
+  font-size: 1rem;
 }
 
-.carousel-item__card__img {
-  transition-duration: 0.2s;
-  transition-property: transform;
-}
-
-.carousel-item__card:hover .carousel-item__card__img{
-  transform: scale(1.03);
-}
-
-.carousel-item__card__link {
+.carousel-item__link::after {
+  content: "";
   position: absolute;
   top: 0;
-  right: 0;
-  left: 0;
   bottom: 0;
-}
-
-.carousel-item__card__link:hover {
+  left: 0;
+  right: 0;
   cursor: pointer;
 }
 
-.carousel-btn {
-  width: 40px;
-  height: 40px;
-  color: colors.$white;
-  background-color: colors.$blue;
-  font-weight: 700;
-  font-size: 20px;
-  border-radius: 50%;
-  border: 3px solid colors.$white;
-  position: absolute;
-  z-index: 4;
-  top: 50%;
-  transform: translateY(-50%);
+.carousel-item__link:hover::after {
+  background-color: black;
+  border-radius: 5px;
+  opacity: 0.3;
 }
 
-.carousel-btn--left {
-left: 5px;
+.carousel-item__img {
+  width: 168px;
+  height: 167px;
+  border-radius: 5px;
 }
 
-.carousel-btn--right {
-  right: 5px;
+/* Carousel buttons */
+.carousel__btn {
+  height: 30px;
+  width: 30px;
+  border: 1px solid black;
+  border-width: 2px 2px 0 0;
+  cursor: pointer;
 }
 
-@media (min-width:480px) {
-  .carousel-item {
-    grid-auto-columns: 32%;
-    gap: 10px;
-  }
-  
-  .carousel-item__card__title {
-    font-size: 16px;
-  }
-  
-  .carousel-btn {
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    border: 4px solid colors.$white;
-  }
+.carousel__btn--prev {
+  position: relative;
+  top: -103px;
+  left: 10px;
+  transform: rotate(227deg);
 }
 
-@media (min-width:768px) {
-  .carousel-item {
-    grid-auto-columns: 24%;
-    gap: 10px;
-  }
-  
-  .carousel-item__card__title {
-    font-size: 16px;
-  }
-  
-  .carousel-btn {
-    width: 50px;
-    height: 50px;
-    font-size: 25px;
-    border: 4px solid colors.$white;
-  }
-}
-
-@media (min-width:1024px) {
-  .carousel-item {
-    gap: 20px;
-  }
-  
-  .carousel-item__card__title {
-    font-size: 18px;
-  }
-  
-  .carousel-btn {
-    width: 65px;
-    height: 65px;
-    border: 5px solid colors.$white;
-  }
+#next-btn {
+  right: 650px;
+  position: relative;
+  top: -129px;
+  left: 770px;
+  transform: rotate(45deg);
 }

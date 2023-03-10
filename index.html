@@ -16,52 +16,43 @@
     <main>
       <h2>Destinos destacados</h2>
       <div class="carousel">
-        <button class="carousel-btn carousel-btn--left"><span class="visually-hidden"></span>&larr;</button>
-        <ul class="carousel-item">
-          <li class="carousel-item__card">
-            <img class="carousel-item__card__img" src="./imgs/monteverde/hotels/la-macadamia/macadamia-hero.jpg" alt="">
-            <span class="carousel-item__card__title">La Macadamia</span>
-            <a href="./pages/monte-verde/hotels/hotel-la-macadamia.html" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
-          </li>
-          <li class="carousel-item__card">
-            <img class="carousel-item__card__img" src="./imgs/manuel-antonio/hotels/selina/selina-hero.jpg" alt="">
-            <span class="carousel-item__card__title">Selina Manuel Antonio</span>
-            <a href="./pages/manuel-antonio/hotels/hotel-selina-manuel-antonio.html" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
-          </li>
-          <li class="carousel-item__card">
-            <img class="carousel-item__card__img" src="./imgs/limon/hotels/le-camaleon-boutique/camaleon-hero.jpg" alt="">
-            <span class="carousel-item__card__title">Le Camaleon</span>
-            <a href="./pages/limon/hotels/le-cameleon-hotel.html" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
-          </li>
-          <li class="carousel-item__card">
-            <img class="carousel-item__card__img" src="./imgs/parrita/hotels/palm-coast/palmcoast-hero.jpg" alt="">
-            <span class="carousel-item__card__title">Palm Coast</span>
-            <a href="./pages/parrita/hotels/Palm.html" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
-          </li>
-          <li class="carousel-item__card">
-            <img class="carousel-item__card__img" src="./imgs/tamarindo/hotels/the-oaks/the_oaks-hero.jpg" alt="">
-            <span class="carousel-item__card__title">The Oaks</span>
-            <a href="./pages/tamarindo/hotels/the_oaks.html" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
-          </li>
-          <li class="carousel-item__card">
-            <img class="carousel-item__card__img" src="./imgs/parrita/hotels/makanda/makanda-hero.jpg" alt="">
-            <span class="carousel-item__card__title">Makanda</span>
-            <a href="./pages/parrita/hotels/makanda.html" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
-          </li>
-          <li class="carousel-item__card">
-            <img class="carousel-item__card__img" src="./imgs/la-fortuna/hotels/orquideas-boutique/orquidea-hero.jpg" alt="">
-            <span class="carousel-item__card__title">Orquídeas</span>
-            <a href="./pages/la-fortuna/hotels/orquideas-hotel.html" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
-          </li>
-          <li class="carousel-item__card">
-            <img class="carousel-item__card__img" src="./imgs/quepos/hotels/la-palapa/palapa-hero.jpg" alt="">
-            <span class="carousel-item__card__title">La Palpa</span>
-            <a href="./pages/quepos/hotels/La_Palpa.html" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
-          </li>
-        </ul>
-        <button class="carousel-btn carousel-btn--right"><span class="visually-hidden">Swipe right</span>&rarr;</button>
+        <!-- each div with a card -->
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="./imgs/tamarindo/place/tamarindo-hero.jpeg" alt="">
+          <span class="carousel-item__title">Tamarindo</span>
+          <a class="carousel-item__link" href="#"><span class="visually-hidden">Click for more</span></a>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="./imgs/quepos/place/quepos-hero.jpeg" alt="">
+          <span class="carousel-item__title">Quepos</span>
+          <a class="carousel-item__link" href="#"><span class="visually-hidden">Click for more</span></a>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="./imgs/puntarenas/place/puntarenas-hero.jpeg" alt="">
+          <span class="carousel-item__title">Puntarenas</span>
+          <a class="carousel-item__link" href="#"><span class="visually-hidden">Click for more</span></a>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="./imgs/parrita/place/parrita-hero.jpeg" alt="">
+          <span class="carousel-item__title">Parrita</span>
+          <a class="carousel-item__link" href="#"><span class="visually-hidden">Click for more</span></a>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="./imgs/la-fortuna/place/la-fortuna-hero.jpeg" alt="">
+          <span class="carousel-item__title">La Fortuna</span>
+          <a class="carousel-item__link" href="#"><span class="visually-hidden">Click for more</span></a>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-item__img" src="./imgs/limon/place/hero-limon.jpeg" alt="">
+          <span class="carousel-item__title">Limón</span>
+          <a class="carousel-item__link" href="#"><span class="visually-hidden">Click for more</span></a>
+        </div>
       </div>
+      <!-- carousel buttons -->
+      <div class="carousel__btn carousel__btn--prev" id="prev-btn"></div>
+      <div class="carousel__btn carousel__btn--next" id="next-btn"></div>
       <h2>Nuestros destinos</h2>
+
       <section>
         <ul class="destination">
           <li class="destination-item">
