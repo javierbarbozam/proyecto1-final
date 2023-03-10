@@ -1,0 +1,55 @@
+@use '../partials/colors';
+
+.enquiry {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.enquiry__label {
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.enquiry__input {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 10px;
+  background-color: colors.$lightblue;
+  border: none;
+}
+
+textarea {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  height: 119px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: colors.$lightblue;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .enquiry {
+    padding: 40px;
+  }
+  
+  .enquiry__label {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  .enquiry__input {
+    font-size: 14px;
+    height: 60px;
+  }
+  
+  textarea {
+    font-size: 14px;
+  }
+}
