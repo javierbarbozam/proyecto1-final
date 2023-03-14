@@ -534,3 +534,44 @@
 		"cover-image": "../../../imgs/tamarindo/hotels/w-costa rica/wCostaRica-hero.jpg"
 	}
 ]
+
+
+{
+name: "Familiar",
+price,
+description,
+features [],
+discount Boolean,
+method (price depending on features),
+url image ../
+}
+
+{
+name: "Basic",
+price,
+description,
+features [],
+discount Boolean,
+method (price depending on features),
+url image ../
+}
+
+{
+name: "Premium",
+price,
+description,
+features [],
+discount Boolean,
+method (price depending on features),
+url image ../
+}
+
+{
+name: "Deluxe",
+price,
+description,
+features [],
+discount Boolean,
+method (price depending on features),
+url image ../
+}
