@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../../../styles/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("q1UKZbwH-SIMV-woI");
+    })();
+  </script>
   <title>La Fortuna | Hotel 1</title>
 </head>
 <body>
@@ -84,14 +90,16 @@
       </div>
     </div>
     <div id="js-card-container" class="js-hidden">
-      <form id="js-btn-form" class="enquiry" action="">
-        <label class="enquiry__label" for="name"><input class="enquiry__input" type="text" name="" id="" placeholder="Enter your name" required>Name</label>
-        <label class="enquiry__label" for="email"><input class="enquiry__input" type="email" name="" id="" placeholder="Enter your email" required>Email</label>
-        <label class="enquiry__label" for=""><input class="enquiry__input" type="number" name="" id="" placeholder="Enter your phone number" required>Number</label>
-        <label class="enquiry__label" for="text"><textarea class="enquiry__textarea" name="query" id="query" cols="30" rows="10" placeholder="Enter here your query"></textarea>Query</label>
-        <div class="form__button--submit">
-          <button class="button button--submit" type="submit">Submit</button>
-        </div>
+      <form name="contact-form" id="js-btn-form" class="enquiry">
+        <label class="enquiry__label" for="name">Name</label>
+        <input type="text" class="enquiry__input" id="name" placeholder="Enter your name" required>
+        <label class="enquiry__label" for="email">Email</label>
+        <input type="email" class="enquiry__input" id="email" placeholder="Enter your email" required>
+        <label class="enquiry__label" for="phone">Phone</label>
+        <input type="number" class="enquiry__input" id="phone" placeholder="Enter your phone" required>
+        <label class="enquiry__label" for="query">Query</label>
+        <textarea class="enquiry__textarea" id="query" cols="30" rows="10"></textarea>
+        <button class="button button--submit" onclick="sendMail()">Submit</button>
       </form>
     </div>
   </main>
@@ -134,4 +142,5 @@
   </footer>
 </body>
 <script src="../../../../../script/query.js"></script>
+<script src="../../../script/submit-query.js"></script>
 </html>
