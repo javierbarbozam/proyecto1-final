@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../../styles/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>La Fortuna | Hotel 1</title>
+</head>
+<body>
+  <header class="header">
+    <a class="header__title" href="../../../index.html">Traveling.</a>
+    <a class="button button--sign-in" href="">Sing In</a>
+  </header>
+  <main>
+    <!-- Hero image -->
+    <div class="description">
+      <div class="description__hero">
+        <img class="description__hero__img" src="../../../imgs/la-fortuna/hotels/backpacker-resort/arenal-backpakers-hero.jpg" alt="">
+      </div>
+      <div class="description__info">
+        <h1 class="description__info__title">Arenal Backpackers Resort</h1>
+        <div class="description__info__btn">
+          <button id="js-btn-info" class="button button--tabs">Information</button>
+          <button id="js-btn-card" class="button button--tabs">Query</button>
+        </div>
+        <div id="js-info-container">
+          <p class="description__info__text">Located 3.6 km from the slopes of the Arenal Volcano, this hostel offers its guests complimentary Wi-Fi access, luggage storage, and a snack bar. The property also has an outdoor pool.
+          Arenal Backpackers Resort features shared dormitories and tents for up to 2 persons. The dormitories are air conditioned and have lockers. Bathrooms and showers are shared and provide free toiletries.
+          Arenal has an on-site restaurant that serves local dishes, plus there is also a bar. The property also features sun terraces, laundry services and the front desk operates 24 hours. The hostel can help arrange a variety of tours like visiting La Fortuna Waterfall or the hotsprings, hikes to the volcano, horse riding, rafting or canopy tours.</p>
+          <ul class="minicart">
+            <li class="minicart-item">
+              <img class="minicart-item__img" src="../../../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room1.jpg" alt="">
+              <span class="minicart-item__title">Garden view</span>
+              <p class="minicart-item__info">Shower, Safety deposit box, Toilet, Towels, Linen, Shared bathroom, Fan, Towels/sheets.</p>
+              <ul class="minicart-item__services">
+                <span>Included services:</span>
+                <li>Wi-Fi</li>
+                <li>Desayuno</li>
+              </ul>
+              <span class="minicart-item__price">$685</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>
+            <li class="minicart-item">
+              <img class="minicart-item__img" src="../../../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room2.jpg" alt="">
+              <span class="minicart-item__title">Stantard Room</span>
+              <p class="minicart-item__info">Garden view, Air conditioning, Shower, Toilet, Towels, air conditioning for guest accommodation</p>
+              <ul class="minicart-item__services">
+                <span>Included services:</span>
+                <li>Jacuzzi</li>
+                <li>Wi-Fi</li>
+                <li>Breakfast and Lunch</li>
+              </ul>
+              <span class="minicart-item__price">$700</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>
+            <li class="minicart-item">
+              <img class="minicart-item__img" src="../../../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room3.jpeg" alt="">
+              <span class="minicart-item__title">Cylinder Room</span>
+              <p class="minicart-item__info">1 large double bed, Featuring colourful glass doors, these adults-only rooms offer views of the Arenal Volcano and the surrounding mountains.</p>
+              <ul class="minicart-item__services">
+                <span>Included services:</span>
+                <li>Breakfast</li>
+                <li>Wi-Fi</li>
+              </ul>
+              <span class="minicart-item__price">$1000</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>
+            <li class="minicart-item">
+              <img class="minicart-item__img" src="../../../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room4.jpg" alt="">
+              <span class="minicart-item__title">Safari Tent</span>
+              <p class="minicart-item__info">1 double bed. This tent fits up to 2 people. The bathroom and shower are shared.</p>
+              <ul class="minicart-item__services">
+                <span>Included services:</span>
+                <li>Breakfast</li>
+                <li>Wi-Fi</li>
+              </ul>
+              <span class="minicart-item__price">$505</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div id="js-card-container" class="js-hidden">
+      <form id="js-btn-form" class="enquiry" action="">
+        <label class="enquiry__label" for="name"><input class="enquiry__input" type="text" name="" id="" placeholder="Enter your name" required>Name</label>
+        <label class="enquiry__label" for="email"><input class="enquiry__input" type="email" name="" id="" placeholder="Enter your email" required>Email</label>
+        <label class="enquiry__label" for=""><input class="enquiry__input" type="number" name="" id="" placeholder="Enter your phone number" required>Number</label>
+        <label class="enquiry__label" for="text"><textarea class="enquiry__textarea" name="query" id="query" cols="30" rows="10" placeholder="Enter here your query"></textarea>Query</label>
+        <div class="form__button--submit">
+          <button class="button button--submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer-item">
+      <ul class="footer-item__list">
+        <span class="footer-item__list__title">Company</span>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">About Us</a></li>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">FAQ</a></li>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">Contact Us</a></li>
+      </ul>
+      <ul class="footer-item__list">
+        <span class="footer-item__list__title">Support</span>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">Resources</a></li>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">Discover</a></li>
+        <li class="footer-item__list__link"><a class="footer__nav" href="#">Booking</a></li>
+      </ul>
+      <ul class="footer-item__list">
+        <span class="footer-item__list__title">Places</span>
+        <li class="footer-item__list__link"><a href="#">Destinations</a></li>
+        <li class="footer-item__list__link"><a href="#">Car Hire</a></li>
+        <li class="footer-item__list__link"><a href="#">Join Us</a></li>
+      </ul>
+    </div> 
+    <!-- SOCIAL MEDIA -->
+    <div class="footer-item footer-item--media">
+      <span class="footer-item__title">Traveling.</span>
+      <ul class="footer-item__list footer-item__list--flex">
+        <li class="footer-item__list__media">
+          <a class="footer-item__list__media__tw" href="#"><span class="visually-hidden">Twitter</span></a>
+        </li>
+        <li class="footer-item__list__media">
+          <a class="footer-item__list__media__fb" href="#"><span class="visually-hidden">Facebook</span></a>
+        </li>
+        <li class="footer-item__list__media">
+          <a class="footer-item__list__media__inst" href="#"><span class="visually-hidden">Instagram</span></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+<script src="../../../script/query.js"></script>
+</html>
