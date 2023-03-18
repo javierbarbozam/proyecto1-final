@@ -8,7 +8,6 @@ const fetchDestination = async () => {
 		let response = await fetch(`${apiUrl}destination`)
 		if (response.ok) {
 			let responseJson = await response.json()
-			console.log(responseJson)
 			return responseJson
 		}
 	} catch(error) {
@@ -29,7 +28,7 @@ const fetchHotel = async () => {
 	}
 }
 const destination = fetchDestination();
-console.log(destination)
+
 // destination.push(fetchDestination())
 // console.log(destination)
 
