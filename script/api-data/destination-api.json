@@ -1,0 +1,66 @@
+[
+	{
+	 "id": 0,
+	 "name": "La Fortuna",
+	 "cardImage": "./imgs/la-fortuna/place/la-fortuna-hero.jpeg",
+	 "description": "La Fortuna is located in the Northern Highlands of Costa Rica, about 2.5 hours from San Jose’s international airport (SJO).The main star, Arenal Volcano, can been seen from almost every vantage point. Traveling has been creating memorable vacations for thousands of travelers every year. We are a company who cherishes the tropical beauty and unparalleled adventure that Costa Rica has to offer.",
+	 "gallery": [],
+	 "heroImage": "../imgs/la-fortuna/place/la-fortuna-hero.jpeg"
+	},
+	{
+	 "id": 1,
+	 "name": "Limón",
+	 "cardImage": "./imgs/limon/place/hero-limon.jpeg",
+	 "description": "Stretching along the Caribbean Coast, Limon is considered to be one of the most lush regions of Costa Rica. Boast picturesque white-sand beaches lined with coconut trees for an ultimate tropical paradise. Limon features everything from mangrove, wetlands to towering mountains. Traveling has been creating memorable vacations for thousands of travelers every year. We are a company who cherishes the tropical beauty and unparalleled adventure that Costa Rica has to offer.",
+	 "gallery": [],
+	 "heroImage": "../imgs/limon/place/hero-limon.jpeg"
+	},
+	{
+	 "id": 2,
+	 "name": "Manuel Antonio",
+	 "cardImage": "./imgs/manuel-antonio/place/manuel-antonio-hero.jpg",
+	 "description": "The magic of the beach and the greenery of the forest come together in one place, and the result is a natural paradise. Manuel Antonio is the Protected Wilderness Area that receives the largest number of national and international tourists. In addition to beaches, the Park offers a very humid tropical forest where endangered flora and fauna species coexist, a mangrove swamp, marine environments, islands and a 14-hectare lagoon. Traveling has been creating memorable vacations for thousands of travelers every year. We are a company who cherishes the tropical beauty and unparalleled adventure that Costa Rica has to offer.",
+	 "gallery": [],
+	 "heroImage": "../imgs/manuel-antonio/place/manuel-antonio-hero.jpg"
+	},
+	{
+	 "id": 3,
+	 "name": "Monteverde",
+	 "cardImage": "./imgs/monteverde/place/monte-verde-hero.jpg",
+	 "description": "Monteverde is a city in the mountainous northwest of Costa Rica. It is recognized for its biodiverse forests in the clouds. This famous Cloud Forest Reserve is home to an infinite number of species of fauna and on the trails you can see ferns and orchids, and there are suspension bridges at high altitudes.",
+	 "gallery": [],
+	 "heroImage": "../imgs/monteverde/place/monte-verde-hero.jpg"
+	},
+	{
+	 "id": 4,
+	 "name": "Parrita",
+	 "cardImage": "./imgs/parrita/place/parrita-hero.jpeg",
+	 "description": "The Parrita canton is located in the Puntarenas province, in the shore of the Costa Rican Central Pacific, in the east limit of the Quepos canton and in the west limit of Garabito. The main city of the canton is Parrita, which is a district on its own.",
+	 "gallery": [],
+	 "heroImage": "../imgs/parrita/place/parrita-hero.jpeg"
+	},
+	{
+	 "id": 5,
+	 "name": "Puntarenas",
+	 "cardImage": "./imgs/puntarenas/place/puntarenas-hero.jpeg",
+	 "description": "The coasts of the Puntarenas tourist zone are adorned by islands, beaches and natural treasures. It is an excellent tourist destination. Its territory offers a variety of beach and sun attractions. Its main center, the City of Puntarenas, functions as a place of stay, distribution and excursion. Mostly traditional hotels and cabins near the sea prevail.",
+	 "gallery": [],
+	 "heroImage": "../imgs/puntarenas/place/puntarenas-hero.jpeg"
+	},
+	{
+	 "id": 6,
+	 "name": "Quepos",
+	 "cardImage": "./imgs/quepos/place/quepos-hero.jpeg",
+	 "description": "Quepos, a small town in Puntarenas province, is located on Costa Rica’s central Pacific coast. Offers vacationers a wealth of activities to do as well. Has many fine restaurants, art galleries and souvenir shops, most within a short walking distance. Book an exhilarating canopy tour, go horseback riding, kayaking and rafting.",
+	 "gallery": [],
+	 "heroImage": "../imgs/quepos/place/quepos-hero.jpeg"
+	},
+	{
+	 "id": 7,
+	 "name": "Tamarindo",
+	 "cardImage": "./imgs/tamarindo/place/tamarindo-hero.jpeg",
+	 "description": "Tamarindo is a district of the Santa Cruz canton, in the Guanacaste province of Costa Rica. It is a perfect place for surfing, sport fishing, scuba diving and sunbathing. If you want to spend your days here, you will find beautiful beach houses and luxury hotels next to the sunny beaches. You will find plenty of fantastic options for shopping or dining.",
+	 "gallery": [],
+	 "heroImage": "../imgs/tamarindo/place/tamarindo-hero.jpeg"
+	}
+ ]
