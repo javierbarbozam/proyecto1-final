@@ -3,9 +3,8 @@
     "idDestination": 0,
     "name": "Arenal Backpackers Resort",
     "highlight": false,
-    "cardImage": "../imgs/la-fortuna/hotels/backpacker-resort/arenal-backpakers-hero.jpg",
+    "image": "imgs/la-fortuna/hotels/backpacker-resort/arenal-backpakers-hero.jpg",
     "description": "Located 3.6 km from the slopes of the Arenal Volcano, this hostel offers its guests complimentary Wi-Fi access, luggage storage, and a snack bar.",
-    "cover-image": "../../../imgs/la-fortuna/hotels/backpacker-resort/arenal-backpakers-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -49,9 +48,8 @@
     "idDestination": 0,
     "name": "Arenal Lodge",
     "highlight": false,
-    "cardImage": "../imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-hero.jpg",
+    "image": "imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-hero.jpg",
     "description": "Hotel Arenal Lodge is located in 2,000 acres of rainforest filled with exotic birds, wild animals and tropical vegetation. It offers unrivalled panoramic views of Arenal Volcano and Arenal Lake.",
-    "cover-image": "../../../imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -95,9 +93,8 @@
     "idDestination": 0,
     "name": "Hotel La Choza Inn",
     "highlight": false,
-    "cardImage": "../imgs/la-fortuna/hotels/la-choza/choza-hero.jpg",
+    "image": "imgs/la-fortuna/hotels/la-choza/choza-hero.jpg",
     "description": "Hotel La Choza Inn is located 300 m from Fortuna town centre and 18 km from Arenal Lake. Free Wi-Fi access is available in all areas. The rooms offer mountain views and garden views.",
-    "cover-image": "../../../imgs/la-fortuna/hotels/la-choza/choza-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -141,9 +138,8 @@
     "idDestination": 0,
     "name": "Loma Real",
     "highlight": false,
-    "cardImage": "../imgs/la-fortuna/hotels/loma-real/loma-real-hero.jpg",
+    "image": "imgs/la-fortuna/hotels/loma-real/loma-real-hero.jpg",
     "description": "Located in Fortuna, 6.7 km from La Fortuna Waterfall, Loma Real Hotel & Hot Springs provides accommodation with an outdoor swimming pool, free private parking and a garden. The property is situated 16 km from Mistico Arenal Hanging Bridges Park, 17 km from Sky Adventures Arenal and 20 km from Venado Caves.",
-    "cover-image": "../../../imgs/la-fortuna/hotels/loma-real/loma-real-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -186,10 +182,9 @@
    {
     "idDestination": 1,
     "name": "Agua Clara",
-    "highlight": false,
-    "cardImage": "../../imgs/limon/hotels/agua-clara/agua-clara-hero.jpg",
+    "highlight": true,
+    "image": "imgs/limon/hotels/agua-clara/agua-clara-hero.jpg",
     "description": "Hotel Aguas Claras provides accommodation with a restaurant, free private parking, free bikes and an outdoor swimming pool. Featuring a bar, this 5-star hotel offers air-conditioned rooms with free Wi-Fi and a private bathroom. Hotel Aguas Claras has a terrace. The area is ideal for snorkelling and cycling. The hotel offers a car rental service.",
-    "cover-image": "../../../imgs/limon/hotels/agua-clara/agua-clara-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -233,9 +228,8 @@
     "idDestination": 1,
     "name": "Exótico Beach",
     "highlight": false,
-    "cardImage": "../../imgs/limon/hotels/exotico-beach&rooms/exotico-beach-hero.jpg",
+    "image": "imgs/limon/hotels/exotico-beach&rooms/exotico-beach-hero.jpg",
     "description": "Exôtico Beach & Rooms features an outdoor swimming pool, garden, a terrace and restaurant in Puerto Viejo. With a bar, the 5-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. Guests can enjoy garden views. At the hotel, rooms come with a balcony with pool view. At Exôtico Beach & Rooms all rooms come with bed linen and towels. A buffet breakfast is available every morning at the accommodation.",
-    "cover-image": "../../../imgs/limon/hotels/exotico-beach&rooms/exotico-beach-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -279,9 +273,8 @@
     "idDestination": 1,
     "name": "Pacuare",
     "highlight": false,
-    "cardImage": "../../imgs/limon/hotels/pacuare/pacuare-hero.jpg",
+    "image": "imgs/limon/hotels/pacuare/pacuare-hero.jpg",
     "description": "With river views, Pacuare Lodge is located in Bajo Tigre and has a restaurant, a concierge service, bar, garden and terrace. The lodge features both WiFi and private parking free of charge. Guests at Pacuare Lodge can enjoy a à la carte breakfast. The nearest airport is Tobías Bolaños International Airport, 105 km from Pacuare Lodge.",
-    "cover-image": "../../../imgs/limon/hotels/pacuare/pacuare-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -325,9 +318,8 @@
     "idDestination": 1,
     "name": "Selina Puerto Viejo",
     "highlight": false,
-    "cardImage": "../../imgs/limon/hotels/selina/selina-limon-hero.jpg",
+    "image": "imgs/limon/hotels/selina/selina-limon-hero.jpg",
     "description": "Selina Puerto Viejo offers pet-friendly accommodation in Puerto Viejo with free WiFi. There is a bar on site. Private parking is free, it has private and shared rooms. Guests can enjoy the pool and common areas with games and live music. The area is ideal for snorkeling, canoeing and hiking through the lush jungle.",
-    "cover-image": "../../../imgs/limon/hotels/selina/selina-limon-hero.jpg",
     "room": [
       {
         "name": "Small Room",
@@ -370,10 +362,9 @@
    {
     "idDestination": 2,
     "name": "El Faro Beach Hotel",
-    "highlight": false,
-    "cardImage": "../../imgs/manuel-antonio/hotels/faro-beach/el_faro-hero.jpg",
+    "highlight": true,
+    "image": "imgs/manuel-antonio/hotels/faro-beach/el_faro-hero.jpg",
     "description": "Offering an infinity pool and free WiFi, El Faro Beach Hotel is located in Manuel Antonio, about 100 m walk from the beachfront and 50 from Manuel Antonio National Park. This property is Costa Rica's only container hotel. Each minimalist and modern accommodation will provide you with air conditioning. There is also a coffee machine available. Featuring a shower, private bathroom also comes with a hairdryer.",
-    "cover-image": "../../../imgs/manuel-antonio/hotels/faro-beach/el_faro-hero.jpg",
     "room": [
       {
         "name": "Small Room",
@@ -417,9 +408,8 @@
     "idDestination": 2,
     "name": "Planet B Hotel",
     "highlight": false,
-    "cardImage": "../../imgs/manuel-antonio/hotels/planet-B/planet_b-hero.jpg",
+    "image": "imgs/manuel-antonio/hotels/planet-B/planet_b-hero.jpg",
     "description": "Set in Manuel Antonio, 2 km from La Macha Beach, PLANET B offers accommodation with a fitness centre, free private parking, a garden and a shared lounge. Featuring a tour desk, this property also provides guests with a terrace. The accommodation features a 24-hour front desk, a shuttle service, a shared kitchen and free WiFi throughout the property. The units feature bed linen. Manuel Antonio National Park is 5.4 km from the hostel, while Marina Pez Vela is 1.7 km away. The nearest airport is La Managua Airport.",
-    "cover-image": "../../../imgs/manuel-antonio/hotels/planet-B/planet_b-hero.jpg",
     "room": [
       {
         "name": "Small Room",
@@ -463,9 +453,8 @@
     "idDestination": 2,
     "name": "Selina Manuel Antonio",
     "highlight": false,
-    "cardImage": "../../imgs/manuel-antonio/hotels/selina/selina-hero.jpg",
+    "image": "imgs/manuel-antonio/hotels/selina/selina-hero.jpg",
     "description": "Offering a year-round outdoor pool and children's playground, Selina Manuel Antonio is situated in Manuel Antonio in the Puntarenas Region, 2.3 km from Manuel Antonio National Park. Guests can enjoy the on-site bar. Selina Manuel Antonio features free WiFi throughout the property and a yoga deck with 360° views of the jungle. There is a shared kitchen at the property, a restaurant and outdoor activities such as rafting. Tobías Bolaños International Airport is 169 km away.",
-    "cover-image": "../../../imgs/manuel-antonio/hotels/selina/selina-hero.jpg",
     "room": [
       {
         "name": "Small Room",
@@ -509,9 +498,8 @@
     "idDestination": 2,
     "name": "Tabulina Tree",
     "highlight": false,
-    "cardImage": "../../imgs/manuel-antonio/hotels/tabulia-tree/tabulia-hero.jpg",
+    "image": "imgs/manuel-antonio/hotels/tabulia-tree/tabulia-hero.jpg",
     "description": "Surrounded by native vegetation and local fauna, Tabulia Tree offers comfortable accommodation in Manuel Antonio. The property features an outdoor swimming pool. Free WiFi access is available in all areas. Rooms at Tabulia Tree afford a rustic style with detailed decorations in dark tones. They are equipped with air conditioning, cable TVs and private bathrooms.",
-    "cover-image": "../../../imgs/manuel-antonio/hotels/tabulia-tree/tabulia-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -555,9 +543,8 @@
     "idDestination": 3,
     "name": "Hotel Heliconia",
     "highlight": false,
-    "cardImage": "../../imgs/monteverde/hotels/heliconia/hotel-heliconia-hero.jpg",
+    "image": "imgs/monteverde/hotels/heliconia/hotel-heliconia-hero.jpg",
     "description": "Hotel Heliconia is located in Monteverde Costa Rica, and features a hot tub, an extensive garden, 2 restaurants, a spa centre, massages services and free Wi-Fi. The suites and rooms present rustic décor with wooden furnishing, a desk, fan, wardrobe and garden views. The bathrooms are private and come with shower. Some of the accommodations include bath.",
-    "cover-image": "../../../imgs/monteverde/hotels/heliconia/hotel-heliconia-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -601,9 +588,8 @@
     "idDestination": 3,
     "name": "La Guayaba",
     "highlight": false,
-    "cardImage": "../../imgs/monteverde/hotels/la-guayaba/guayaba-hero.jpg",
+    "image": "imgs/monteverde/hotels/la-guayaba/guayaba-hero.jpg",
     "description": "Located in Monteverde Costa Rica, La Guayaba Monteverde features a garden. The property is around 2.4 km from Sky Adventures Monteverde, 3.7 km from Selvatura Adventure Park and an 11-minute walk from Monteverde Ecological Sanctuary. Free WiFi is available and Monteverde Cloud Forest Biological Reserve is 3.6 km away. All rooms in the bed and breakfast are equipped with a TV with cable channels.",
-    "cover-image": "../../../imgs/monteverde/hotels/la-guayaba/guayaba-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -646,10 +632,9 @@
    {
     "idDestination": 3,
     "name": "La Macadamia",
-    "highlight": false,
-    "cardImage": "../../imgs/monteverde/hotels/la-macadamia/macadamia-hero.jpg",
+    "highlight": true,
+    "image": "imgs/monteverde/hotels/la-macadamia/macadamia-hero.jpg",
     "description": "Located 4.8 km from Sky Adventures Monteverde, La Macadamia - Monteverde provides accommodation with a garden, barbecue facilities and room service for your convenience. Free WiFi is available throughout the property. Each unit is equipped with a terrace offering mountain views, a cable flat-screen TV, a well-fitted kitchen and a private bathroom with shower, free toiletries and a hairdryer.",
-    "cover-image": "../../../imgs/monteverde/hotels/la-macadamia/macadamia-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -693,9 +678,8 @@
     "idDestination": 3,
     "name": "Majestic Lodge Luxury",
     "highlight": false,
-    "cardImage": "../../imgs/monteverde/hotels/majestic-lodge/majestic_-hero.jpg",
+    "image": "imgs/monteverde/hotels/majestic-lodge/majestic_-hero.jpg",
     "description": "Located 4.8 km from Sky Adventures Monteverde, La Macadamia - Monteverde provides accommodation with a garden, barbecue facilities and room service for your convenience. Free WiFi is available throughout the property. Each unit is equipped with a terrace offering mountain views, a cable flat-screen TV, a well-fitted kitchen and a private bathroom with shower, free toiletries and a hairdryer.",
-    "cover-image": "../../../imgs/monteverde/hotels/majestic-lodge/majestic_-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -739,9 +723,8 @@
     "idDestination": 4,
     "name": "Los Altos Resort",
     "highlight": false,
-    "cardImage": "../../imgs/parrita/hotels/los-altos/los_atos-hero.jpg",
+    "image": "imgs/parrita/hotels/los-altos/los_atos-hero.jpg",
     "description": "Los Altos Beach Resort & Spa is situated in Manuel Antonio and offers luxurious suites with a fully-equipped kitchen and balcony. The hotel has free Wi-Fi and an outdoor pool. The design suites at Los Altos Beach Resort & Spa are equipped with air conditioning, satellite TV and a DVD player. Each modern bathroom has a spacious shower as well as a bathtub.",
-    "cover-image": "../../../imgs/parrita/hotels/los-altos/los_atos-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -784,10 +767,9 @@
    {
     "idDestination": 4,
     "name": "Jungle Vista Boutique",
-    "highlight": false,
-    "cardImage": "../../imgs/parrita/hotels/jungle-vista/jungle-hero.jpg",
+    "highlight": true,
+    "image": "imgs/parrita/hotels/jungle-vista/jungle-hero.jpg",
     "description": "Situated in Manuel Antonio, 400m from Playitas Beach, Jungle Vista Boutique Hotel features accommodation with a garden, free private parking and a restaurant. Each accommodation at the 4-star hotel has mountain views, and guests can enjoy access to an indoor pool. The hotel also provides free WiFi as well as a paid airport shuttle service. The hotel will provide guests with air-conditioned rooms with a wardrobe, a coffee machine, a fridge, a microwave, a safety deposit box, a flat-screen TV, a terrace and a private bathroom with a shower.",
-    "cover-image": "../../../imgs/parrita/hotels/jungle-vista/jungle-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -831,9 +813,8 @@
     "idDestination": 4,
     "name": "Makanda By The Sea Hotel",
     "highlight": false,
-    "cardImage": "../../imgs/parrita/hotels/makanda/makanda-hero.jpg",
+    "image": "imgs/parrita/hotels/makanda/makanda-hero.jpg",
     "description": "Makanda By The Sea observes a 3 night minimum stay. We can't wait for our Guests to spend their holidays in our elegant escape. Offering an outdoor swimming pool and a restaurant, Makanda by The Sea Hotel Adults Only is located in Manuel Antonio. Full breakfast is available for $30+tax. The property is 200 m from the private beach. The suites here will provide you with a TV, air conditioning and a balcony. Complete with a microwave, the dining area also has a refrigerator.",
-    "cover-image": "../../../imgs/parrita/hotels/makanda/makanda-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -877,9 +858,8 @@
     "idDestination": 4,
     "name": "Oceans Two Hotel",
     "highlight": false,
-    "cardImage": "../../imgs/parrita/hotels/oceans-two/oceans-hero.jpg",
+    "image": "imgs/parrita/hotels/oceans-two/oceans-hero.jpg",
     "description": "Located in Manuel Antonio, 1.4 km from Playitas Beach, Hotel Oceans Two provides accommodation with an outdoor swimming pool, free private parking, a garden and a terrace. Each accommodation at the 4-star hotel has sea views, and guests can enjoy access to a restaurant and to a bar. The accommodation features room service, a concierge service and currency exchange for guests. At the hotel every room is fitted with air conditioning, a seating area, a flat-screen TV with cable channels, a safety deposit box and a private bathroom with a shower, free toiletries and a hairdryer.",
-    "cover-image": "../../../imgs/parrita/hotels/oceans-two/oceans-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -922,10 +902,9 @@
    {
     "idDestination": 5,
     "name": "Adventure & Park Hotel Vista Golfo",
-    "highlight": false,
-    "cardImage": "../../imgs/puntarenas/hotels/adventure-park/adventure-hero.jpg",
+    "highlight": true,
+    "image": "imgs/puntarenas/hotels/adventure-park/adventure-hero.jpg",
     "description": "Located in the hills near Miramar, this hotel offers amazing views over the forest as far as the Gulf of Nicoya. It offers an outdoor pool and a range of adventure activities. Adventure Park & Hotel Vista Golfo has a low and high ropes course and offers ziplining over waterfalls and the forest canopy. You can also go horse riding and quad biking.",
-    "cover-image": "../../../imgs/puntarenas/hotels/adventure-park/adventure-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -969,9 +948,8 @@
     "idDestination": 5,
     "name": "Buen Camino",
     "highlight": false,
-    "cardImage": "../../imgs/puntarenas/hotels/buen-camino/buenCamini-hero.jpg",
+    "image": "imgs/puntarenas/hotels/buen-camino/buenCamini-hero.jpg",
     "description": "Set in San Mateo, 41 km from Parque Marino del Pacifico, Buen Camino offers accommodation with an outdoor swimming pool, free private parking, a garden and a terrace. Each accommodation at the 4-star hotel has sea views, and guests can enjoy access to a restaurant and to a bar. Parque Viva is 42 km from the hotel and Alejandro Morera Soto Stadium is 48 km away. At the hotel, all rooms include a balcony with a garden view.",
-    "cover-image": "../../../imgs/puntarenas/hotels/buen-camino/buenCamini-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -1014,10 +992,9 @@
    {
     "idDestination": 5,
     "name": "Hotel Cayuga",
-    "highlight": false,
-    "cardImage": "../../imgs/puntarenas/hotels/cayuga/cayuga-hero.jpg",
+    "highlight": true,
+    "image": "imgs/puntarenas/hotels/cayuga/cayuga-hero.jpg",
     "description": "Set in Puntarenas, 700 m from Puntarenas Beach, Hotel Cayuga offers accommodation with an outdoor swimming pool, free private parking, a fitness centre and a shared lounge. With a terrace, the 4-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The accommodation features room service and a 24-hour front desk for guests. The units in the hotel are equipped with a flat-screen TV and a hairdryer.",
-    "cover-image": "../../../imgs/puntarenas/hotels/cayuga/cayuga-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -1060,10 +1037,9 @@
    {
     "idDestination": 5,
     "name": "Isla Chiquita Glamping Hotel",
-    "highlight": false,
-    "cardImage": "../../imgs/puntarenas/hotels/isla-chiquita/isla_chiquita-hero.jpg",
+    "highlight": true,
+    "image": "imgs/puntarenas/hotels/isla-chiquita/isla_chiquita-hero.jpg",
     "description": "Isla Chiquita Glamping Hotel has a restaurant, outdoor plunge pool, a bar and garden in Puntarenas. Boasting family rooms, this property also provides guests with a sun terrace. The accommodation features a tour desk, and currency exchange for guests. At the hotel, the rooms have a wardrobe. Rooms have a private bathroom with a shower, a hairdryer and free toiletries.",
-    "cover-image": "../../../imgs/puntarenas/hotels/isla-chiquita/isla_chiquita-hero.jpg",
     "room": [
       {
         "name": "Small Room",
@@ -1107,9 +1083,8 @@
     "idDestination": 6,
     "name": "Coyaba Tropical Elegant Adult Guesthouse",
     "highlight": false,
-    "cardImage": "../../imgs/quepos/hotels/coyaba-tropical/coyaba-hero.jpg",
+    "image": "imgs/quepos/hotels/coyaba-tropical/coyaba-hero.jpg",
     "description": "Coyaba Tropical Elegant Adult Guesthouse has a privileged location 10 minutes drive from Manuel Antonio National Park. Free WiFi access is featured on site. The rooms are bright and feature a seating area, a safe and air conditioning. All bathrooms include a shower.Coyaba Tropical Elegant Adult Guesthouse offers its guests a home-made breakfast. The facilities available on-site include a garden, tour desk and luggage storage.",
-    "cover-image": "../../../imgs/quepos/hotels/coyaba-tropical/coyaba-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -1152,10 +1127,9 @@
    {
     "idDestination": 6,
     "name": "Villas Jacquelina",
-    "highlight": false,
-    "cardImage": "../../imgs/quepos/hotels/villas-jacquelina/jacquelina-hero.jpg",
+    "highlight": true,
+    "image": "imgs/quepos/hotels/villas-jacquelina/jacquelina-hero.jpg",
     "description": "Hotel Villas Jacquelina is a eco-friendly boutique hotel in Quepos featuring mountainous views, a pool, free WiFi, and a shared kitchen. Local and International breakfasts served daily.",
-    "cover-image": "../../../imgs/quepos/hotels/villas-jacquelina/jacquelina-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -1199,9 +1173,8 @@
     "idDestination": 6,
     "name": "Hotel La Palapa Eco Lodge Resort",
     "highlight": false,
-    "cardImage": "../../imgs/quepos/hotels/la-palapa/palapa-hero.jpg",
+    "image": "imgs/quepos/hotels/la-palapa/palapa-hero.jpg",
     "description": "Located in Portalón, 33 km from Manuel Antonio National Park, Hotel La Palapa Eco Lodge Resort provides accommodation with an outdoor swimming pool, free private parking, a garden and a bar. Built in 2007, this 4-star hotel is within 27 km of Marina Pez Vela and 45 km of Rainmaker Costa Rica. The hotel also offers free WiFi as well as a paid airport shuttle service.",
-    "cover-image": "../../../imgs/quepos/hotels/la-palapa/palapa-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -1245,9 +1218,8 @@
     "idDestination": 6,
     "name": "Hacienda Mil Bellezas",
     "highlight": false,
-    "cardImage": "../../imgs/quepos/hotels/mil-bellezas/bellezas-hero.jpg",
+    "image": "imgs/quepos/hotels/mil-bellezas/bellezas-hero.jpg",
     "description": "Boasting a swimming pool, a garden, a terrace and views of the garden, Hacienda Mil Bellezas is set in Quepos and offers accommodation with free WiFi. Some of the units feature a satellite TV, a fully equipped kitchen with a fridge, and a private bathroom with a shower and a hairdryer. The daily breakfast offers à la carte, continental or Full English/Irish options.",
-    "cover-image": "../../../imgs/quepos/hotels/mil-bellezas/bellezas-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -1291,9 +1263,8 @@
     "idDestination": 7,
     "name": "Los Altos de Eros",
     "highlight": false,
-    "cardImage": "../../imgs/tamarindo/hotels/altos-de-eros/Eros-hero.jpg",
+    "image": "imgs/tamarindo/hotels/altos-de-eros/Eros-hero.jpg",
     "description": "Offering an large swimming pool overlooking the Pacific Ocean, plus a spa and wellness centre, Los Altos de Eros is located 10 km from Playa Avellana beach, set on a hill side 20 minutes' drive outside Tamarindo. Free WiFi access is available in public areas. The rooms here will provide you with air conditioning and a terrace. Private bathrooms also come with towels. All the rooms offer attractive views of either the pool area, the surrounding forest, or the oceanfront.",
-    "cover-image": "../../../imgs/tamarindo/hotels/altos-de-eros/Eros-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -1337,9 +1308,8 @@
     "idDestination": 7,
     "name": "House of Nomad",
     "highlight": false,
-    "cardImage": "../../imgs/tamarindo/hotels/house-nomad/house_nomad-hero.jpg",
+    "image": "imgs/tamarindo/hotels/house-nomad/house_nomad-hero.jpg",
     "description": "House of Nomad - Adults only in Tamarindo has 4-star accommodation with a garden and a terrace. With an outdoor swimming pool, the 4-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The property is allergy-free and is situated 500m from Tamarindo Beach. At the hotel rooms have bed linen and towels.",
-    "cover-image": "../../../imgs/tamarindo/hotels/house-nomad/house_nomad-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -1383,9 +1353,8 @@
     "idDestination": 7,
     "name": "JW Marriott Guanacaste Resort & Spa",
     "highlight": false,
-    "cardImage": "../../imgs/tamarindo/hotels/house-nomad/house_nomad-hero.jpg",
+    "image": "imgs/tamarindo/hotels/house-nomad/house_nomad-hero.jpg",
     "description": "With an outdoor swimming pool, the 4-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The property is allergy-free and is situated 500 m from Tamarindo Beach. At the hotel rooms have bed linen and towels. Grande Beach is 1.5km from House of Nomad - Adults only, while Langosta Beach is 1.9 km from the property",
-    "cover-image": "../../../imgs/tamarindo/hotels/house-nomad/house_nomad-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
@@ -1429,9 +1398,8 @@
     "idDestination": 7,
     "name": "Hotel Les Voiles Blanches",
     "highlight": false,
-    "cardImage": "../../imgs/tamarindo/hotels/voiles-blanches/les-voiles-hero.jpg",
+    "image": "imgs/tamarindo/hotels/voiles-blanches/les-voiles-hero.jpg",
     "description": "Set in Tamarindo, Les Voiles Blanches - Luxury Lodge offers an outdoor swimming pool, garden and terrace. Free WiFi is available throughout the property and on-site free parking is provided. At the bed and breakfast, every room comes with a desk and a flat-screen TV with Netflix. Each room includes a private bathroom, all rooms are fitted with a terrace.",
-    "cover-image": "../../../imgs/tamarindo/hotels/voiles-blanches/les-voiles-hero.jpg",
     "room": [
       {
         "name": "Familiar Room",
