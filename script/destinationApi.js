@@ -51,7 +51,7 @@ const pageCards = () => {
     hotels.forEach(element => {
       hotelInfo +=
       `<li class="minicart-item">
-          <img class="minicart-item__img" src="${element.cardImage}" alt="">
+          <img class="minicart-item__img" src="../${element.image}" alt="">
           <span class="minicart-item__title">${element.name}</span>
           <p class="minicart-item__info">${element.description}</p>
           <a class="minicart-item__link" href="../hotel/hotel.html?search=${element.name}"><span class="visually-hidden">Click to see more</span></a>
