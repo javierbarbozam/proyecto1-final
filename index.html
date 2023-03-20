@@ -11,8 +11,23 @@
   <body>
     <header class="header">
       <span class="header__title">Traveling.</span>
-      <a class="button button--sign-in" href="">Sing In</a>
+      <a class="button button--sign-in" id="sign-in__btn" href="">Sing In</a>
     </header>
+    <div class="popUp">
+      <div class="popUp--content">
+        <h1>Sign In</h1>
+        <img src="./icon/close-circle-icon.svg" alt="" id="modal--close" class="popUp--close">
+        <form action="">
+          <label for="text" class="popUp__label">Name</label>
+          <input type="text" class="popUp--input" placeholder="Enter here your name" required>
+          <label for="text" class="popUp__label">Email</label>
+          <input type="text" class="popUp--input" placeholder="Enter here your email" required>
+          <label for="text" class="popUp__label">Password</label>
+          <input type="text" class="popUp--input" placeholder="Enter here your password" required>
+          <button class="popUp--button" id="popUp--btn">Submit</button>
+        </form>
+      </div>
+    </div>
     <main>
       <h2>Destinos destacados</h2>
       <div class="carousel">
@@ -147,5 +162,6 @@
     </footer>
     <!-- carousel script-->
     <script src="../script/carousel.js"></script>
+    <script src="./script/modal.js"></script>
   </body>
   </html>
