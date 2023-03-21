@@ -1,20 +1,47 @@
+import { pageInfo, pageCta, urlDestination } from "./destinationApi.js";
 
 const info_btn = document.querySelector('#js-btn-info');
-const card_btn = document.querySelector('#js-btn-card');
-const description = document.querySelector('#js-info-container');
-const cards = document.querySelector('#js-card-container');
+const cta_btn = document.querySelector('#js-btn-cta');
+const container = document.querySelector('#js-info-container');
+
+//Change Btn Text depending on destination or hotel page
+urlDestination == null?cta_btn.innerHTML = 'Query':cta_btn.innerHTML = 'Hotels'
 
 
-card_btn.addEventListener('click', () => {
-  description.classList.add('js-hidden');
-  description.classList.remove('js-visible');
-  cards.classList.remove('js-hidden');
-  cards.classList.add('js-visible');
-});
+const informationBtn = () => {
 
-info_btn.addEventListener('click', () => {
-  description.classList.remove('js-hidden');
-  description.classList.add('js-visible');
-  cards.classList.remove('js-visible');
-  cards.classList.add('js-hidden');
-});
+  // In order to have the first data form every destination, the function must be evoked
+  pageInfo()
+ 
+   //Disable button because is the first data shown
+  info_btn.disabled = true;
+
+  cta_btn.addEventListener('click', (event) => {
+    event.preventDefault()
+
+    //Clear data from container
+    container.innerHTML = '';
+    
+    //Call the function
+    pageCta()
+
+    //Disable button
+    info_btn.disabled = false;
+    cta_btn.disabled = true;
+  });
+
+  info_btn.addEventListener('click', (event) => {
+    event.preventDefault()
+
+    //Clear data from container
+    container.innerHTML = '';
+    
+    //Call the function
+    pageInfo()
+
+    //Disable button
+    info_btn.disabled = true;
+    cta_btn.disabled = false;
+  });
+}
+informationBtn()
