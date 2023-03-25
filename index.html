@@ -9,25 +9,29 @@
     <title>Traveling. | Home Page</title>
   </head>
   <body>
+    <div class="pop-up">
+      <div class="pop-up-wrapper">
+        <span class="pop-up-wrapper__title">Sign In</span>
+        <span id="sign-in-close" class="pop-up-wrapper__close">
+          <!-- <img src="./icon/close-circle-icon.svg" alt="" id="modal--close" class="pop-up-wrapper__close"> -->
+          <span class="visually-hidden">Close</span>
+        </span>
+        <form action="">
+          <label for="text">Name</label>
+          <input type="text" placeholder="Enter here your name" required>
+          <label for="text">Email</label>
+          <input type="text" placeholder="Enter here your email" required>
+          <label for="text">Password</label>
+          <input type="text" placeholder="Enter here your password" required>
+          <button class="popUp--button" id="popUp--btn">Submit</button>
+        </form>
+      </div>
+      <div class="pop-up-bg"></div>
+    </div>
     <header class="header">
       <span class="header__title">Traveling.</span>
       <a class="button button--sign-in" id="sign-in__btn" href="">Sing In</a>
     </header>
-    <div class="popUp">
-      <div class="popUp--content">
-        <h1>Sign In</h1>
-        <img src="./icon/close-circle-icon.svg" alt="" id="modal--close" class="popUp--close">
-        <form action="">
-          <label for="text" class="popUp__label">Name</label>
-          <input type="text" class="popUp--input" placeholder="Enter here your name" required>
-          <label for="text" class="popUp__label">Email</label>
-          <input type="text" class="popUp--input" placeholder="Enter here your email" required>
-          <label for="text" class="popUp__label">Password</label>
-          <input type="text" class="popUp--input" placeholder="Enter here your password" required>
-          <button class="popUp--button" id="popUp--btn">Submit</button>
-        </form>
-      </div>
-    </div>
     <main>
       <h2>Destinos destacados</h2>
       <div class="carousel">
