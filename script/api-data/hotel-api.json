@@ -1,0 +1,1444 @@
+https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
+
+[
+  {
+    "idDestination": 0,
+    "name": "Arenal Backpackers Resort",
+    "highlight": false,
+    "image": "imgs/la-fortuna/hotels/backpacker-resort/arenal-backpakers-hero.jpg",
+    "description": "Located 3.6 km from the slopes of the Arenal Volcano, this hostel offers its guests complimentary Wi-Fi access, luggage storage, and a snack bar.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 700,
+        "description": "Shower, Safety deposit box, Toilet, Towels, Linen, Shared bathroom, Fan, Towels/sheets.",
+        "features": ["Jacuzzi", "Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 685,
+        "description": "Garden view, Air conditioning, Shower, Toilet, Towels, air conditioning for guest accommodation.",
+        "features": ["Jacuzzi", "Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 850,
+        "description": "1 large double bed, Featuring colourful glass doors, these adults-only rooms offer views of the Arenal Volcano and the surrounding mountains.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room3.jpeg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 500,
+        "description": "1 double bed. This tent fits up to 2 people. The bathroom and shower are shared.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 0,
+    "name": "Arenal Lodge",
+    "highlight": false,
+    "image": "imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-hero.jpg",
+    "description": "Hotel Arenal Lodge is located in 2,000 acres of rainforest filled with exotic birds, wild animals and tropical vegetation. It offers unrivalled panoramic views of Arenal Volcano and Arenal Lake.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 600,
+        "description": "1 or 2 Queen Beds. Enjoy the best view of the Arenal Volcano, the rainforest, the birds, and the howler monkeys from the privacy of your balcony. The Junior Suites are located next to the main building. They all have air-conditioned",
+        "features": ["Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 790,
+        "description": "A 1 floor standard apartment perfect for a family or group of friends. The apartment has 2 private bedrooms and 1 bathroom each",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 950,
+        "description": "These rooms are apartments with connecting doors. Family suites are equipped with a microwave oven, a coffee maker, and a mini fridge. The family suites have two bedrooms and a separate living room.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-room3.jpeg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "These large rooms, built as separate chalets, are perched on top of the hill behind the main building; they offer an incredible panoramic view",
+        "features": ["Wi-Fi", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 0,
+    "name": "Hotel La Choza Inn",
+    "highlight": false,
+    "image": "imgs/la-fortuna/hotels/la-choza/choza-hero.jpg",
+    "description": "Hotel La Choza Inn is located 300 m from Fortuna town centre and 18 km from Arenal Lake. Free Wi-Fi access is available in all areas. The rooms offer mountain views and garden views.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 600,
+        "description": "1 double bed, 25 m² Garden view, Air conditioning, Ensuite bathroom, TV.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/la-choza/la-choza-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 700,
+        "description": "With air-conditioning, lockers, Includes bed linen, hand sanitizer, fridge, coffee maker.",
+        "features": ["Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/la-choza/la-choza-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 850,
+        "description": "2 double beds, Air conditioning, Ensuite bathroom.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/la-choza/la-choza-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "With air-conditioning, lockers, Includes bed linen, hand sanitizer, fridge, coffee maker.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/la-choza/la-choza-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 0,
+    "name": "Loma Real",
+    "highlight": false,
+    "image": "imgs/la-fortuna/hotels/loma-real/loma-real-hero.jpg",
+    "description": "Located in Fortuna, 6.7 km from La Fortuna Waterfall, Loma Real Hotel & Hot Springs provides accommodation with an outdoor swimming pool, free private parking and a garden. The property is situated 16 km from Mistico Arenal Hanging Bridges Park, 17 km from Sky Adventures Arenal and 20 km from Venado Caves.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 600,
+        "description": "2 large double beds, Garden and Mountain view, Air conditioning, Patio, Ensuite bathroom, Flat-screen TV, Coffee machine, Desk, Private entrance.",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/loma-real/loma-real-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 710,
+        "description": "This double room has air conditioning. It also includes bedding, coffee maker, flat screen TV, patio, bathtub or shower, towels.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/loma-real/loma-real-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 590,
+        "description": "Perfect for a family of 4 or more, with patio, air conditioning and private entrance. Also includes 2 double beds, bath or shower, towels, tea/coffee maker, flat screen TV, also includes a great mountain view.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/loma-real/loma-real-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 500,
+        "description": "This double room has a patio, private entrance and cable TV. Includes bed linen, hand sanitizer, fridge.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/la-fortuna/hotels/loma-real/loma-real-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 1,
+    "name": "Agua Clara",
+    "highlight": true,
+    "image": "imgs/limon/hotels/agua-clara/agua-clara-hero.jpg",
+    "description": "Hotel Aguas Claras provides accommodation with a restaurant, free private parking, free bikes and an outdoor swimming pool. Featuring a bar, this 5-star hotel offers air-conditioned rooms with free Wi-Fi and a private bathroom. Hotel Aguas Claras has a terrace. The area is ideal for snorkelling and cycling. The hotel offers a car rental service.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 790,
+        "description": "It includes garden and inner courtyard  views, Air-conditioning, Yard, bathroom in the room, Coffee maker, Minibar and 1 extra-large double bed",
+        "features": ["Jacuzzi", "Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/agua-clara/agua-clara-room1.jpeg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 685,
+        "description": "Garden view, Air conditioning, Shower, Toilet, Towels, air conditioning for guest accommodation.",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/agua-clara/agua-clara-room2.jpeg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 850,
+        "description": "This features 1 extra-large double bed, with a balcony, minibar, sofa, coffee maker, dining table, sofa, closet, seating and dining area, telephone, air conditioning",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/agua-clara/agua-clara-room3.jpeg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 610,
+        "description": "This has 3 single beds and 1 extra double beds, refrigerator, microwave, coffee maker, kitchen utensils, access to upper floors of the house only by stairs, seating area",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/agua-clara/agua-clara-room4.jpeg"
+      }
+    ]
+  },
+   {
+    "idDestination": 1,
+    "name": "Exótico Beach",
+    "highlight": false,
+    "image": "imgs/limon/hotels/exotico-beach&rooms/exotico-beach-hero.jpg",
+    "description": "Exôtico Beach & Rooms features an outdoor swimming pool, garden, a terrace and restaurant in Puerto Viejo. With a bar, the 5-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. Guests can enjoy garden views. At the hotel, rooms come with a balcony with pool view. At Exôtico Beach & Rooms all rooms come with bed linen and towels. A buffet breakfast is available every morning at the accommodation.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 750,
+        "description": "1 extra-large double bed. Has a balcony, sofa and seating area. Garden Landmark view, Pool, Inner courtyard, Patio, Private entrance, Tea/Coffee maker, Fan, Dressing room",
+        "features": ["Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "/limon/hotels/exotico-beach&rooms/exotico_beach-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 790,
+        "description": "Air conditioning, 1 extra-large double bed  and 1 large double bed. This suite features a balcony, tea/coffee maker and electric kettle.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/exotico-beach&rooms/exotico_beach-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 850,
+        "description": "77 m², Balcony, Garden, Mountain view, Pool with a view, Patio, Ensuite bathroom, Bathrobe, Sofa, Bath or shower, Towels, Desk Seating Area.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/exotico-beach&rooms/exotico_beach-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 650,
+        "description": "Double room with balcony, air conditioning and seating area. With garden and pool views.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/exotico-beach&rooms/exotico_beach-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 1,
+    "name": "Pacuare",
+    "highlight": false,
+    "image": "imgs/limon/hotels/pacuare/pacuare-hero.jpg",
+    "description": "With river views, Pacuare Lodge is located in Bajo Tigre and has a restaurant, a concierge service, bar, garden and terrace. The lodge features both WiFi and private parking free of charge. Guests at Pacuare Lodge can enjoy a à la carte breakfast. The nearest airport is Tobías Bolaños International Airport, 105 km from Pacuare Lodge.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 640,
+        "description": "This has a balcony, wardrobe, air conditioning, and a TV with cable channels. With garden view and only with one bed.",
+        "features": ["Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/pacuare/pacuare-room1.png"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 790,
+        "description": "A 1 floor standard apartment perfect for a family or group of friends. The apartment has 2 private bedrooms and 1 bathroom each",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/pacuare/pacuare-room2.png"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 950,
+        "description": "These rooms are apartments with connecting doors. Family suites are equipped with a microwave oven, a coffee maker, and a mini fridge. The family suites have two bedrooms and a separate living room.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/pacuare/pacuare-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "These large rooms, built as separate chalets, are perched on top of the hill behind the main building; they offer an incredible panoramic view",
+        "features": ["Wi-Fi", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/pacuare/pacuare-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 1,
+    "name": "Selina Puerto Viejo",
+    "highlight": false,
+    "image": "imgs/limon/hotels/selina/selina-limon-hero.jpg",
+    "description": "Selina Puerto Viejo offers pet-friendly accommodation in Puerto Viejo with free WiFi. There is a bar on site. Private parking is free, it has private and shared rooms. Guests can enjoy the pool and common areas with games and live music. The area is ideal for snorkeling, canoeing and hiking through the lush jungle.",
+    "room": [
+      {
+        "name": "Small Room",
+        "price": 580,
+        "description": "1 double bed, bed linen, towels, free toiletries, and hot water.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/selina/selina-limon-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 750,
+        "description": "Our Standard room offers two guests the ideal space to relax comfortably in complete privacy. It has free Wi-Fi, air conditioning, bed linen, towels, free toiletries, and hot water. Capacity of 2 people.",
+        "features": ["Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/selina/selina-limon-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 700,
+        "description": "The room comes complete with a private bathroom, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water. Capacity of 2 people.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/selina/selina-limon-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "Our cozy teepees have a beautiful design and are unique spaces that guarantee a comfortable sleep and an unforgettable experience. The bathroom is shared and has free Wi-Fi, bed linen and towels. Capacity of 2 people.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/limon/hotels/selina/selina-limon-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 2,
+    "name": "El Faro Beach Hotel",
+    "highlight": true,
+    "image": "imgs/manuel-antonio/hotels/faro-beach/el_faro-hero.jpg",
+    "description": "Offering an infinity pool and free WiFi, El Faro Beach Hotel is located in Manuel Antonio, about 100 m walk from the beachfront and 50 from Manuel Antonio National Park. This property is Costa Rica's only container hotel. Each minimalist and modern accommodation will provide you with air conditioning. There is also a coffee machine available. Featuring a shower, private bathroom also comes with a hairdryer.",
+    "room": [
+      {
+        "name": "Small Room",
+        "price": 660,
+        "description": "1 double bed, Balcony, Garden view, Pool view, Mountain view , Air conditioning , Ensuite bathroom",
+        "features": ["Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/faro-beach/el-faro-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 790,
+        "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/faro-beach/el-faro-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 950,
+        "description": "This has 2 double beds, sofa bed, coffee maker, air conditioning, bed linen, towels, flat screen tv, free Wi-Fi and seating and dining area. With a garden, sea and mountain views.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/faro-beach/el-faro-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "Suite located on the top floor. It includes a terrace with fantastic panoramic views, 1 extra-large double bed, air conditioning",
+        "features": ["Wi-Fi", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/faro-beach/el-faro-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 2,
+    "name": "Planet B Hotel",
+    "highlight": false,
+    "image": "imgs/manuel-antonio/hotels/planet-B/planet_b-hero.jpg",
+    "description": "Set in Manuel Antonio, 2 km from La Macha Beach, PLANET B offers accommodation with a fitness centre, free private parking, a garden and a shared lounge. Featuring a tour desk, this property also provides guests with a terrace. The accommodation features a 24-hour front desk, a shuttle service, a shared kitchen and free WiFi throughout the property. The units feature bed linen. Manuel Antonio National Park is 5.4 km from the hostel, while Marina Pez Vela is 1.7 km away. The nearest airport is La Managua Airport.",
+    "room": [
+      {
+        "name": "Small Room",
+        "price": 620,
+        "description": "This has a balcony, wardrobe, air conditioning, and a TV with cable channels. With garden view and only with one bed.",
+        "features": ["Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/planet-B/planet-b-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 760,
+        "description": "This room has single beds, bath or shower, air conditioning, WiFi, board games / puzzles, ironing facilities, outside dining area,  bed linen, towels.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/planet-B/planet-b-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 970,
+        "description": "This room has single beds, bath or shower, air conditioning, WiFi, board games / puzzles, ironing facilities, outside dining area,  bed linen, towels.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/planet-B/planet-b-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 640,
+        "description": "This suite features a private entrance and seating area. Private suite, Garden view, River view",
+        "features": ["Wi-Fi", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/planet-B/planet-b-room1.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 2,
+    "name": "Selina Manuel Antonio",
+    "highlight": false,
+    "image": "imgs/manuel-antonio/hotels/selina/selina-hero.jpg",
+    "description": "Offering a year-round outdoor pool and children's playground, Selina Manuel Antonio is situated in Manuel Antonio in the Puntarenas Region, 2.3 km from Manuel Antonio National Park. Guests can enjoy the on-site bar. Selina Manuel Antonio features free WiFi throughout the property and a yoga deck with 360° views of the jungle. There is a shared kitchen at the property, a restaurant and outdoor activities such as rafting. Tobías Bolaños International Airport is 169 km away.",
+    "room": [
+      {
+        "name": "Small Room",
+        "price": 580,
+        "description": "1 double bed, bed linen, towels, free toiletries, and hot water.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/selina/selina-manuel-antonio-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 750,
+        "description": "Our Standard room offers two guests the ideal space to relax comfortably in complete privacy. It has free Wi-Fi, air conditioning, bed linen, towels, free toiletries, and hot water. Capacity of 2 people.",
+        "features": ["Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/selina/selina-manuel-antonio-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 700,
+        "description": "The Suite room comes complete with a private bathroom, free Wi-Fi, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water. Capacity of 2 people.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/selina/selina-manuel-antonio-room3.jpeg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "Selina's community rooms are not like what you find in a typical hotel. We've raised the bar to a whole new level by adding a seating area, your own personal light, shelf and locker to each bunk so your stuff is safe and secure. And with free Wi-Fi, air conditioning, and shared bathroom.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/selina/selina-manuel-antonio-room4.jpeg"
+      }
+    ]
+  },
+   {
+    "idDestination": 2,
+    "name": "Tabulina Tree",
+    "highlight": false,
+    "image": "imgs/manuel-antonio/hotels/tabulia-tree/tabulia-hero.jpg",
+    "description": "Surrounded by native vegetation and local fauna, Tabulia Tree offers comfortable accommodation in Manuel Antonio. The property features an outdoor swimming pool. Free WiFi access is available in all areas. Rooms at Tabulia Tree afford a rustic style with detailed decorations in dark tones. They are equipped with air conditioning, cable TVs and private bathrooms.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 780,
+        "description": "Double room with 2 double beds, air conditioning, cable TV and full bathroom. Includes a shared balcony with a hammock and garden views.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/tabulia-tree/tabulia-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 750,
+        "description": "Double room with 2 double beds, air conditioning, cable TV and full bathroom. Includes a shared balcony with a hammock and garden views.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/tabulia-tree/tabulia-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 800,
+        "description": "Double room with air conditioning, double bed, sofa, cable TV and full bathroom. It also includes a fridge and coffee maker. It offers pool views.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/tabulia-tree/tabulia-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "Located on the ground and first floor, our Family rooms have spectacular views.Also you can find air conditioning, TV with cable channels.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/manuel-antonio/hotels/hotels/tabulia-tree/tabulia-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 3,
+    "name": "Hotel Heliconia",
+    "highlight": false,
+    "image": "imgs/monteverde/hotels/heliconia/hotel-heliconia-hero.jpg",
+    "description": "Hotel Heliconia is located in Monteverde Costa Rica, and features a hot tub, an extensive garden, 2 restaurants, a spa centre, massages services and free Wi-Fi. The suites and rooms present rustic décor with wooden furnishing, a desk, fan, wardrobe and garden views. The bathrooms are private and come with shower. Some of the accommodations include bath.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 700,
+        "description": "Our family rooms are ideal for small families, with a local wooden construction design, located within beautiful botanical gardens that adorn the property. Each room has a bathroom with shower, free internet, complimentary local coffee and television.",
+        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/heliconia/heliconia-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 720,
+        "description": "The room ideal for small families, with a local wooden construction design, located within beautiful botanical gardens that adorn the property. Each room has a bathroom with shower, free internet, complimentary local coffee and television.",
+        "features": ["Wi-Fi", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/heliconia/heliconia-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 840,
+        "description": "Is located steps from the hotel's private nature trail with stunning views of the Nicoya Peninsula with balcony, large bathroom with shower, free internet, complimentary local coffee, and television.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/heliconia/heliconia-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 625,
+        "description": "This room pride themselves on their wooden construction, located in beautiful botanical gardens that decorate the property. Each room has a bathroom with a shower, free internet, complimentary local coffee and television.",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/heliconia/heliconia-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 3,
+    "name": "La Guayaba",
+    "highlight": false,
+    "image": "imgs/monteverde/hotels/la-guayaba/guayaba-hero.jpg",
+    "description": "Located in Monteverde Costa Rica, La Guayaba Monteverde features a garden. The property is around 2.4 km from Sky Adventures Monteverde, 3.7 km from Selvatura Adventure Park and an 11-minute walk from Monteverde Ecological Sanctuary. Free WiFi is available and Monteverde Cloud Forest Biological Reserve is 3.6 km away. All rooms in the bed and breakfast are equipped with a TV with cable channels.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 700,
+        "description": "It has a terrace, patio, seating area, closet, bathroom, bath or shower, hair dryer, towels, flat screen TV, microwave, toaster, tea/coffee maker, outdoor dining area. With a mountain and river view.",
+        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/la-guayaba/la-guayaba-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 720,
+        "description": "It has a terrace, patio, seating area, closet, bathroom, bath or shower, hair dryer, towels, flat screen TV, microwave, toaster, tea/coffee maker, outdoor dining area. With a mountain and river view.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/la-guayaba/la-guayaba-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 840,
+        "description": "It has a terrace, seating area, closet, bathroom, bath or shower, hair dryer, towels, flat screen TV, outdoor dining area. With a mountain view.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/la-guayaba/la-guayaba-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "It has a terrace, patio, seating area, closet, bathroom, bath or shower, hair dryer, towels, flat screen TV, tea/coffee maker, outdoor dining area. With a mountain view.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/la-guayaba/la-guayaba-room1.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 3,
+    "name": "La Macadamia",
+    "highlight": true,
+    "image": "imgs/monteverde/hotels/la-macadamia/macadamia-hero.jpg",
+    "description": "Located 4.8 km from Sky Adventures Monteverde, La Macadamia - Monteverde provides accommodation with a garden, barbecue facilities and room service for your convenience. Free WiFi is available throughout the property. Each unit is equipped with a terrace offering mountain views, a cable flat-screen TV, a well-fitted kitchen and a private bathroom with shower, free toiletries and a hairdryer.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 700,
+        "description": "1 double bed, Balcony, Garden view, Pool view, Mountain view , Air conditioning , Ensuite bathroom",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/la-macadamia/la-macadamia-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 805,
+        "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/la-macadamia/la-macadamia-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 840,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area. With garden and mountain views.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/la-macadamia/la-macadamia-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area. With garden and mountain views.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/la-macadamia/la-macadamia-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 3,
+    "name": "Majestic Lodge Luxury",
+    "highlight": false,
+    "image": "imgs/monteverde/hotels/majestic-lodge/majestic_-hero.jpg",
+    "description": "Located 4.8 km from Sky Adventures Monteverde, La Macadamia - Monteverde provides accommodation with a garden, barbecue facilities and room service for your convenience. Free WiFi is available throughout the property. Each unit is equipped with a terrace offering mountain views, a cable flat-screen TV, a well-fitted kitchen and a private bathroom with shower, free toiletries and a hairdryer.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 690,
+        "description": "This room has 2 double beds, you can find a microwave, coffee maker, and balcony. With garden and pool views.",
+        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotelsmajestic-lodge/majestic-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 750,
+        "description": "Comes complete with a bathrooms,, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water, kitchen, backyard.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/majestic-lodge/majestic-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 880,
+        "description": "This room has 4 double beds, bathroom with a shower, patio, seating area, balcony, wardrobe, kitchen, air conditioning, and a TV with cable channels. With garden views.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/majestic-lodge/majestic-room4.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "Offers the ideal space to relax comfortably in complete privacy. It has air conditioning, bed linen, towels, free toiletries, and hot water.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/monteverde/hotels/majestic-lodge/majestic-room1.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 4,
+    "name": "Los Altos Resort",
+    "highlight": false,
+    "image": "imgs/parrita/hotels/los-altos/los_atos-hero.jpg",
+    "description": "Los Altos Beach Resort & Spa is situated in Manuel Antonio and offers luxurious suites with a fully-equipped kitchen and balcony. The hotel has free Wi-Fi and an outdoor pool. The design suites at Los Altos Beach Resort & Spa are equipped with air conditioning, satellite TV and a DVD player. Each modern bathroom has a spacious shower as well as a bathtub.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 760,
+        "description": "1 extra-large double bed with seating area, bathrobe and balcony. ",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/los-altos/altos_room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 750,
+        "description": "1 large double bed , a very spacious Lounge Area: Sofa, Table & Chairs, Open-Air Terrace with Cozy Seating.",
+        "features": ["Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/los-altos/altos_room_2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 790,
+        "description": "This is our most private, spacious and relaxing room category. Includes King & Twin-Sized Beds.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/los-altos/altos_room_3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "This room has a mini-bar, patio and cable TV. Also a restaurant and bathroom.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/los-altos/altos_romm4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 4,
+    "name": "Jungle Vista Boutique",
+    "highlight": true,
+    "image": "imgs/parrita/hotels/jungle-vista/jungle-hero.jpg",
+    "description": "Situated in Manuel Antonio, 400m from Playitas Beach, Jungle Vista Boutique Hotel features accommodation with a garden, free private parking and a restaurant. Each accommodation at the 4-star hotel has mountain views, and guests can enjoy access to an indoor pool. The hotel also provides free WiFi as well as a paid airport shuttle service. The hotel will provide guests with air-conditioned rooms with a wardrobe, a coffee machine, a fridge, a microwave, a safety deposit box, a flat-screen TV, a terrace and a private bathroom with a shower.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 760,
+        "description": "2 single beds and 1 large double bed. This suite has a balcony, CD player and kitchen.",
+        "features": ["Wi-Fi", "Breakfast", "Linen"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/jungle-vista/jungle-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 750,
+        "description": "1 large double bed. This has a private elevator, 2 bathrooms and 3 balconies. It is located on the 4th and 5th floor of the hotel.",
+        "features": ["Breakfast and Lunch", "Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/jungle-vista/jungle-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 790,
+        "description": "This is our most private, spacious and relaxing room category. Includes King & Twin-Sized Beds.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/jungle-vista/jungle-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "This room has a living room included and a king bed. Cable TV. Also a bathroom.",
+        "features": ["Wi-Fi", "Breakfast", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/jungle-vista/jungle-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 4,
+    "name": "Makanda By The Sea Hotel",
+    "highlight": false,
+    "image": "imgs/parrita/hotels/makanda/makanda-hero.jpg",
+    "description": "Makanda By The Sea observes a 3 night minimum stay. We can't wait for our Guests to spend their holidays in our elegant escape. Offering an outdoor swimming pool and a restaurant, Makanda by The Sea Hotel Adults Only is located in Manuel Antonio. Full breakfast is available for $30+tax. The property is 200 m from the private beach. The suites here will provide you with a TV, air conditioning and a balcony. Complete with a microwave, the dining area also has a refrigerator.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 760,
+        "description": "1 extra-large double bed with seating area, bathrobe, private pool and balcony. ",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/makanda/makada-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 750,
+        "description": "1 large double bed , a very spacious Lounge Area: Sofa, Table & Chairs, Open-Air Terrace with Cozy Seating.",
+        "features": ["Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/makanda/makada-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 790,
+        "description": "This is our most private, spacious and relaxing room category. Includes King & Twin-Sized Beds and a bathroom.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/makanda/makada-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "This room has a mini-bar, patio and cable TV. Also is a room with large bathroom included",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/makanda/makada-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 4,
+    "name": "Oceans Two Hotel",
+    "highlight": false,
+    "image": "imgs/parrita/hotels/oceans-two/oceans-hero.jpg",
+    "description": "Located in Manuel Antonio, 1.4 km from Playitas Beach, Hotel Oceans Two provides accommodation with an outdoor swimming pool, free private parking, a garden and a terrace. Each accommodation at the 4-star hotel has sea views, and guests can enjoy access to a restaurant and to a bar. The accommodation features room service, a concierge service and currency exchange for guests. At the hotel every room is fitted with air conditioning, a seating area, a flat-screen TV with cable channels, a safety deposit box and a private bathroom with a shower, free toiletries and a hairdryer.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 760,
+        "description": "1 large double bed with seating area, bathrobe, private pool and balcony. ",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/oceans-two/oceans-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 750,
+        "description": "Choose your bed (if available): 1 single bed, 1 bunk bed,  1 large double bed, a very spacious Lounge Area: Sofa, Table & Chairs, Open-Air Terrace with Cozy Seating.",
+        "features": ["Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/oceans-two/oceans-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 790,
+        "description": "This is our most relaxing room category. Includes King & Twin-Sized Beds and a bathroom.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/oceans-two/oceans-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "This room has a mini-bar, patio and cable TV. Also is a room with large bathroom included",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/parrita/hotels/oceans-two/oceans-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 5,
+    "name": "Adventure & Park Hotel Vista Golfo",
+    "highlight": true,
+    "image": "imgs/puntarenas/hotels/adventure-park/adventure-hero.jpg",
+    "description": "Located in the hills near Miramar, this hotel offers amazing views over the forest as far as the Gulf of Nicoya. It offers an outdoor pool and a range of adventure activities. Adventure Park & Hotel Vista Golfo has a low and high ropes course and offers ziplining over waterfalls and the forest canopy. You can also go horse riding and quad biking.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 600,
+        "description": "2 double beds Balcony, Garden view, Air conditioning, Ensuite bathroom, Flat-screen TV, Bath or shower, Towels, Desk, Refrigerator.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/adventure-park/adventure-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 705,
+        "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
+        "features": ["Wi-Fi", "Breakfast", "Balcony", "Sea view"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/adventure-park/adventure-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 690,
+        "description": "This double room has a fridge, air conditioning and flat-screen TV. It also has a bath or shower, towels, tea/coffee service, 2 double beds and views of the garden.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/adventure-park/adventure-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "This holiday home has air conditioning, tea/coffee maker and kitchen. It also has a bath or shower, towels, microwave, dining table, sofa, and the first bedroom has 1 double bed and the second one has 2 bunk beds.",
+        "features": ["Breakfast and Lunch", "Wi-Fi", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/adventure-park/adventure-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 5,
+    "name": "Buen Camino",
+    "highlight": false,
+    "image": "imgs/puntarenas/hotels/buen-camino/buenCamini-hero.jpg",
+    "description": "Set in San Mateo, 41 km from Parque Marino del Pacifico, Buen Camino offers accommodation with an outdoor swimming pool, free private parking, a garden and a terrace. Each accommodation at the 4-star hotel has sea views, and guests can enjoy access to a restaurant and to a bar. Parque Viva is 42 km from the hotel and Alejandro Morera Soto Stadium is 48 km away. At the hotel, all rooms include a balcony with a garden view.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 700,
+        "description": "This spacious room features Costa Rican-style décor, including local artwork. It has air conditioning. There is cable TV, a ceiling fan and a private bathroom.",
+        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/buen-camino/buenCanino-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 720,
+        "description": "This spacious room features Costa Rican-style décor, including local artwork. It has air conditioning. There is cable TV, a ceiling fan and a private bathroom.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/buen-camino/buencamino-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 840,
+        "description": "All our rooms have been decorated with exquisite taste, with famous works of art Costa Rican pictures and sculptors. The rooms have: Air Conditioning, Cable Channels, Deposit Box, Internet, Mini Fridge, Private Bathroom",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/buen-camino/buencamino-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "This has a balcony, with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 3 or 4 people.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/buen-camino/buencamino-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 5,
+    "name": "Hotel Cayuga",
+    "highlight": true,
+    "image": "imgs/puntarenas/hotels/cayuga/cayuga-hero.jpg",
+    "description": "Set in Puntarenas, 700 m from Puntarenas Beach, Hotel Cayuga offers accommodation with an outdoor swimming pool, free private parking, a fitness centre and a shared lounge. With a terrace, the 4-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The accommodation features room service and a 24-hour front desk for guests. The units in the hotel are equipped with a flat-screen TV and a hairdryer.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 700,
+        "description": "1 double bed, Balcony, Pool view, Air conditioning , Ensuite bathroom",
+        "features": ["Wi-Fi", "Breakfast", "Flat screen TV"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/cayuga/cayuga-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 805,
+        "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/cayuga/cayuga-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 840,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/cayuga/cayuga-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
+        "features": ["Wi-Fi", "Mini-bar"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/cayuga/cayuga-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 5,
+    "name": "Isla Chiquita Glamping Hotel",
+    "highlight": true,
+    "image": "imgs/puntarenas/hotels/isla-chiquita/isla_chiquita-hero.jpg",
+    "description": "Isla Chiquita Glamping Hotel has a restaurant, outdoor plunge pool, a bar and garden in Puntarenas. Boasting family rooms, this property also provides guests with a sun terrace. The accommodation features a tour desk, and currency exchange for guests. At the hotel, the rooms have a wardrobe. Rooms have a private bathroom with a shower, a hairdryer and free toiletries.",
+    "room": [
+      {
+        "name": "Small Room",
+        "price": 660,
+        "description": "1 double bed, Balcony, Pool, Air conditioning , Ensuite bathroom",
+        "features": ["Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/isla-chiquita/islachiquita-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 790,
+        "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/isla-chiquita/islachiquita-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 950,
+        "description": "This has 2 double beds, sofa bed, coffee maker, air conditioning, bed linen, towels, flat screen tv, free Wi-Fi and seating and dining area. With a garden, sea and mountain views.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/isla-chiquita/islachiquita-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "Suite located on the top floor. It includes a terrace, 1 extra-large double bed, air conditioning",
+        "features": ["Wi-Fi", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/puntarenas/hotels/isla-chiquita/islachiquita-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 6,
+    "name": "Coyaba Tropical Elegant Adult Guesthouse",
+    "highlight": false,
+    "image": "imgs/quepos/hotels/coyaba-tropical/coyaba-hero.jpg",
+    "description": "Coyaba Tropical Elegant Adult Guesthouse has a privileged location 10 minutes drive from Manuel Antonio National Park. Free WiFi access is featured on site. The rooms are bright and feature a seating area, a safe and air conditioning. All bathrooms include a shower.Coyaba Tropical Elegant Adult Guesthouse offers its guests a home-made breakfast. The facilities available on-site include a garden, tour desk and luggage storage.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 700,
+        "description": "1 double bed, Balcony, Pool view, Air conditioning , Ensuite bathroom",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/coyaba-tropical/cobaya-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 805,
+        "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
+        "features": ["Wi-Fi", "Jacuzzi", "Flat screen TV"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/coyaba-tropical/cobaya-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 840,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/coyaba-tropical/cobaya-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
+        "features": ["Wi-Fi", "Mini-bar"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/coyaba-tropical/cobaya-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 6,
+    "name": "Villas Jacquelina",
+    "highlight": true,
+    "image": "imgs/quepos/hotels/villas-jacquelina/jacquelina-hero.jpg",
+    "description": "Hotel Villas Jacquelina is a eco-friendly boutique hotel in Quepos featuring mountainous views, a pool, free WiFi, and a shared kitchen. Local and International breakfasts served daily.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 700,
+        "description": "1 double bed, Balcony, Pool view, Air conditioning , Ensuite bathroom",
+        "features": ["Wi-Fi", "Breakfast", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/villas-jacquelina/Jacquelina-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 805,
+        "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/villas-jacquelina/Jacquelina-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 840,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/villas-jacquelina/Jacquelina-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
+        "features": ["Wi-Fi", "Mini-bar"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/villas-jacquelina/Jacquelina-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 6,
+    "name": "Hotel La Palapa Eco Lodge Resort",
+    "highlight": false,
+    "image": "imgs/quepos/hotels/la-palapa/palapa-hero.jpg",
+    "description": "Located in Portalón, 33 km from Manuel Antonio National Park, Hotel La Palapa Eco Lodge Resort provides accommodation with an outdoor swimming pool, free private parking, a garden and a bar. Built in 2007, this 4-star hotel is within 27 km of Marina Pez Vela and 45 km of Rainmaker Costa Rica. The hotel also offers free WiFi as well as a paid airport shuttle service.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 700,
+        "description": "1 double bed, Balcony, Pool view, Air conditioning , Ensuite bathroom",
+        "features": ["Wi-Fi", "Breakfast", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/la-palapa/palapa-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 805,
+        "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/la-palapa/palapa-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 840,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
+        "features": ["Wi-Fi", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/la-palapa/palapa-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 600,
+        "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/la-palapa/palapa-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 6,
+    "name": "Hacienda Mil Bellezas",
+    "highlight": false,
+    "image": "imgs/quepos/hotels/mil-bellezas/bellezas-hero.jpg",
+    "description": "Boasting a swimming pool, a garden, a terrace and views of the garden, Hacienda Mil Bellezas is set in Quepos and offers accommodation with free WiFi. Some of the units feature a satellite TV, a fully equipped kitchen with a fridge, and a private bathroom with a shower and a hairdryer. The daily breakfast offers à la carte, continental or Full English/Irish options.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 640,
+        "description": "1 double bed. Has a balcony. Garden view, Air conditioning, Refrigerator, Coffee maker, Flat-screen TV, Terrace",
+        "features": ["Breakfast", "Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/mil-bellezas/bellezas-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 700,
+        "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/mil-bellezas/bellezas-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 730,
+        "description": "This has a balcony, with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 or 3 people.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/mil-bellezas/bellezas-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 670,
+        "description": "This has a balcony, with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 3 or 4 people.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/quepos/hotels/mil-bellezas/bellezas-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 7,
+    "name": "Los Altos de Eros",
+    "highlight": false,
+    "image": "imgs/tamarindo/hotels/altos-de-eros/Eros-hero.jpg",
+    "description": "Offering an large swimming pool overlooking the Pacific Ocean, plus a spa and wellness centre, Los Altos de Eros is located 10 km from Playa Avellana beach, set on a hill side 20 minutes' drive outside Tamarindo. Free WiFi access is available in public areas. The rooms here will provide you with air conditioning and a terrace. Private bathrooms also come with towels. All the rooms offer attractive views of either the pool area, the surrounding forest, or the oceanfront.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 640,
+        "description": "This room has 4 double beds, bathroom with a shower, patio, seating area, wardrobe, kitchen, air conditioning, and a TV with cable channels.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/altos-de-eros/eros-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 700,
+        "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/altos-de-eros/eros-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 730,
+        "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
+        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/altos-de-eros/eros-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 670,
+        "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/altos-de-eros/eros-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 7,
+    "name": "House of Nomad",
+    "highlight": false,
+    "image": "imgs/tamarindo/hotels/house-nomad/house_nomad-hero.jpg",
+    "description": "House of Nomad - Adults only in Tamarindo has 4-star accommodation with a garden and a terrace. With an outdoor swimming pool, the 4-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The property is allergy-free and is situated 500m from Tamarindo Beach. At the hotel rooms have bed linen and towels.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 640,
+        "description": "The room comes complete with a private bathroom, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water. Capacity of 2 people.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/house-nomad/houseNomasd-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 700,
+        "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/house-nomad/houseNomad-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 730,
+        "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
+        "features": ["Breakfast and Lunch", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/house-nomad/houseNomad-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 670,
+        "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/house-nomad/houseNomad-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 7,
+    "name": "JW Marriott Guanacaste Resort & Spa",
+    "highlight": false,
+    "image": "imgs/tamarindo/hotels/house-nomad/house_nomad-hero.jpg",
+    "description": "With an outdoor swimming pool, the 4-star hotel has air-conditioned rooms with free WiFi, each with a private bathroom. The property is allergy-free and is situated 500 m from Tamarindo Beach. At the hotel rooms have bed linen and towels. Grande Beach is 1.5km from House of Nomad - Adults only, while Langosta Beach is 1.9 km from the property",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 640,
+        "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning.",
+        "features": ["Wi-Fi", "Jacuzzi", "Flat screen TV", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/jw-marriot/JwMarriod-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 700,
+        "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/jw-marriot/JwMarriod-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 730,
+        "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
+        "features": ["Breakfast and Lunch", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/jw-marriot/JwMarriod-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 670,
+        "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/jw-marriot/JwMarriod-room4.jpg"
+      }
+    ]
+  },
+   {
+    "idDestination": 7,
+    "name": "Hotel Les Voiles Blanches",
+    "highlight": false,
+    "image": "imgs/tamarindo/hotels/voiles-blanches/les-voiles-hero.jpg",
+    "description": "Set in Tamarindo, Les Voiles Blanches - Luxury Lodge offers an outdoor swimming pool, garden and terrace. Free WiFi is available throughout the property and on-site free parking is provided. At the bed and breakfast, every room comes with a desk and a flat-screen TV with Netflix. Each room includes a private bathroom, all rooms are fitted with a terrace.",
+    "room": [
+      {
+        "name": "Familiar Room",
+        "price": 640,
+        "description": "The room comes complete with a private bathroom, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water. Capacity of 2 people.",
+        "features": ["Wi-Fi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/voiles-blanches/voiles-room1.jpg"
+      },
+      {
+        "name": "Stantard Room",
+        "price": 700,
+        "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
+        "features": ["Wi-Fi", "Breakfast and Lunch"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/voiles-blanches/voiles-room2.jpg"
+      },
+      {
+        "name": "Deluxe Room",
+        "price": 730,
+        "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
+        "features": ["Breakfast and Lunch", "Jacuzzi"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/voiles-blanches/voiles-room3.jpg"
+      },
+      {
+        "name": "Economic Room",
+        "price": 670,
+        "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
+        "features": ["Wi-Fi", "Breakfast"],
+        "discount": false,
+        "method (price depending on features)": "",
+        "image": "../imgs/tamarindo/hotels/voiles-blanches/voiles-room4.jpg"
+      }
+    ]
+  }
+]
