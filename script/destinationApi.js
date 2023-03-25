@@ -11,13 +11,13 @@ const pageInfo = () => {
   if (urlDestination) {
     fetch('https://640b957794ce1239b09c0b5b.mockapi.io/api/destination', {
       method: 'GET',
-      headers: {'content-type':'application/json'},
+      headers: { 'content-type': 'application/json' },
     }).then(res => {
       if (res.ok) {
         return res.json();
       }
     }).then(element => {
-      
+
       // Find Destination based con id from API
       const destination = element.find(element => element.id == urlDestination)
 
@@ -29,14 +29,26 @@ const pageInfo = () => {
       container.insertAdjacentHTML(
         'afterbegin',
         `<p class="description__info__text">${destination.description}</p>`
-      )
+      );
+      
+      const gallery = element.gallery;
+      const galleryContainer = document.createElement('div');
+      galleryContainer.classList.add('gallery-container');
+      container.appendChild(galleryContainer);
+
+      gallery.forEach(image => {
+        const img = document.createElement('img');
+        img.classList.add('gallery-image');
+        img.src = image.url;
+        galleryContainer.appendChild(img);
+      });
     }).catch(error => {
-    // handle error
+      // handle error
     })
   } else {
     fetch(`https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel?search=${urlHotel}`, {
       method: 'GET',
-      headers: {'content-type':'application/json'},
+      headers: { 'content-type': 'application/json' },
     }).then(res => {
       if (res.ok) {
         return res.json();
@@ -47,18 +59,18 @@ const pageInfo = () => {
 
       // Add rooms into variable
       let rooms = '';
-      hotel.room.forEach(element=>{
+      hotel.room.forEach(element => {
 
         // Add services into variable
         let services = '';
-        element.features.forEach(item=>{
+        element.features.forEach(item => {
           services +=
-          `<li>${item}</li>`
+            `<li>${item}</li>`
         })
 
         // console.log(services)
         rooms +=
-        `<li class="minicart-item">
+          `<li class="minicart-item">
           <img class="minicart-item__img" src="${element.image}" alt="">
           <span class="minicart-item__title">${element.name}</span>
           <p class="minicart-item__info">${element.description}</p>
@@ -82,7 +94,7 @@ const pageInfo = () => {
         <ul class="minicart">${rooms}</ul>`
       )
     }).catch(error => {
-    // handle error
+      // handle error
     })
   }
 }
@@ -91,20 +103,20 @@ const pageCta = () => {
   if (urlDestination) {
     fetch('https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel', {
       method: 'GET',
-      headers: {'content-type':'application/json'},
+      headers: { 'content-type': 'application/json' },
     }).then(res => {
       if (res.ok) {
         return res.json();
       }
     }).then(element => {
       // Find Destination based con id from API
-      const hotels = element.filter(element => {if (element.idDestination == urlDestination){return element}})
-      
+      const hotels = element.filter(element => { if (element.idDestination == urlDestination) { return element } })
+
       // Creating <li> element
       let hotelInfo = '';
       hotels.forEach(element => {
         hotelInfo +=
-        `<li class="minicart-item">
+          `<li class="minicart-item">
             <img class="minicart-item__img" src="../${element.image}" alt="">
             <span class="minicart-item__title">${element.name}</span>
             <p class="minicart-item__info">${element.description}</p>
@@ -113,17 +125,17 @@ const pageCta = () => {
       });
 
       // Adding data into DOM
-      
+
       container.insertAdjacentHTML(
         'afterbegin',
         `<ul class="minicart">${hotelInfo}</ul>`
       )
     }).catch(error => {
-    // handle error
+      // handle error
     })
   } else {
     container.innerHTML =
-    `<form id="js-btn-form" class="enquiry" action="">
+      `<form id="js-btn-form" class="enquiry" action="">
       <label class="enquiry__label" for="name"><input class="enquiry__input" type="text" name="" id="" placeholder="Enter your name" required>Name</label>
       <label class="enquiry__label" for="email"><input class="enquiry__input" type="email" name="" id="" placeholder="Enter your email" required>Email</label>
       <label class="enquiry__label" for=""><input class="enquiry__input" type="number" name="" id="" placeholder="Enter your phone number" required>Number</label>
@@ -135,4 +147,4 @@ const pageCta = () => {
   }
 }
 
-export {pageInfo, pageCta, urlHotel, urlDestination}
+export { pageInfo, pageCta, urlHotel, urlDestination }
