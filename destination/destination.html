@@ -9,6 +9,24 @@
   <title></title>
 </head>
 <body>
+  <div class="pop-up">
+    <div class="pop-up-wrapper">
+      <span class="pop-up-wrapper__title">Sign In</span>
+      <span id="sign-in-close" class="pop-up-wrapper__close">
+        <span class="visually-hidden">Close</span>
+      </span>
+      <form action="">
+        <label for="sign-in-name">Name</label>
+          <input type="text" name="sign-in-name" placeholder="Enter here your name" required>
+          <label for="sign-in-email">Email</label>
+          <input type="text" name="sign-in-email" placeholder="Enter here your email" required>
+          <label for="sign-in-password">Password</label>
+          <input type="text" name="sign-in-password" placeholder="Enter here your password" required>
+          <button class="button button--sign-in" id="sign-in-submit">Submit</button>
+      </form>
+    </div>
+    <div class="pop-up-bg"></div>
+  </div>
   <header class="header">
     <a class="header__title" href="../index.html">Traveling.</a>
     <a class="button button--sign-in" href="">Sing In</a>
