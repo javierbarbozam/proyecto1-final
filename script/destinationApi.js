@@ -93,8 +93,10 @@ const pageInfo = () => {
                 <span>Included services:</span>
                 ${featureName}
               </ul>
-              <span class="minicart-item__price minicart-item__discount">$${normalPrice}</span>
-              <span class="minicart-item__price minicart-item__price--new">$${discountPrice}</span>
+              <div class="minicart-item__pricing">
+                <span class="minicart-item__price minicart-item__price--discount">$${normalPrice}</span>
+                <span class="minicart-item__price minicart-item__price--new">$${discountPrice}</span>
+              </div>
               <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
             </li>`
           } else {
@@ -107,7 +109,9 @@ const pageInfo = () => {
                 <span>Included services:</span>
                 ${featureName}
               </ul>
-              <span class="minicart-item__price">$${normalPrice}</span>
+              <div class="minicart-item__pricing">
+                <span class="minicart-item__price">$${normalPrice}</span>
+              </div>
               <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
             </li>`
           }
