@@ -917,30 +917,44 @@ h2 {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  height: 400px;
-  width: 400px;
+  height: fit-content;
+  width: 250px;
   padding: 20px;
   border-radius: 5px;
   background-color: #ffffff;
   box-shadow: 0.5px 1.5px 11.9px rgba(0, 0, 0, 0.201), 1.1px 3.4px 30.1px rgba(0, 0, 0, 0.291), 1.9px 6.2px 57.1px rgba(0, 0, 0, 0.359), 3.2px 10.3px 97.5px rgba(0, 0, 0, 0.421), 5.3px 16.9px 160.3px rgba(0, 0, 0, 0.489), 9.2px 29.6px 265.9px rgba(0, 0, 0, 0.579), 20px 64px 457px rgba(0, 0, 0, 0.78);
 }
 
-.pop-up-wrapper label {
+.pop-up-wrapper__title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.pop-up-wrapper__form {
+  margin-top: 15px;
+}
+
+.pop-up-wrapper__form label {
   font-size: 12px;
   font-weight: 500;
   color: #585858;
   display: block;
 }
 
-.pop-up-wrapper input {
+.pop-up-wrapper__form input {
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border-radius: 5px;
   padding: 10px;
   width: 100%;
   background-color: #ecf1f2;
   border: none;
+}
+
+.pop-up-wrapper__form .button--sign-in {
+  font-size: 12px;
 }
 
 .pop-up-wrapper__close {
@@ -964,28 +978,46 @@ h2 {
   height: 30px;
 }
 
-.popUp--button {
-  text-align: center;
-  font-size: 13px;
-  border: none;
-  border-radius: 5px;
-  padding: 8px 10px;
-  color: #0a2a35;
-  background-color: #b0dce7;
-  margin-top: 14px;
+@media (min-width: 480px) {
+  .pop-up-wrapper {
+    width: 300px;
+  }
+  .pop-up-wrapper__title {
+    font-size: 18px;
+  }
+  .pop-up-wrapper__form {
+    margin-top: 15px;
+  }
+  .pop-up-wrapper__form label {
+    font-size: 12px;
+  }
+  .pop-up-wrapper__form input {
+    font-size: 12px;
+  }
+  .pop-up-wrapper__form .button--sign-in {
+    font-size: 12px;
+  }
 }
-
-.popUp--button:hover {
-  color: #b0dce7;
-  background-color: #0a2a35;
-}
-
-.popUp--close {
-  width: 25px;
-  position: absolute;
-  margin-left: 192px;
-  margin-top: -60px;
-  cursor: pointer;
+@media (min-width: 1024px) {
+  .pop-up-wrapper {
+    width: 400px;
+  }
+  .pop-up-wrapper__title {
+    font-size: 22px;
+  }
+  .pop-up-wrapper__form {
+    margin-top: 15px;
+  }
+  .pop-up-wrapper__form label {
+    font-size: 16px;
+  }
+  .pop-up-wrapper__form input {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  .pop-up-wrapper__form .button--sign-in {
+    font-size: 14px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
