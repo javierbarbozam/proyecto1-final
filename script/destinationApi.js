@@ -33,7 +33,7 @@ const pageInfo = () => {
     }).catch(error => {
     // handle error
     })
-  } else {
+  } else { // This part of the code is to print all data from the hotel
     fetch(`https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel?search=${urlHotel}`, {
       method: 'GET',
       headers: {'content-type':'application/json'},
@@ -42,33 +42,77 @@ const pageInfo = () => {
         return res.json();
       }
     }).then(element => {
-      const hotel = element[0]
-      console.log(hotel)
+      const hotel = element[0];
 
       // Add rooms into variable
       let rooms = '';
-      hotel.room.forEach(element=>{
 
-        // Add services into variable
-        let services = '';
-        element.features.forEach(item=>{
-          services +=
-          `<li>${item}</li>`
-        })
+      hotel.room.forEach(element => {
 
-        // console.log(services)
-        rooms +=
-        `<li class="minicart-item">
-          <img class="minicart-item__img" src="${element.image}" alt="">
-          <span class="minicart-item__title">${element.name}</span>
-          <p class="minicart-item__info">${element.description}</p>
-          <ul class="minicart-item__services">
-            <span>Included services:</span>
-            ${services}
-          </ul>
-          <span class="minicart-item__price">$XX</span>
-          <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
-        </li>`
+        // Room features name
+        let featureName = '';
+
+        // Establish Room features price variables
+        let normalPrice = 0;
+        let discountPrice = 0;
+
+        // Name & pricing features function
+        const roomFeatures = () => {
+
+          // Discount condition
+          if (element.discount > 0) {
+            element.features.forEach(service => {
+              normalPrice += service.price
+              
+              // Room feature name
+              featureName += 
+              `<li>${service.name}</li>`
+            })
+            discountPrice = Math.round(normalPrice - (normalPrice * element.discount))
+          } else {
+            element.features.forEach(service => {
+              normalPrice += service.price
+
+              // Room feature name
+              featureName += 
+              `<li>${service.name}</li>`
+            })
+          }
+        }
+        roomFeatures()
+
+        // Create HTML
+        const roomHTML = () => {
+          if(element.discount > 0) {
+            rooms +=
+            `<li class="minicart-item">
+              <img class="minicart-item__img" src="${element.image}" alt="">
+              <span class="minicart-item__title">${element.name}</span>
+              <p class="minicart-item__info">${element.description}</p>
+              <ul class="minicart-item__services">
+                <span>Included services:</span>
+                ${featureName}
+              </ul>
+              <span class="minicart-item__price minicart-item__discount">$${normalPrice}</span>
+              <span class="minicart-item__price minicart-item__price--new">$${discountPrice}</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>`
+          } else {
+            rooms +=
+            `<li class="minicart-item">
+              <img class="minicart-item__img" src="${element.image}" alt="">
+              <span class="minicart-item__title">${element.name}</span>
+              <p class="minicart-item__info">${element.description}</p>
+              <ul class="minicart-item__services">
+                <span>Included services:</span>
+                ${featureName}
+              </ul>
+              <span class="minicart-item__price">$${normalPrice}</span>
+              <a class="minicart-item__link" href="#"><span class="visually-hidden">Click to see more</span></a>
+            </li>`
+          }
+        }
+        roomHTML()
       })
 
       // Adding data into DOM
