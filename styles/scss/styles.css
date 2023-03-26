@@ -25,7 +25,8 @@ h2 {
 
 .visually-hidden {
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -250,16 +251,16 @@ h2 {
   }
 }
 .enquiry {
-  margin: 0 auto;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin-left: 5px;
+  padding: 15px;
 }
 
 .enquiry__label {
-  display: flex;
-  flex-direction: column-reverse;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
-  gap: 10px;
   margin: 10px 0;
 }
 
@@ -281,15 +282,15 @@ textarea {
   padding: 10px;
   background-color: #ecf1f2;
   border: none;
+  margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
   .enquiry {
-    padding: 40px;
+    margin-left: 25px;
   }
   .enquiry__label {
-    font-size: 20px;
-    margin: 20px 0;
+    font-size: 16px;
   }
   .enquiry__input {
     font-size: 14px;
@@ -702,6 +703,7 @@ button {
 
 .description__info__text {
   text-align: justify;
+  margin-bottom: 22px;
   font-size: 12px;
 }
 
@@ -761,7 +763,8 @@ h2 {
 
 .visually-hidden {
   clip: rect(0 0 0 0);
-  clip-path: inset(50%);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -926,7 +929,9 @@ h2 {
 }
 
 .pop-up-wrapper label {
-  font-size: 12px;
+  font-size: 14px;
+  margin-bottom: 7px;
+  margin-top: 8px;
   font-weight: 500;
   color: #585858;
   display: block;
@@ -986,6 +991,4 @@ h2 {
   margin-left: 192px;
   margin-top: -60px;
   cursor: pointer;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

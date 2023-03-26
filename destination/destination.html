@@ -4,9 +4,10 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="../styles/scss/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
   <title></title>
+  <script src="https://cdn.emailjs.com/dist/email.min.js" type="text/javascript"></script>
 </head>
 <body>
   <div class="pop-up">
@@ -29,7 +30,7 @@
   </div>
   <header class="header">
     <a class="header__title" href="../index.html">Traveling.</a>
-    <a class="button button--sign-in" id="sign-in__btn" href="">Sing In</a>
+    <a class="button button--sign-in" id="sign-in__btn" href="">Sign In</a>
   </header>
   <main>
     <!-- Hero image -->
@@ -51,6 +52,17 @@
     <!-- Hotel list -->
     <div id="js-card-container" class="js-hidden">
     </div>
+    <form class="enquiry" id="js-btn-form contact-form" method="POST">
+      <label class="enquiry__label" for="text">Name:</label>
+      <input class="enquiry__input" type="text" id="name" name="name"  placeholder="Enter your name" required>
+      <label class="enquiry__label" for="email">Email:</label>
+      <input class="enquiry__input" type="email" id="email" name="email"  placeholder="Enter your email" required>
+      <label class="enquiry__label" for="number">Phone:</label>
+      <input class="enquiry__input" type="number" id="pnone" name="phone" placeholder="Enter your phone number" required>
+      <label class="enquiry__label" for="message">Query:</label>
+      <textarea id="message" name="message"  placeholder="Enter your query" required></textarea>
+      <button class="button button--submit" type="submit">Submit</button>
+    </form>
   </main>
   <footer class="footer">
     <div class="footer-item">
@@ -91,5 +103,6 @@
   </footer>
 </body>
 <script src="../script/query.js" type="module" defer></script>
+<script src="../script/submit-query.js"></script>
 <script src="../script/sign-in.js"></script>
 </html>
