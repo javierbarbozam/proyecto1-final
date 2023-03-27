@@ -119,7 +119,7 @@ const carouselCard = () => {
         `<li class="carousel-item__card">
         <img class="carousel-item__card__img" src="./${element.image}" alt="">
         <span class="carousel-item__card__title">${element.name}</span>
-        <a href="../destination/destination.html?search=${element.name}" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
+        <a href="./destination/destination.html?search=${element.name}" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
       </li>`
     })
 
