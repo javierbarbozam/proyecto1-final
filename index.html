@@ -9,9 +9,27 @@
     <title>Traveling. | Home Page</title>
   </head>
   <body>
+    <div class="pop-up">
+      <div class="pop-up-wrapper">
+        <span class="pop-up-wrapper__title">Sign In</span>
+        <span id="sign-in-close" class="pop-up-wrapper__close">
+          <span class="visually-hidden">Close</span>
+        </span>
+        <form class="pop-up-wrapper__form" action="">
+          <label for="sign-in-name">Name</label>
+          <input type="text" name="sign-in-name" placeholder="Enter here your name" required>
+          <label for="sign-in-email">Email</label>
+          <input type="text" name="sign-in-email" placeholder="Enter here your email" required>
+          <label for="sign-in-password">Password</label>
+          <input type="text" name="sign-in-password" placeholder="Enter here your password" required>
+          <button class="button button--sign-in" id="sign-in-submit">Submit</button>
+        </form>
+      </div>
+      <div class="pop-up-bg"></div>
+    </div>
     <header class="header">
       <span class="header__title">Traveling.</span>
-      <a class="button button--sign-in" href="">Sing In</a>
+      <a class="button button--sign-in" id="sign-in__btn" href="">Sing In</a>
     </header>
     <main>
       <h2>Destinos destacados</h2>
@@ -63,7 +81,9 @@
         </ul>
       </div>
     </footer>
+    <!-- carousel script-->
     <script src="./script/carousel.js"></script>
     <script src="./script/indexApi.js"></script>
+    <script src="./script/sign-in.js"></script>
   </body>
   </html>
