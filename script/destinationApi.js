@@ -26,9 +26,20 @@ const pageInfo = () => {
       title.innerHTML = destination.name;
       heroImage.src = `${destination.heroImage}`
 
+      // Add Image Gallery
+      let images = '';
+      destination.gallery.forEach(element => {
+        images += `
+        <li class="destination-item">
+          <img class="destination-item__img" src="${element}" alt="">
+        </li>
+      `
+      })
+      console.log(images)
       container.insertAdjacentHTML(
         'afterbegin',
-        `<p class="description__info__text">${destination.description}</p>`
+        `<p class="description__info__text">${destination.description}</p>
+        <ul class="destination">${images}</ul>`
       )
     }).catch(error => {
     // handle error
