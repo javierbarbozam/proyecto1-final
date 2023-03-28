@@ -36,7 +36,7 @@ const pageInfo = () => {
         </li>
       `
       })
-      console.log(images)
+
       container.insertAdjacentHTML(
         'afterbegin',
         `<p class="description__info__text">${destination.description}</p>
@@ -168,7 +168,7 @@ const pageCta = () => {
             <img class="minicart-item__img" src="../${element.image}" alt="">
             <span class="minicart-item__title">${element.name}</span>
             <p class="minicart-item__info">${element.description}</p>
-            <a class="minicart-item__link" href="./destination/destination.html?search=${element.name}"><span class="visually-hidden">Click to see more</span></a>
+            <a class="minicart-item__link" href="../destination/destination.html?search=${element.name}"><span class="visually-hidden">Click to see more</span></a>
         </li>`
       });
 
