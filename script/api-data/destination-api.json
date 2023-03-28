@@ -7,7 +7,14 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/destination
 	 "name": "La Fortuna",
 	 "cardImage": "./imgs/la-fortuna/place/la-fortuna-hero.jpeg",
 	 "description": "La Fortuna is located in the Northern Highlands of Costa Rica, about 2.5 hours from San Jose’s international airport (SJO).The main star, Arenal Volcano, can been seen from almost every vantage point. Traveling has been creating memorable vacations for thousands of travelers every year. We are a company who cherishes the tropical beauty and unparalleled adventure that Costa Rica has to offer.",
-	 "gallery": [],
+	 "gallery": ["../imgs/la-fortuna/place/la-fortuna.jpeg",
+	 "../imgs/la-fortuna/place/la-fortuna2.jpeg",
+	 "../imgs/la-fortuna/place/la-fortuna3.jpeg",
+	 "../imgs/la-fortuna/place/la-fortuna4.jpeg",
+	 "../imgs/la-fortuna/place/la-fortuna5.jpeg",
+	 "../imgs/la-fortuna/place/la-fortuna6.jpeg",
+	 "../imgs/la-fortuna/place/la-fortuna7.jpeg",
+	 "../imgs/la-fortuna/place/la-fortuna8.jpeg"],
 	 "heroImage": "../imgs/la-fortuna/place/la-fortuna-hero.jpeg"
 	},
 	{
@@ -15,7 +22,14 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/destination
 	 "name": "Limón",
 	 "cardImage": "./imgs/limon/place/hero-limon.jpeg",
 	 "description": "Stretching along the Caribbean Coast, Limon is considered to be one of the most lush regions of Costa Rica. Boast picturesque white-sand beaches lined with coconut trees for an ultimate tropical paradise. Limon features everything from mangrove, wetlands to towering mountains. Traveling has been creating memorable vacations for thousands of travelers every year. We are a company who cherishes the tropical beauty and unparalleled adventure that Costa Rica has to offer.",
-	 "gallery": [],
+	 "gallery": ["../imgs/limon/place/limon.jpeg",
+	 "../imgs/limon/place/limon2.jpeg",
+	 "../imgs/limon/place/limon3.jpeg",
+	 "../imgs/limon/place/limon4.jpeg",
+	 "../imgs/limon/place/limon5.jpeg",
+	 "../imgs/limon/place/limon6.jpeg",
+	 "../imgs/limon/place/limon7.jpeg",
+	 "../imgs/limon/place/limon8.jpeg"],
 	 "heroImage": "../imgs/limon/place/hero-limon.jpeg"
 	},
 	{
@@ -23,7 +37,14 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/destination
 	 "name": "Manuel Antonio",
 	 "cardImage": "./imgs/manuel-antonio/place/manuel-antonio-hero.jpg",
 	 "description": "The magic of the beach and the greenery of the forest come together in one place, and the result is a natural paradise. Manuel Antonio is the Protected Wilderness Area that receives the largest number of national and international tourists. In addition to beaches, the Park offers a very humid tropical forest where endangered flora and fauna species coexist, a mangrove swamp, marine environments, islands and a 14-hectare lagoon. Traveling has been creating memorable vacations for thousands of travelers every year. We are a company who cherishes the tropical beauty and unparalleled adventure that Costa Rica has to offer.",
-	 "gallery": [],
+	 "gallery": ["../imgs/manuel-antonio/place/manuel-antonio.jpeg",
+	 "../imgs/manuel-antonio/place/manuel-antonio2.jpeg",
+	 "../imgs/manuel-antonio/place/manuel-antonio3.jpeg",
+	 "../imgs/manuel-antonio/place/manuel-antonio4.jpeg",
+	 "../imgs/manuel-antonio/place/manuel-antonio5.jpeg",
+	 "../imgs/manuel-antonio/place/manuel-antonio6.jpeg",
+	 "../imgs/manuel-antonio/place/manuel-antonio7.jpg",
+	 "../imgs/manuel-antonio/place/manuel-antonio8.jpeg"],
 	 "heroImage": "../imgs/manuel-antonio/place/manuel-antonio-hero.jpg"
 	},
 	{
@@ -31,7 +52,14 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/destination
 	 "name": "Monteverde",
 	 "cardImage": "./imgs/monteverde/place/monte-verde-hero.jpg",
 	 "description": "Monteverde is a city in the mountainous northwest of Costa Rica. It is recognized for its biodiverse forests in the clouds. This famous Cloud Forest Reserve is home to an infinite number of species of fauna and on the trails you can see ferns and orchids, and there are suspension bridges at high altitudes.",
-	 "gallery": [],
+	 "gallery": ["../imgs/monteverde/place/monteverde1.jpeg",
+	 "../imgs/monteverde/place/monteverde2.jpeg",
+	 "../imgs/monteverde/place/monteverde3.jpeg",
+	 "../imgs/monteverde/place/monteverde4.jpeg",
+	 "../imgs/monteverde/place/monteverde5.jpeg",
+	 "../imgs/monteverde/place/monteverde6.jpeg",
+	 "../imgs/monteverde/place/monteverde7.jpeg",
+	 "../imgs/monteverde/place/monteverde8.jpeg"],
 	 "heroImage": "../imgs/monteverde/place/monte-verde-hero.jpg"
 	},
 	{
@@ -39,7 +67,14 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/destination
 	 "name": "Parrita",
 	 "cardImage": "./imgs/parrita/place/parrita-hero.jpeg",
 	 "description": "The Parrita canton is located in the Puntarenas province, in the shore of the Costa Rican Central Pacific, in the east limit of the Quepos canton and in the west limit of Garabito. The main city of the canton is Parrita, which is a district on its own.",
-	 "gallery": [],
+	 "gallery": ["../imgs/parrita/place/parrita1.jpg",
+	 "../imgs/parrita/place/parrita2.jpg",
+	 "../imgs/parrita/place/parrita3.jpg",
+	 "../imgs/parrita/place/parrita4.jpeg",
+	 "../imgs/parrita/place/parrita5.jpeg",
+	 "../imgs/parrita/place/parrita6.jpeg",
+	 "../imgs/parrita/place/parrita7.jpeg",
+	 "../imgs/parrita/place/parrita8.jpg"],
 	 "heroImage": "../imgs/parrita/place/parrita-hero.jpeg"
 	},
 	{
@@ -47,7 +82,14 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/destination
 	 "name": "Puntarenas",
 	 "cardImage": "./imgs/puntarenas/place/puntarenas-hero.jpeg",
 	 "description": "The coasts of the Puntarenas tourist zone are adorned by islands, beaches and natural treasures. It is an excellent tourist destination. Its territory offers a variety of beach and sun attractions. Its main center, the City of Puntarenas, functions as a place of stay, distribution and excursion. Mostly traditional hotels and cabins near the sea prevail.",
-	 "gallery": [],
+	 "gallery": ["../imgs/puntarenas/place/puntarenas-1.jpg",
+	 "../imgs/puntarenas/place/puntarenas-2.jpg",
+	 "../imgs/puntarenas/place/puntarenas-3.jpg",
+	 "../imgs/puntarenas/place/puntarenas-4.jpg",
+	 "../imgs/puntarenas/place/puntarenas-5.jpg",
+	 "../imgs/puntarenas/place/puntarenas-6.jpg",
+	 "../imgs/puntarenas/place/puntarenas-7.jpg",
+	 "../imgs/puntarenas/place/puntarenas-8.jpg"],
 	 "heroImage": "../imgs/puntarenas/place/puntarenas-hero.jpeg"
 	},
 	{
@@ -55,7 +97,14 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/destination
 	 "name": "Quepos",
 	 "cardImage": "./imgs/quepos/place/quepos-hero.jpeg",
 	 "description": "Quepos, a small town in Puntarenas province, is located on Costa Rica’s central Pacific coast. Offers vacationers a wealth of activities to do as well. Has many fine restaurants, art galleries and souvenir shops, most within a short walking distance. Book an exhilarating canopy tour, go horseback riding, kayaking and rafting.",
-	 "gallery": [],
+	 "gallery": ["../imgs/quepos/place/quepos-1.jpg",
+	 "../imgs/quepos/place/quepos-2.jpg",
+	 "../imgs/quepos/place/quepos-3.jpg",
+	 "../imgs/quepos/place/quepos-4.jpg",
+	 "../imgs/quepos/place/quepos-5.jpg",
+	 "../imgs/quepos/place/quepos-6.jpg",
+	 "../imgs/quepos/place/quepos-7.jpg",
+	 "../imgs/quepos/place/quepos-8.jpg"],
 	 "heroImage": "../imgs/quepos/place/quepos-hero.jpeg"
 	},
 	{
@@ -63,7 +112,14 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/destination
 	 "name": "Tamarindo",
 	 "cardImage": "./imgs/tamarindo/place/tamarindo-hero.jpeg",
 	 "description": "Tamarindo is a district of the Santa Cruz canton, in the Guanacaste province of Costa Rica. It is a perfect place for surfing, sport fishing, scuba diving and sunbathing. If you want to spend your days here, you will find beautiful beach houses and luxury hotels next to the sunny beaches. You will find plenty of fantastic options for shopping or dining.",
-	 "gallery": [],
+	 "gallery": ["../imgs/tamarindo/place/tamarindo-1.jpg",
+	 "../imgs/tamarindo/place/tamarindo-2.jpg",
+	 "../imgs/tamarindo/place/tamarindo-3.jpg",
+	 "../imgs/tamarindo/place/tamarindo-4.jpg",
+	 "../imgs/tamarindo/place/tamarindo-5.jpg",
+	 "../imgs/tamarindo/place/tamarindo-6.jpg",
+	 "../imgs/tamarindo/place/tamarindo-7.jpg",
+	 "../imgs/tamarindo/place/tamarindo-8.jpg"],
 	 "heroImage": "../imgs/tamarindo/place/tamarindo-hero.jpeg"
 	}
  ]

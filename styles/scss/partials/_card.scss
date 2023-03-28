@@ -4,17 +4,17 @@
 
 // destination card template
 .minicart {
-  padding: 0 20px;
-  display: flex;
-  gap: 10px;
-  margin: 0 auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5px;
   flex-wrap: wrap;
 }
 
 .minicart-item {
   padding: 10px;
   background-color: colors.$lightblue;
-  max-width: 144px;
+  width: 100%;
   border-radius: 5px;
   position: relative;
 }
@@ -27,6 +27,7 @@
   display: block;
   margin: 0 auto;
   height: 67px;
+  object-fit: cover;
   width: 100%;
   border-radius: 5px;
   transition-duration: 0.2s;
@@ -39,6 +40,7 @@
 }
 
 .minicart-item__title {
+  margin: 5px 0;
   font-size: 12px;
   font-weight: 700;
   display: block;
@@ -46,6 +48,7 @@
 
 .minicart-item__info {
   font-size: 10px;
+  min-height: 70px;
 }
 
 .minicart-item__link::after {
@@ -82,32 +85,35 @@
   left: -0.5px;
 }
 
+.minicart-item__pricing {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 .minicart-item__price {
-  display: block;
   font-weight: 700;
   font-size: 12px;
-  text-align: end;
+}
+
+.minicart-item__price--discount {
+  text-decoration: line-through;
+  text-decoration-thickness: 2px;
+  color: colors.$discount;
 }
 
 @media (min-width: 480px) {
   // destination card template
   .minicart {
-    padding: 0 20px;
-    justify-content: space-evenly;
+    gap: 10px;
   }
-
-  .minicart-item {
-    padding: 10px;
-    max-width: 190px;
-  }
-
+  
   .minicart-item__img {
     height: 100px;
   }
 
   .minicart-item__title {
     font-size: 14px;
-    font-weight: 700;
   }
 
   .minicart-item__info {
@@ -137,9 +143,8 @@
 @media (min-width: 768px) {
   // destination card template
 
-  .minicart-item {
-    padding: 15px;
-    max-width: 230px;
+  .minicart {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .minicart-item__img {
@@ -149,7 +154,6 @@
 
   .minicart-item__title {
     font-size: 18px;
-    font-weight: 700;
   }
 
   // Hotel card facilities list
@@ -176,9 +180,8 @@
 @media (min-width: 1024px) {
   // destination card template
 
-  .minicart-item {
-    padding: 20px;
-    max-width: 320px;
+  .minicart {
+   grid-template-columns: repeat(4, 1fr);
   }
 
   .minicart-item__img {
@@ -187,7 +190,6 @@
 
   .minicart-item__title {
     font-size: 18px;
-    font-weight: 700;
   }
 
   // Hotel card facilities list

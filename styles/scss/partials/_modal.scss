@@ -20,8 +20,8 @@
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 10;
-  height: 400px;
-  width: 400px;
+  height: fit-content;
+  width: 250px;
   padding: 20px;
   border-radius: 5px;
   background-color: colors.$white;
@@ -32,24 +32,35 @@
   20px 64px 457px rgba(0, 0, 0, 0.78);
 }
 
-.pop-up-wrapper label {
-  font-size: 14px;
-  margin-bottom: 7px;
-  margin-top: 8px;
+.pop-up-wrapper__title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.pop-up-wrapper__form {
+  margin-top: 15px;
+}
+.pop-up-wrapper__form label {
+  font-size: 12px;
   font-weight: 500;
   color: #585858;
   display: block;
 }
 
-.pop-up-wrapper input {
+.pop-up-wrapper__form input {
   font-family: 'Poppins', sans-serif;
   font-size: 12px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   border-radius: 5px;
   padding: 10px;
   width: 100%;
   background-color: colors.$lightblue;
   border: none;
+}
+
+.pop-up-wrapper__form .button--sign-in {
+  font-size: 12px;
 }
 
 .pop-up-wrapper__close {
@@ -73,45 +84,54 @@
   height: 30px;
 }
 
-.popUp--button {
-  text-align: center;
-  font-size: 13px;
-  border: none;
-  border-radius: 5px;
-  padding: 8px 10px;
-  color: colors.$blue;
-  background-color: colors.$lightblue--btn;
-  margin-top: 14px;
+@media (min-width: 480px) {
+  .pop-up-wrapper {
+    width: 300px;
+  }
+  
+  .pop-up-wrapper__title {
+    font-size: 18px;
+  }
+  
+  .pop-up-wrapper__form {
+    margin-top: 15px;
+  }
+  .pop-up-wrapper__form label {
+    font-size: 12px;
+  }
+  
+  .pop-up-wrapper__form input {
+    font-size: 12px;
+  }
+
+  .pop-up-wrapper__form .button--sign-in {
+    font-size: 12px;
+  }
 }
 
-.popUp--button:hover {
-  color: colors.$lightblue--btn;
-  background-color: colors.$blue;
+@media (min-width: 1024px) {
+  .pop-up-wrapper {
+    width: 400px;
+  }
+  
+  .pop-up-wrapper__title {
+    font-size: 22px;
+  }
+  
+  .pop-up-wrapper__form {
+    margin-top: 15px;
+  }
+
+  .pop-up-wrapper__form label {
+    font-size: 16px;
+  }
+  
+  .pop-up-wrapper__form input {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .pop-up-wrapper__form .button--sign-in {
+    font-size: 14px;
+  }
 }
-
-.popUp--close {
-  width: 25px;
-  position: absolute;
-  margin-left: 192px;
-  margin-top: -60px;
-  cursor: pointer;
-}
-
-// @media (min-width: 768px) {
-//   .popUp--content {
-//     height: 355px;
-//     width: 380px;
-//   }
-
-//   .popUp--input {
-//     padding: 0px 125px 0px 15px;
-//   }
-
-//   .popUp--button {
-//     font-size: 15px;
-//   }
-
-//   .popUp--close {
-//     margin-left: 315px;
-//   }
-// }
