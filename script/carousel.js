@@ -1,4 +1,3 @@
-
 let carousel = document.querySelector('.carousel');
 let carouselItem = document.querySelector('.carousel-item');
 let carouselWidth, cardsWidth;
@@ -16,9 +15,9 @@ const carouselCard = () => {
     element.forEach(element => {
       cardsInfo +=
         `<li class="carousel-item__card">
-        <img class="carousel-item__card__img" src="./${element.image}" alt="">
-        <span class="carousel-item__card__title">${element.name}</span>
-        <a href="./destination/destination.html?search=${element.name}" class="carousel-item__card__link"><span class="visually-hidden">Show More</span></a>
+        <img class="carousel-item_card_img" src="./${element.image}" alt="">
+        <span class="carousel-item_card_title">${element.name}</span>
+        <a href="./destination/destination.html?search=${element.name}" class="carousel-item_card_link"><span class="visually-hidden">Show More</span></a>
       </li>`
     })
 
@@ -32,7 +31,22 @@ const carouselCard = () => {
 
     // Update cards and call the resize function after the cards have been added
     let cards = document.querySelectorAll('.carousel-item__card');
-    resize();
+    
+    // Add a counter for loaded images
+    let imagesLoaded = 0;
+
+    // Iterate through all the images and add an event listener for the load event
+    cards.forEach(card => {
+      const img = card.querySelector('img');
+      img.addEventListener('load', () => {
+        imagesLoaded++;
+
+        // When all images are loaded, call the resize function
+        if (imagesLoaded === cards.length) {
+          resize();
+        }
+      });
+    });
 
     // Buttons functionality
     const carouselBtn = document.querySelectorAll('.carousel-btn');
