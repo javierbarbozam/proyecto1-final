@@ -27,7 +27,7 @@ const carouselCard = () => {
     )
 
     // Hide the scrollbar
-    carouselItem.style.overflow = 'hidden';
+    // carouselItem.style.overflow = 'hidden';
 
     // Update cards and call the resize function after the cards have been added
     let cards = document.querySelectorAll('.carousel-item__card');
