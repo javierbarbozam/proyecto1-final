@@ -6,6 +6,7 @@ const container = document.querySelector('#js-info-container')
 const headTitle = document.querySelector('title');
 const title = document.querySelector('.description__info__title');
 const heroImage = document.querySelector('.description__hero__img');
+const form = document.querySelector('#js-form');
 
 const pageInfo = () => {
   if (urlDestination) {
@@ -181,16 +182,7 @@ const pageCta = () => {
     // handle error
     })
   } else {
-    container.innerHTML =
-    `<form id="js-btn-form" class="enquiry" action="">
-      <label class="enquiry__label" for="name"><input class="enquiry__input" type="text" name="" id="" placeholder="Enter your name" required>Name</label>
-      <label class="enquiry__label" for="email"><input class="enquiry__input" type="email" name="" id="" placeholder="Enter your email" required>Email</label>
-      <label class="enquiry__label" for=""><input class="enquiry__input" type="number" name="" id="" placeholder="Enter your phone number" required>Number</label>
-      <label class="enquiry__label" for="text"><textarea class="enquiry__textarea" name="query" id="query" cols="30" rows="10" placeholder="Enter here your query"></textarea>Query</label>
-      <div class="form__button--submit">
-        <button class="button button--submit" type="submit">Submit</button>
-      </div>
-    </form>`
+    form.style.display = 'block';
   }
 }
 

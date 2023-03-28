@@ -1,23 +1,30 @@
-function sendMail() {
-  var params = {
-    name: document.getElementById("name").value,
-    email: document.getElementById("email").value,
-    phone : document.getElementById("phone").value,
-    query: document.getElementById("query").value,
-  };
+// Inicializa EmailJS con tu User ID
+emailjs.init("IOZ7SoMuWrZxEtgz9");
 
-  const serviceID = "service_vgu962n";
-  const templateID = "template_funn9g7";
+// Manejador de envío de formulario
+document.getElementById("contact-form").addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevenir el envío predeterminado del formulario
 
-  emailjs.send(serviceID, templateID, params)
-    .then(res=>{
-      document.getElementById("name").value = "";
-      document.getElementById("email").value = "";
-      document.getElementById("phone").value = "";
-      document.getElementById("query").value = "";
-      console.log(res);
-      alert("Your message sent successfully!!")
+  // Obtener valores del formulario
+  const form = event.target;
+  const name = form.name.value;
+  const phone = form.phone.value
+  const email = form.email.value;
+  const message = form.message.value;
 
-    })
-    .catch(err=>console.log(err));
-}
+  // Enviar correo electrónico utilizando EmailJS
+  emailjs.send("service_64225v6", "template_nnt60z8", {
+    from_name: name,
+    from_email: email,
+    from_phone: phone,
+    message: message,
+  })
+  .then(function(response) {
+    console.log("Correo electrónico enviado:", response.status, response.text);
+    alert("¡Gracias por tu mensaje! Te responderemos lo antes posible.");
+    form.reset(); // Limpiar formulario después del envío
+  }, function(error) {
+    console.log("Error al enviar correo electrónico:", error);
+    alert("Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo más tarde.");
+  });
+});
