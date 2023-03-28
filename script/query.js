@@ -3,9 +3,13 @@ import { pageInfo, pageCta, urlDestination } from "./destinationApi.js";
 const info_btn = document.querySelector('#js-btn-info');
 const cta_btn = document.querySelector('#js-btn-cta');
 const container = document.querySelector('#js-info-container');
+const form = document.querySelector('#js-form');
 
 //Change Btn Text depending on destination or hotel page
 urlDestination == null?cta_btn.innerHTML = 'Query':cta_btn.innerHTML = 'Hotels'
+
+//Hide form depending on destination or hotel page
+// urlDestination == null?form.style.display = 'block':form.style.display = 'none';
 
 
 const informationBtn = () => {

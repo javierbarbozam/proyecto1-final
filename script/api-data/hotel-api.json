@@ -1,5 +1,3 @@
-https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
-
 [
   {
     "idDestination": 0,
@@ -10,38 +8,48 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 700,
         "description": "Shower, Safety deposit box, Toilet, Towels, Linen, Shared bathroom, Fan, Towels/sheets.",
-        "features": ["Jacuzzi", "Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+            {"name": "Jacuzzi", "price": 25},
+            {"name": "Wi-Fi", "price": 20},
+            {"name": "Minibar", "price": 100},
+            {"name": "Kitchen", "price": 60}
+          ],
+        "discount": 0.20,
         "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 685,
         "description": "Garden view, Air conditioning, Shower, Toilet, Towels, air conditioning for guest accommodation.",
-        "features": ["Jacuzzi", "Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 850,
         "description": "1 large double bed, Featuring colourful glass doors, these adults-only rooms offer views of the Arenal Volcano and the surrounding mountains.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.25,
         "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room3.jpeg"
       },
       {
         "name": "Economic Room",
-        "price": 500,
         "description": "1 double bed. This tent fits up to 2 people. The bathroom and shower are shared.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room4.jpg"
       }
     ]
@@ -55,38 +63,49 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 600,
         "description": "1 or 2 Queen Beds. Enjoy the best view of the Arenal Volcano, the rainforest, the birds, and the howler monkeys from the privacy of your balcony. The Junior Suites are located next to the main building. They all have air-conditioned",
-        "features": ["Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 790,
         "description": "A 1 floor standard apartment perfect for a family or group of friends. The apartment has 2 private bedrooms and 1 bathroom each",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/backpacker-resort/backpacker-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 950,
         "description": "These rooms are apartments with connecting doors. Family suites are equipped with a microwave oven, a coffee maker, and a mini fridge. The family suites have two bedrooms and a separate living room.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-room3.jpeg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "These large rooms, built as separate chalets, are perched on top of the hill behind the main building; they offer an incredible panoramic view",
-        "features": ["Wi-Fi", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/arenal-lodge/arenal-lodge-room4.jpg"
       }
     ]
@@ -100,38 +119,48 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 600,
         "description": "1 double bed, 25 m² Garden view, Air conditioning, Ensuite bathroom, TV.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/la-choza/la-choza-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 700,
         "description": "With air-conditioning, lockers, Includes bed linen, hand sanitizer, fridge, coffee maker.",
-        "features": ["Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.35,
         "image": "../imgs/la-fortuna/hotels/la-choza/la-choza-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 850,
         "description": "2 double beds, Air conditioning, Ensuite bathroom.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.10,
         "image": "../imgs/la-fortuna/hotels/la-choza/la-choza-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "With air-conditioning, lockers, Includes bed linen, hand sanitizer, fridge, coffee maker.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/la-choza/la-choza-room4.jpg"
       }
     ]
@@ -145,38 +174,47 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 600,
         "description": "2 large double beds, Garden and Mountain view, Air conditioning, Patio, Ensuite bathroom, Flat-screen TV, Coffee machine, Desk, Private entrance.",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/loma-real/loma-real-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 710,
         "description": "This double room has air conditioning. It also includes bedding, coffee maker, flat screen TV, patio, bathtub or shower, towels.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/loma-real/loma-real-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 590,
         "description": "Perfect for a family of 4 or more, with patio, air conditioning and private entrance. Also includes 2 double beds, bath or shower, towels, tea/coffee maker, flat screen TV, also includes a great mountain view.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/loma-real/loma-real-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 500,
         "description": "This double room has a patio, private entrance and cable TV. Includes bed linen, hand sanitizer, fridge.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/la-fortuna/hotels/loma-real/loma-real-room4.jpg"
       }
     ]
@@ -190,38 +228,49 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 790,
         "description": "It includes garden and inner courtyard  views, Air-conditioning, Yard, bathroom in the room, Coffee maker, Minibar and 1 extra-large double bed",
-        "features": ["Jacuzzi", "Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.15,
         "image": "../imgs/limon/hotels/agua-clara/agua-clara-room1.jpeg"
       },
       {
         "name": "Stantard Room",
-        "price": 685,
         "description": "Garden view, Air conditioning, Shower, Toilet, Towels, air conditioning for guest accommodation.",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/agua-clara/agua-clara-room2.jpeg"
       },
       {
         "name": "Deluxe Room",
-        "price": 850,
         "description": "This features 1 extra-large double bed, with a balcony, minibar, sofa, coffee maker, dining table, sofa, closet, seating and dining area, telephone, air conditioning",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.35,
         "image": "../imgs/limon/hotels/agua-clara/agua-clara-room3.jpeg"
       },
       {
         "name": "Economic Room",
-        "price": 610,
         "description": "This has 3 single beds and 1 extra double beds, refrigerator, microwave, coffee maker, kitchen utensils, access to upper floors of the house only by stairs, seating area",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/agua-clara/agua-clara-room4.jpeg"
       }
     ]
@@ -235,38 +284,50 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 750,
         "description": "1 extra-large double bed. Has a balcony, sofa and seating area. Garden Landmark view, Pool, Inner courtyard, Patio, Private entrance, Tea/Coffee maker, Fan, Dressing room",
-        "features": ["Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "/limon/hotels/exotico-beach&rooms/exotico_beach-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 790,
         "description": "Air conditioning, 1 extra-large double bed  and 1 large double bed. This suite features a balcony, tea/coffee maker and electric kettle.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/exotico-beach&rooms/exotico_beach-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 850,
         "description": "77 m², Balcony, Garden, Mountain view, Pool with a view, Patio, Ensuite bathroom, Bathrobe, Sofa, Bath or shower, Towels, Desk Seating Area.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/exotico-beach&rooms/exotico_beach-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 650,
         "description": "Double room with balcony, air conditioning and seating area. With garden and pool views.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/exotico-beach&rooms/exotico_beach-room4.jpg"
       }
     ]
@@ -280,38 +341,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 640,
         "description": "This has a balcony, wardrobe, air conditioning, and a TV with cable channels. With garden view and only with one bed.",
-        "features": ["Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/pacuare/pacuare-room1.png"
       },
       {
         "name": "Stantard Room",
-        "price": 790,
         "description": "A 1 floor standard apartment perfect for a family or group of friends. The apartment has 2 private bedrooms and 1 bathroom each",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.30,
         "image": "../imgs/limon/hotels/pacuare/pacuare-room2.png"
       },
       {
         "name": "Deluxe Room",
-        "price": 950,
         "description": "These rooms are apartments with connecting doors. Family suites are equipped with a microwave oven, a coffee maker, and a mini fridge. The family suites have two bedrooms and a separate living room.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100}
+        ],
+        "discount": 0.10,
         "image": "../imgs/limon/hotels/pacuare/pacuare-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "These large rooms, built as separate chalets, are perched on top of the hill behind the main building; they offer an incredible panoramic view",
-        "features": ["Wi-Fi", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/pacuare/pacuare-room4.jpg"
       }
     ]
@@ -325,38 +394,43 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Small Room",
-        "price": 580,
         "description": "1 double bed, bed linen, towels, free toiletries, and hot water.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/selina/selina-limon-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 750,
         "description": "Our Standard room offers two guests the ideal space to relax comfortably in complete privacy. It has free Wi-Fi, air conditioning, bed linen, towels, free toiletries, and hot water. Capacity of 2 people.",
-        "features": ["Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/selina/selina-limon-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 700,
         "description": "The room comes complete with a private bathroom, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water. Capacity of 2 people.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/limon/hotels/selina/selina-limon-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "Our cozy teepees have a beautiful design and are unique spaces that guarantee a comfortable sleep and an unforgettable experience. The bathroom is shared and has free Wi-Fi, bed linen and towels. Capacity of 2 people.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0.10,
         "image": "../imgs/limon/hotels/selina/selina-limon-room4.jpg"
       }
     ]
@@ -370,38 +444,50 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Small Room",
-        "price": 660,
         "description": "1 double bed, Balcony, Garden view, Pool view, Mountain view , Air conditioning , Ensuite bathroom",
-        "features": ["Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/faro-beach/el-faro-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 790,
         "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/faro-beach/el-faro-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 950,
         "description": "This has 2 double beds, sofa bed, coffee maker, air conditioning, bed linen, towels, flat screen tv, free Wi-Fi and seating and dining area. With a garden, sea and mountain views.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/faro-beach/el-faro-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "Suite located on the top floor. It includes a terrace with fantastic panoramic views, 1 extra-large double bed, air conditioning",
-        "features": ["Wi-Fi", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/faro-beach/el-faro-room4.jpg"
       }
     ]
@@ -415,38 +501,50 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Small Room",
-        "price": 620,
         "description": "This has a balcony, wardrobe, air conditioning, and a TV with cable channels. With garden view and only with one bed.",
-        "features": ["Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/planet-B/planet-b-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 760,
         "description": "This room has single beds, bath or shower, air conditioning, WiFi, board games / puzzles, ironing facilities, outside dining area,  bed linen, towels.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/planet-B/planet-b-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 970,
         "description": "This room has single beds, bath or shower, air conditioning, WiFi, board games / puzzles, ironing facilities, outside dining area,  bed linen, towels.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/planet-B/planet-b-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 640,
         "description": "This suite features a private entrance and seating area. Private suite, Garden view, River view",
-        "features": ["Wi-Fi", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/planet-B/planet-b-room1.jpg"
       }
     ]
@@ -460,38 +558,48 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Small Room",
-        "price": 580,
         "description": "1 double bed, bed linen, towels, free toiletries, and hot water.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0.25,
         "image": "../imgs/manuel-antonio/hotels/selina/selina-manuel-antonio-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 750,
         "description": "Our Standard room offers two guests the ideal space to relax comfortably in complete privacy. It has free Wi-Fi, air conditioning, bed linen, towels, free toiletries, and hot water. Capacity of 2 people.",
-        "features": ["Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/selina/selina-manuel-antonio-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 700,
         "description": "The Suite room comes complete with a private bathroom, free Wi-Fi, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water. Capacity of 2 people.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/selina/selina-manuel-antonio-room3.jpeg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "Selina's community rooms are not like what you find in a typical hotel. We've raised the bar to a whole new level by adding a seating area, your own personal light, shelf and locker to each bunk so your stuff is safe and secure. And with free Wi-Fi, air conditioning, and shared bathroom.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/selina/selina-manuel-antonio-room4.jpeg"
       }
     ]
@@ -505,38 +613,47 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 780,
         "description": "Double room with 2 double beds, air conditioning, cable TV and full bathroom. Includes a shared balcony with a hammock and garden views.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.10,
         "image": "../imgs/manuel-antonio/hotels/tabulia-tree/tabulia-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 750,
         "description": "Double room with 2 double beds, air conditioning, cable TV and full bathroom. Includes a shared balcony with a hammock and garden views.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.05,
         "image": "../imgs/manuel-antonio/hotels/tabulia-tree/tabulia-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 800,
         "description": "Double room with air conditioning, double bed, sofa, cable TV and full bathroom. It also includes a fridge and coffee maker. It offers pool views.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/manuel-antonio/hotels/tabulia-tree/tabulia-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "Located on the ground and first floor, our Family rooms have spectacular views.Also you can find air conditioning, TV with cable channels.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.30,
         "image": "../imgs/manuel-antonio/hotels/hotels/tabulia-tree/tabulia-room4.jpg"
       }
     ]
@@ -550,38 +667,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 700,
         "description": "Our family rooms are ideal for small families, with a local wooden construction design, located within beautiful botanical gardens that adorn the property. Each room has a bathroom with shower, free internet, complimentary local coffee and television.",
-        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotels/heliconia/heliconia-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 720,
         "description": "The room ideal for small families, with a local wooden construction design, located within beautiful botanical gardens that adorn the property. Each room has a bathroom with shower, free internet, complimentary local coffee and television.",
-        "features": ["Wi-Fi", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.35,
         "image": "../imgs/monteverde/hotels/heliconia/heliconia-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 840,
         "description": "Is located steps from the hotel's private nature trail with stunning views of the Nicoya Peninsula with balcony, large bathroom with shower, free internet, complimentary local coffee, and television.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.10,
         "image": "../imgs/monteverde/hotels/heliconia/heliconia-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 625,
         "description": "This room pride themselves on their wooden construction, located in beautiful botanical gardens that decorate the property. Each room has a bathroom with a shower, free internet, complimentary local coffee and television.",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotels/heliconia/heliconia-room4.jpg"
       }
     ]
@@ -595,38 +720,50 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 700,
         "description": "It has a terrace, patio, seating area, closet, bathroom, bath or shower, hair dryer, towels, flat screen TV, microwave, toaster, tea/coffee maker, outdoor dining area. With a mountain and river view.",
-        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotels/la-guayaba/la-guayaba-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 720,
         "description": "It has a terrace, patio, seating area, closet, bathroom, bath or shower, hair dryer, towels, flat screen TV, microwave, toaster, tea/coffee maker, outdoor dining area. With a mountain and river view.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotels/la-guayaba/la-guayaba-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 840,
         "description": "It has a terrace, seating area, closet, bathroom, bath or shower, hair dryer, towels, flat screen TV, outdoor dining area. With a mountain view.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotels/la-guayaba/la-guayaba-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "It has a terrace, patio, seating area, closet, bathroom, bath or shower, hair dryer, towels, flat screen TV, tea/coffee maker, outdoor dining area. With a mountain view.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotels/la-guayaba/la-guayaba-room1.jpg"
       }
     ]
@@ -640,38 +777,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 700,
         "description": "1 double bed, Balcony, Garden view, Pool view, Mountain view , Air conditioning , Ensuite bathroom",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.10,
         "image": "../imgs/monteverde/hotels/la-macadamia/la-macadamia-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 805,
         "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotels/la-macadamia/la-macadamia-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 840,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area. With garden and mountain views.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotels/la-macadamia/la-macadamia-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area. With garden and mountain views.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.05,
         "image": "../imgs/monteverde/hotels/la-macadamia/la-macadamia-room4.jpg"
       }
     ]
@@ -685,38 +830,47 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 690,
         "description": "This room has 2 double beds, you can find a microwave, coffee maker, and balcony. With garden and pool views.",
-        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotelsmajestic-lodge/majestic-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 750,
         "description": "Comes complete with a bathrooms,, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water, kitchen, backyard.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.35,
         "image": "../imgs/monteverde/hotels/majestic-lodge/majestic-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 880,
         "description": "This room has 4 double beds, bathroom with a shower, patio, seating area, balcony, wardrobe, kitchen, air conditioning, and a TV with cable channels. With garden views.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.40,
         "image": "../imgs/monteverde/hotels/majestic-lodge/majestic-room4.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "Offers the ideal space to relax comfortably in complete privacy. It has air conditioning, bed linen, towels, free toiletries, and hot water.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/monteverde/hotels/majestic-lodge/majestic-room1.jpg"
       }
     ]
@@ -730,38 +884,47 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 760,
         "description": "1 extra-large double bed with seating area, bathrobe and balcony. ",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/los-altos/altos_room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 750,
         "description": "1 large double bed , a very spacious Lounge Area: Sofa, Table & Chairs, Open-Air Terrace with Cozy Seating.",
-        "features": ["Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/los-altos/altos_room_2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 790,
         "description": "This is our most private, spacious and relaxing room category. Includes King & Twin-Sized Beds.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/los-altos/altos_room_3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "This room has a mini-bar, patio and cable TV. Also a restaurant and bathroom.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/los-altos/altos_romm4.jpg"
       }
     ]
@@ -775,38 +938,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 760,
         "description": "2 single beds and 1 large double bed. This suite has a balcony, CD player and kitchen.",
-        "features": ["Wi-Fi", "Breakfast", "Linen"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/jungle-vista/jungle-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 750,
         "description": "1 large double bed. This has a private elevator, 2 bathrooms and 3 balconies. It is located on the 4th and 5th floor of the hotel.",
-        "features": ["Breakfast and Lunch", "Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100}
+        ],
+        "discount": 0.10,
         "image": "../imgs/parrita/hotels/jungle-vista/jungle-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 790,
         "description": "This is our most private, spacious and relaxing room category. Includes King & Twin-Sized Beds.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/jungle-vista/jungle-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "This room has a living room included and a king bed. Cable TV. Also a bathroom.",
-        "features": ["Wi-Fi", "Breakfast", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/jungle-vista/jungle-room4.jpg"
       }
     ]
@@ -820,38 +991,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 760,
         "description": "1 extra-large double bed with seating area, bathrobe, private pool and balcony. ",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.10,
         "image": "../imgs/parrita/hotels/makanda/makada-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 750,
         "description": "1 large double bed , a very spacious Lounge Area: Sofa, Table & Chairs, Open-Air Terrace with Cozy Seating.",
-        "features": ["Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/makanda/makada-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 790,
         "description": "This is our most private, spacious and relaxing room category. Includes King & Twin-Sized Beds and a bathroom.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/makanda/makada-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "This room has a mini-bar, patio and cable TV. Also is a room with large bathroom included",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/makanda/makada-room4.jpg"
       }
     ]
@@ -865,38 +1044,48 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 760,
         "description": "1 large double bed with seating area, bathrobe, private pool and balcony. ",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/oceans-two/oceans-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 750,
         "description": "Choose your bed (if available): 1 single bed, 1 bunk bed,  1 large double bed, a very spacious Lounge Area: Sofa, Table & Chairs, Open-Air Terrace with Cozy Seating.",
-        "features": ["Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/oceans-two/oceans-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 790,
         "description": "This is our most relaxing room category. Includes King & Twin-Sized Beds and a bathroom.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/oceans-two/oceans-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "This room has a mini-bar, patio and cable TV. Also is a room with large bathroom included",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/parrita/hotels/oceans-two/oceans-room4.jpg"
       }
     ]
@@ -910,38 +1099,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 600,
         "description": "2 double beds Balcony, Garden view, Air conditioning, Ensuite bathroom, Flat-screen TV, Bath or shower, Towels, Desk, Refrigerator.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.10,
         "image": "../imgs/puntarenas/hotels/adventure-park/adventure-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 705,
         "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
-        "features": ["Wi-Fi", "Breakfast", "Balcony", "Sea view"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/adventure-park/adventure-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 690,
         "description": "This double room has a fridge, air conditioning and flat-screen TV. It also has a bath or shower, towels, tea/coffee service, 2 double beds and views of the garden.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/adventure-park/adventure-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "This holiday home has air conditioning, tea/coffee maker and kitchen. It also has a bath or shower, towels, microwave, dining table, sofa, and the first bedroom has 1 double bed and the second one has 2 bunk beds.",
-        "features": ["Breakfast and Lunch", "Wi-Fi", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/adventure-park/adventure-room4.jpg"
       }
     ]
@@ -955,38 +1152,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 700,
         "description": "This spacious room features Costa Rican-style décor, including local artwork. It has air conditioning. There is cable TV, a ceiling fan and a private bathroom.",
-        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/buen-camino/buenCanino-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 720,
         "description": "This spacious room features Costa Rican-style décor, including local artwork. It has air conditioning. There is cable TV, a ceiling fan and a private bathroom.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.10,
         "image": "../imgs/puntarenas/hotels/buen-camino/buencamino-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 840,
         "description": "All our rooms have been decorated with exquisite taste, with famous works of art Costa Rican pictures and sculptors. The rooms have: Air Conditioning, Cable Channels, Deposit Box, Internet, Mini Fridge, Private Bathroom",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/buen-camino/buencamino-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "This has a balcony, with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 3 or 4 people.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100}
+        ],
+        "discount": 0.35,
         "image": "../imgs/puntarenas/hotels/buen-camino/buencamino-room4.jpg"
       }
     ]
@@ -1000,38 +1205,48 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 700,
         "description": "1 double bed, Balcony, Pool view, Air conditioning , Ensuite bathroom",
-        "features": ["Wi-Fi", "Breakfast", "Flat screen TV"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/cayuga/cayuga-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 805,
         "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/cayuga/cayuga-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 840,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/cayuga/cayuga-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
-        "features": ["Wi-Fi", "Mini-bar"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/cayuga/cayuga-room4.jpg"
       }
     ]
@@ -1045,38 +1260,45 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Small Room",
-        "price": 660,
         "description": "1 double bed, Balcony, Pool, Air conditioning , Ensuite bathroom",
-        "features": ["Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/isla-chiquita/islachiquita-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 790,
         "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.10,
         "image": "../imgs/puntarenas/hotels/isla-chiquita/islachiquita-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 950,
         "description": "This has 2 double beds, sofa bed, coffee maker, air conditioning, bed linen, towels, flat screen tv, free Wi-Fi and seating and dining area. With a garden, sea and mountain views.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/isla-chiquita/islachiquita-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "Suite located on the top floor. It includes a terrace, 1 extra-large double bed, air conditioning",
-        "features": ["Wi-Fi", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Minibar", "price": 100}
+        ],
+        "discount": 0,
         "image": "../imgs/puntarenas/hotels/isla-chiquita/islachiquita-room4.jpg"
       }
     ]
@@ -1090,38 +1312,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 700,
         "description": "1 double bed, Balcony, Pool view, Air conditioning , Ensuite bathroom",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/coyaba-tropical/cobaya-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 805,
         "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
-        "features": ["Wi-Fi", "Jacuzzi", "Flat screen TV"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/coyaba-tropical/cobaya-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 840,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/coyaba-tropical/cobaya-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
-        "features": ["Wi-Fi", "Mini-bar"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0.15,
         "image": "../imgs/quepos/hotels/coyaba-tropical/cobaya-room4.jpg"
       }
     ]
@@ -1135,38 +1365,44 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 700,
         "description": "1 double bed, Balcony, Pool view, Air conditioning , Ensuite bathroom",
-        "features": ["Wi-Fi", "Breakfast", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.05,
         "image": "../imgs/quepos/hotels/villas-jacquelina/Jacquelina-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 805,
         "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0.25,
         "image": "../imgs/quepos/hotels/villas-jacquelina/Jacquelina-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 840,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/villas-jacquelina/Jacquelina-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
-        "features": ["Wi-Fi", "Mini-bar"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/villas-jacquelina/Jacquelina-room4.jpg"
       }
     ]
@@ -1180,38 +1416,45 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 700,
         "description": "1 double bed, Balcony, Pool view, Air conditioning , Ensuite bathroom",
-        "features": ["Wi-Fi", "Breakfast", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/la-palapa/palapa-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 805,
         "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning. With a garden and mountain view.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100}
+        ],
+        "discount": 0.15,
         "image": "../imgs/quepos/hotels/la-palapa/palapa-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 840,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
-        "features": ["Wi-Fi", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/la-palapa/palapa-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 600,
         "description": "You can find a microwave, coffee maker, kitchen, washing machine, balcony,and seating area.",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/la-palapa/palapa-room4.jpg"
       }
     ]
@@ -1225,38 +1468,44 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 640,
         "description": "1 double bed. Has a balcony. Garden view, Air conditioning, Refrigerator, Coffee maker, Flat-screen TV, Terrace",
-        "features": ["Breakfast", "Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/mil-bellezas/bellezas-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 700,
         "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/mil-bellezas/bellezas-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 730,
         "description": "This has a balcony, with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 or 3 people.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.35,
         "image": "../imgs/quepos/hotels/mil-bellezas/bellezas-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 670,
         "description": "This has a balcony, with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 3 or 4 people.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/quepos/hotels/mil-bellezas/bellezas-room4.jpg"
       }
     ]
@@ -1270,38 +1519,48 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 640,
         "description": "This room has 4 double beds, bathroom with a shower, patio, seating area, wardrobe, kitchen, air conditioning, and a TV with cable channels.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/altos-de-eros/eros-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 700,
         "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.40,
         "image": "../imgs/tamarindo/hotels/altos-de-eros/eros-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 730,
         "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
-        "features": ["Wi-Fi", "Breakfast and Lunch", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/altos-de-eros/eros-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 670,
         "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/altos-de-eros/eros-room4.jpg"
       }
     ]
@@ -1315,38 +1574,48 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 640,
         "description": "The room comes complete with a private bathroom, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water. Capacity of 2 people.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/house-nomad/houseNomasd-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 700,
         "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/house-nomad/houseNomad-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 730,
         "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
-        "features": ["Breakfast and Lunch", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.15,
         "image": "../imgs/tamarindo/hotels/house-nomad/houseNomad-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 670,
         "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/house-nomad/houseNomad-room4.jpg"
       }
     ]
@@ -1360,38 +1629,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 640,
         "description": "This one features a tile/marble floor, kitchenware and private entrance. Also has a bath or shower, flat screen TV, tea/coffee maker, air conditioning.",
-        "features": ["Wi-Fi", "Jacuzzi", "Flat screen TV", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/jw-marriot/JwMarriod-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 700,
         "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.25,
         "image": "../imgs/tamarindo/hotels/jw-marriot/JwMarriod-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 730,
         "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
-        "features": ["Breakfast and Lunch", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/jw-marriot/JwMarriod-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 670,
         "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/jw-marriot/JwMarriod-room4.jpg"
       }
     ]
@@ -1405,38 +1682,46 @@ https://640b957794ce1239b09c0b5b.mockapi.io/api/hotel
     "room": [
       {
         "name": "Familiar Room",
-        "price": 640,
         "description": "The room comes complete with a private bathroom, air conditioning, coffee machine, bed linen, towels, free toiletries, hot water. Capacity of 2 people.",
-        "features": ["Wi-Fi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/voiles-blanches/voiles-room1.jpg"
       },
       {
         "name": "Stantard Room",
-        "price": 700,
         "description": "The room comes with a private bathroom, free Wi-Fi, air conditioning, and a TV with cable channels and a minibar. Capacity of 2 people.",
-        "features": ["Wi-Fi", "Breakfast and Lunch"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.25,
         "image": "../imgs/tamarindo/hotels/voiles-blanches/voiles-room2.jpg"
       },
       {
         "name": "Deluxe Room",
-        "price": 730,
         "description": "This double room has desk, air conditioning and flat-screen TV. It also has a bath or shower, towels, fridge and tea/coffee service, WiFi, 2 double beds.",
-        "features": ["Breakfast and Lunch", "Jacuzzi"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Jacuzzi", "price": 25},
+          {"name": "Wi-Fi", "price": 20},
+          {"name": "Minibar", "price": 100},
+          {"name": "Kitchen", "price": 60}
+        ],
+        "discount": 0.10,
         "image": "../imgs/tamarindo/hotels/voiles-blanches/voiles-room3.jpg"
       },
       {
         "name": "Economic Room",
-        "price": 670,
         "description": "This room has 1 single bed  and 1 double bed , bath or shower, air conditioning, WiFi, coffee maker, cable TV, ironing facilities.",
-        "features": ["Wi-Fi", "Breakfast"],
-        "discount": false,
-        "method (price depending on features)": "",
+        "features": [
+          {"name": "Wi-Fi", "price": 20}
+        ],
+        "discount": 0,
         "image": "../imgs/tamarindo/hotels/voiles-blanches/voiles-room4.jpg"
       }
     ]
