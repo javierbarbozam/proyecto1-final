@@ -36,7 +36,7 @@ const pageInfo = () => {
         </li>
       `
       })
-      console.log(images)
+
       container.insertAdjacentHTML(
         'afterbegin',
         `<p class="description__info__text">${destination.description}</p>
