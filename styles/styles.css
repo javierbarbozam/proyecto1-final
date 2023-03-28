@@ -25,8 +25,7 @@ h2 {
 
 .visually-hidden {
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -253,7 +252,6 @@ h2 {
 .enquiry {
   display: flex;
   flex-direction: column;
-  max-width: 700px;
   margin-left: 5px;
   padding: 15px;
 }
@@ -286,9 +284,6 @@ textarea {
 }
 
 @media (min-width: 768px) {
-  .enquiry {
-    margin-left: 25px;
-  }
   .enquiry__label {
     font-size: 16px;
   }
@@ -763,8 +758,7 @@ h2 {
 
 .visually-hidden {
   clip: rect(0 0 0 0);
-  -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   height: 1px;
   overflow: hidden;
   position: absolute;
@@ -991,4 +985,6 @@ h2 {
   margin-left: 192px;
   margin-top: -60px;
   cursor: pointer;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
