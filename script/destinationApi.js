@@ -6,6 +6,7 @@ const container = document.querySelector('#js-info-container')
 const headTitle = document.querySelector('title');
 const title = document.querySelector('.description__info__title');
 const heroImage = document.querySelector('.description__hero__img');
+const form = document.querySelector('#js-form');
 
 const pageInfo = () => {
   if (urlDestination) {
@@ -121,6 +122,8 @@ const pageCta = () => {
     }).catch(error => {
     // handle error
     })
+  } else {
+    form.style.display = 'block';
   }
 }
 
