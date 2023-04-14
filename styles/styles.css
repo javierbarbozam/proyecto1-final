@@ -378,6 +378,9 @@ button {
   position: absolute;
   left: 5%;
   bottom: 5%;
+  background-color: rgba(10, 42, 53, 0.6);
+  padding: 2px 6px;
+  border-radius: 5px;
 }
 
 .carousel-item__card__img {
@@ -860,6 +863,9 @@ h2 {
   z-index: 2;
   bottom: 5%;
   left: 5%;
+  background-color: rgba(10, 42, 53, 0.6);
+  padding: 2px 6px;
+  border-radius: 5px;
 }
 
 .destination-item__img {
